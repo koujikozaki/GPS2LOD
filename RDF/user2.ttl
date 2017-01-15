@@ -1,0 +1,3137 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:   <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rss:  <http://purl.org/rss/2.0/> .
+@prefix ldo:  <http://lodosaka.jp/property#> .
+<>
+	cc:attributionName "古崎晃司"@ja ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/deed.ja> .
+<http://stayPoi.org/user2#0>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "中埠頭車両基地" ;
+    <http://stayPoi.org/prop#lat> "34.6661"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.22"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  11:00:39" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  11:03:26" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#1> .
+<http://stayPoi.org/user2#1>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  11:03:26" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  11:13:02" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#2> .
+<http://stayPoi.org/user2#2>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  11:13:02" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  11:14:08" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#3> .
+<http://stayPoi.org/user2#3>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  11:14:08" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  11:15:15" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#4> .
+<http://stayPoi.org/user2#4>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  11:15:15" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  11:23:57" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#5> .
+<http://stayPoi.org/user2#5>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  11:23:57" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  11:25:58" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#6> .
+<http://stayPoi.org/user2#6>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  11:25:58" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  11:27:16" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#7> .
+<http://stayPoi.org/user2#7>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  11:27:16" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  11:28:25" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#8> .
+<http://stayPoi.org/user2#8>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  11:28:25" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  11:29:32" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#9> .
+<http://stayPoi.org/user2#9>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  11:29:32" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  11:30:40" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#10> .
+<http://stayPoi.org/user2#10>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  11:30:40" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  11:31:44" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#11> .
+<http://stayPoi.org/user2#11>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  11:31:44" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  12:06:26" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#12> .
+<http://stayPoi.org/user2#12>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  12:06:26" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  12:07:42" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#13> .
+<http://stayPoi.org/user2#13>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  12:07:42" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  12:14:27" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#14> .
+<http://stayPoi.org/user2#14>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  12:14:27" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  12:18:18" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#15> .
+<http://stayPoi.org/user2#15>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  12:18:18" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  12:25:05" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#16> .
+<http://stayPoi.org/user2#16>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  12:25:05" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  12:27:44" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#17> .
+<http://stayPoi.org/user2#17>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  12:27:44" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  12:29:48" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#18> .
+<http://stayPoi.org/user2#18>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  12:29:48" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  12:34:40" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#19> .
+<http://stayPoi.org/user2#19>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  12:34:40" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  12:38:06" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#20> .
+<http://stayPoi.org/user2#20>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  12:38:06" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  12:40:48" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#21> .
+<http://stayPoi.org/user2#21>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  12:40:48" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  12:41:59" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#22> .
+<http://stayPoi.org/user2#22>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  12:41:59" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  12:50:29" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#23> .
+<http://stayPoi.org/user2#23>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  12:50:29" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  13:02:15" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#24> .
+<http://stayPoi.org/user2#24>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  13:02:15" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  13:12:03" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#25> .
+<http://stayPoi.org/user2#25>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  13:12:03" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  13:21:30" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#26> .
+<http://stayPoi.org/user2#26>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  13:21:30" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  13:22:40" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#27> .
+<http://stayPoi.org/user2#27>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  13:22:40" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  13:24:04" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#28> .
+<http://stayPoi.org/user2#28>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  13:24:04" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  14:13:22" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#29> .
+<http://stayPoi.org/user2#29>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  14:13:22" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  14:19:49" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#30> .
+<http://stayPoi.org/user2#30>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  14:19:49" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  14:21:26" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#31> .
+<http://stayPoi.org/user2#31>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  14:21:26" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  14:40:31" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#32> .
+<http://stayPoi.org/user2#32>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  14:40:31" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  14:47:55" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#33> .
+<http://stayPoi.org/user2#33>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  14:47:55" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  14:55:25" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#34> .
+<http://stayPoi.org/user2#34>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  14:55:25" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  15:01:25" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#35> .
+<http://stayPoi.org/user2#35>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  15:01:25" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  15:06:26" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#36> .
+<http://stayPoi.org/user2#36>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  15:06:26" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  15:10:36" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#37> .
+<http://stayPoi.org/user2#37>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  15:10:36" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  15:25:00" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#38> .
+<http://stayPoi.org/user2#38>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  15:25:00" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  15:44:52" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#39> .
+<http://stayPoi.org/user2#39>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  15:44:52" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  15:50:06" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#40> .
+<http://stayPoi.org/user2#40>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  15:50:06" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  15:53:58" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#41> .
+<http://stayPoi.org/user2#41>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  15:53:58" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  15:57:19" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#42> .
+<http://stayPoi.org/user2#42>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  15:57:19" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  16:00:13" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#43> .
+<http://stayPoi.org/user2#43>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  16:00:13" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  16:02:55" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#44> .
+<http://stayPoi.org/user2#44>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  16:02:55" ;
+    <http://stayPoi.org/prop#end> "2016/10/17  16:05:15" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#45> .
+<http://stayPoi.org/user2#45>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/17  16:05:15" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  09:31:47" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#46> .
+<http://stayPoi.org/user2#46>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  09:31:47" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  09:38:53" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#47> .
+<http://stayPoi.org/user2#47>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  09:38:53" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  09:46:20" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#48> .
+<http://stayPoi.org/user2#48>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  09:46:20" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  09:48:24" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#49> .
+<http://stayPoi.org/user2#49>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  09:48:24" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  09:54:22" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#50> .
+<http://stayPoi.org/user2#50>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  09:54:22" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  10:02:34" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#51> .
+<http://stayPoi.org/user2#51>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  10:02:34" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  10:17:45" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#52> .
+<http://stayPoi.org/user2#52>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  10:17:45" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  10:27:10" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#53> .
+<http://stayPoi.org/user2#53>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  10:27:10" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  10:44:07" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#54> .
+<http://stayPoi.org/user2#54>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  10:44:07" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  10:52:47" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#55> .
+<http://stayPoi.org/user2#55>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  10:52:47" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  11:03:10" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#56> .
+<http://stayPoi.org/user2#56>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  11:03:10" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  11:13:45" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#57> .
+<http://stayPoi.org/user2#57>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  11:13:45" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  11:15:49" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#58> .
+<http://stayPoi.org/user2#58>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  11:15:49" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  11:59:53" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#59> .
+<http://stayPoi.org/user2#59>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  11:59:53" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  12:11:17" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#60> .
+<http://stayPoi.org/user2#60>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  12:11:17" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  12:29:11" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#61> .
+<http://stayPoi.org/user2#61>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  12:29:11" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  12:36:20" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#62> .
+<http://stayPoi.org/user2#62>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  12:36:20" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  13:05:30" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#63> .
+<http://stayPoi.org/user2#63>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  13:05:30" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  13:23:36" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#64> .
+<http://stayPoi.org/user2#64>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  13:23:36" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  13:38:02" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#65> .
+<http://stayPoi.org/user2#65>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  13:38:02" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  13:41:06" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#66> .
+<http://stayPoi.org/user2#66>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  13:41:06" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  13:49:55" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#67> .
+<http://stayPoi.org/user2#67>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  13:49:55" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  13:58:27" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#68> .
+<http://stayPoi.org/user2#68>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  13:58:27" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  13:59:30" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#69> .
+<http://stayPoi.org/user2#69>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  13:59:30" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  14:00:55" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#70> .
+<http://stayPoi.org/user2#70>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  14:00:55" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  14:02:02" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#71> .
+<http://stayPoi.org/user2#71>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  14:02:02" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  14:03:07" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#72> .
+<http://stayPoi.org/user2#72>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  14:03:07" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  14:04:17" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#73> .
+<http://stayPoi.org/user2#73>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  14:04:17" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  14:05:25" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#74> .
+<http://stayPoi.org/user2#74>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  14:05:25" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  14:06:28" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#75> .
+<http://stayPoi.org/user2#75>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  14:06:28" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  14:07:32" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#76> .
+<http://stayPoi.org/user2#76>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  14:07:32" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  14:08:35" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#77> .
+<http://stayPoi.org/user2#77>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  14:08:35" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  14:09:38" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#78> .
+<http://stayPoi.org/user2#78>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  14:09:38" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  14:11:29" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#79> .
+<http://stayPoi.org/user2#79>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  14:11:29" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  14:12:36" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#80> .
+<http://stayPoi.org/user2#80>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  14:12:36" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  14:13:43" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#81> .
+<http://stayPoi.org/user2#81>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  14:13:43" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  14:14:46" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#82> .
+<http://stayPoi.org/user2#82>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  14:14:46" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  14:24:33" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#83> .
+<http://stayPoi.org/user2#83>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  14:24:33" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  14:25:59" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#84> .
+<http://stayPoi.org/user2#84>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  14:25:59" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  14:27:16" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#85> .
+<http://stayPoi.org/user2#85>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  14:27:16" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  14:48:33" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#86> .
+<http://stayPoi.org/user2#86>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  14:48:33" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  14:50:05" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#87> .
+<http://stayPoi.org/user2#87>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  14:50:05" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  14:51:18" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#88> .
+<http://stayPoi.org/user2#88>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  14:51:18" ;
+    <http://stayPoi.org/prop#end> "2016/10/18  15:08:12" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#89> .
+<http://stayPoi.org/user2#89>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/18  15:08:12" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  09:55:13" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#90> .
+<http://stayPoi.org/user2#90>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  09:55:13" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  09:58:36" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#91> .
+<http://stayPoi.org/user2#91>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  09:58:36" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  09:59:39" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#92> .
+<http://stayPoi.org/user2#92>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  09:59:39" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  10:01:07" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#93> .
+<http://stayPoi.org/user2#93>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  10:01:07" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  10:02:45" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#94> .
+<http://stayPoi.org/user2#94>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  10:02:45" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  10:04:40" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#95> .
+<http://stayPoi.org/user2#95>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  10:04:40" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  10:07:56" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#96> .
+<http://stayPoi.org/user2#96>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  10:07:56" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  10:09:35" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#97> .
+<http://stayPoi.org/user2#97>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  10:09:35" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  10:14:14" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#98> .
+<http://stayPoi.org/user2#98>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  10:14:14" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  10:15:17" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#99> .
+<http://stayPoi.org/user2#99>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  10:15:17" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  10:16:40" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#100> .
+<http://stayPoi.org/user2#100>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  10:16:40" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  10:21:39" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#101> .
+<http://stayPoi.org/user2#101>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  10:21:39" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  10:25:40" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#102> .
+<http://stayPoi.org/user2#102>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  10:25:40" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  10:30:48" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#103> .
+<http://stayPoi.org/user2#103>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  10:30:48" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  10:50:47" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#104> .
+<http://stayPoi.org/user2#104>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  10:50:47" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  11:09:38" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#105> .
+<http://stayPoi.org/user2#105>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸女子短期大学" ;
+    <http://stayPoi.org/prop#lat> "34.6677"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.208"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  11:09:38" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  11:22:11" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#106> .
+<http://stayPoi.org/user2#106>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  11:22:11" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  11:34:53" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#107> .
+<http://stayPoi.org/user2#107>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  11:34:53" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  12:00:29" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#108> .
+<http://stayPoi.org/user2#108>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  12:00:29" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  12:14:02" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#109> .
+<http://stayPoi.org/user2#109>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  12:14:02" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  12:24:04" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#110> .
+<http://stayPoi.org/user2#110>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  12:24:04" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  12:43:55" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#111> .
+<http://stayPoi.org/user2#111>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  12:43:55" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  13:01:22" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#112> .
+<http://stayPoi.org/user2#112>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  13:01:22" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  13:07:54" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#113> .
+<http://stayPoi.org/user2#113>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  13:07:54" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  13:09:01" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#114> .
+<http://stayPoi.org/user2#114>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  13:09:01" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  13:10:05" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#115> .
+<http://stayPoi.org/user2#115>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  13:10:05" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  13:11:25" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#116> .
+<http://stayPoi.org/user2#116>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  13:11:25" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  13:12:54" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#117> .
+<http://stayPoi.org/user2#117>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  13:12:54" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  13:14:00" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#118> .
+<http://stayPoi.org/user2#118>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  13:14:00" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  13:15:44" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#119> .
+<http://stayPoi.org/user2#119>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  13:15:44" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  13:17:35" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#120> .
+<http://stayPoi.org/user2#120>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  13:17:35" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  13:37:46" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#121> .
+<http://stayPoi.org/user2#121>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  13:37:46" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  13:40:29" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#122> .
+<http://stayPoi.org/user2#122>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  13:40:29" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  14:07:32" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#123> .
+<http://stayPoi.org/user2#123>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  14:07:32" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  15:00:39" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#124> .
+<http://stayPoi.org/user2#124>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  15:00:39" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  15:01:56" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#125> .
+<http://stayPoi.org/user2#125>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  15:01:56" ;
+    <http://stayPoi.org/prop#end> "2016/10/19  22:07:23" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#126> .
+<http://stayPoi.org/user2#126>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/19  22:07:23" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  07:32:31" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#127> .
+<http://stayPoi.org/user2#127>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  07:32:31" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  07:34:29" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#128> .
+<http://stayPoi.org/user2#128>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  07:34:29" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  07:42:49" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#129> .
+<http://stayPoi.org/user2#129>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  07:42:49" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  07:44:00" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#130> .
+<http://stayPoi.org/user2#130>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  07:44:00" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  08:52:22" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#131> .
+<http://stayPoi.org/user2#131>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  08:52:22" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  08:53:36" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#132> .
+<http://stayPoi.org/user2#132>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  08:53:36" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  13:57:06" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#133> .
+<http://stayPoi.org/user2#133>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  13:57:06" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  14:00:44" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#134> .
+<http://stayPoi.org/user2#134>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  14:00:44" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  14:14:21" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#135> .
+<http://stayPoi.org/user2#135>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  14:14:21" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  14:49:35" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#136> .
+<http://stayPoi.org/user2#136>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  14:49:35" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  14:50:39" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#137> .
+<http://stayPoi.org/user2#137>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  14:50:39" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  14:52:06" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#138> .
+<http://stayPoi.org/user2#138>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  14:52:06" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  14:55:11" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#139> .
+<http://stayPoi.org/user2#139>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  14:55:11" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  14:58:13" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#140> .
+<http://stayPoi.org/user2#140>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  14:58:13" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  15:04:49" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#141> .
+<http://stayPoi.org/user2#141>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  15:04:49" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  15:08:23" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#142> .
+<http://stayPoi.org/user2#142>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  15:08:23" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  15:11:34" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#143> .
+<http://stayPoi.org/user2#143>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  15:11:34" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  15:13:58" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#144> .
+<http://stayPoi.org/user2#144>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  15:13:58" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  15:15:28" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#145> .
+<http://stayPoi.org/user2#145>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  15:15:28" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  15:28:48" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#146> .
+<http://stayPoi.org/user2#146>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  15:28:48" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  15:49:20" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#147> .
+<http://stayPoi.org/user2#147>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  15:49:20" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  15:50:45" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#148> .
+<http://stayPoi.org/user2#148>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  15:50:45" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  15:53:40" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#149> .
+<http://stayPoi.org/user2#149>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  15:53:40" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  17:20:10" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#150> .
+<http://stayPoi.org/user2#150>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  17:20:10" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  17:22:02" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#151> .
+<http://stayPoi.org/user2#151>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  17:22:02" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  21:51:32" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#152> .
+<http://stayPoi.org/user2#152>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  21:51:32" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  22:00:55" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#153> .
+<http://stayPoi.org/user2#153>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "寿司 雅" ;
+    <http://stayPoi.org/prop#lat> "34.69640564"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.1990419"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  22:00:55" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  22:02:27" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#154> .
+<http://stayPoi.org/user2#154>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "寿司 雅" ;
+    <http://stayPoi.org/prop#lat> "34.69640564"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.1990419"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  22:02:27" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  23:15:47" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#155> .
+<http://stayPoi.org/user2#155>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "カフェ・ゾエ" ;
+    <http://stayPoi.org/prop#lat> "34.692798"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.198099"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  23:15:47" ;
+    <http://stayPoi.org/prop#end> "2016/10/20  23:59:04" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#156> .
+<http://stayPoi.org/user2#156>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "カフェ・ゾエ" ;
+    <http://stayPoi.org/prop#lat> "34.692798"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.198099"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/20  23:59:04" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  00:08:45" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#157> .
+<http://stayPoi.org/user2#157>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "カフェ・ゾエ" ;
+    <http://stayPoi.org/prop#lat> "34.692798"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.198099"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  00:08:45" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:17:18" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#158> .
+<http://stayPoi.org/user2#158>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "カフェ・ゾエ" ;
+    <http://stayPoi.org/prop#lat> "34.692798"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.198099"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:17:18" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:24:27" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#159> .
+<http://stayPoi.org/user2#159>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸牛 吉祥吉 三宮磯上店" ;
+    <http://stayPoi.org/prop#lat> "34.692187"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.197462"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:24:27" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:25:31" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#160> .
+<http://stayPoi.org/user2#160>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "貿易センター駅" ;
+    <http://stayPoi.org/prop#lat> "34.6894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.199"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:25:31" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:26:40" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#161> .
+<http://stayPoi.org/user2#161>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "貿易センター駅" ;
+    <http://stayPoi.org/prop#lat> "34.6894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.199"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:26:40" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:27:45" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#162> .
+<http://stayPoi.org/user2#162>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸サンボーホール" ;
+    <http://stayPoi.org/prop#lat> "34.6886"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.199"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:27:45" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:28:59" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#163> .
+<http://stayPoi.org/user2#163>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸サンボーホール" ;
+    <http://stayPoi.org/prop#lat> "34.6886"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.199"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:28:59" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:30:05" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#164> .
+<http://stayPoi.org/user2#164>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸サンボーホール" ;
+    <http://stayPoi.org/prop#lat> "34.6886"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.199"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:30:05" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:31:12" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#165> .
+<http://stayPoi.org/user2#165>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸サンボーホール" ;
+    <http://stayPoi.org/prop#lat> "34.6886"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.199"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:31:12" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:32:42" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#166> .
+<http://stayPoi.org/user2#166>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸サンボーホール" ;
+    <http://stayPoi.org/prop#lat> "34.6886"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.199"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:32:42" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:33:52" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#167> .
+<http://stayPoi.org/user2#167>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "防災未来館" ;
+    <http://stayPoi.org/prop#lat> "34.6833"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.2"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:33:52" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:35:01" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#168> .
+<http://stayPoi.org/user2#168>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "ポートターミナル駅" ;
+    <http://stayPoi.org/prop#lat> "34.6814"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.202"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:35:01" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:36:05" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#169> .
+<http://stayPoi.org/user2#169>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "ポートアイランド北公園" ;
+    <http://stayPoi.org/prop#lat> "34.6768"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.205"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:36:05" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:37:12" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#170> .
+<http://stayPoi.org/user2#170>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "ポートアイランド中公園" ;
+    <http://stayPoi.org/prop#lat> "34.6737"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.208"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:37:12" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:38:17" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#171> .
+<http://stayPoi.org/user2#171>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "みなとじま駅" ;
+    <http://stayPoi.org/prop#lat> "34.6691"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.21"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:38:17" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:39:24" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#172> .
+<http://stayPoi.org/user2#172>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "みなとじま駅" ;
+    <http://stayPoi.org/prop#lat> "34.6691"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.21"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:39:24" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:40:27" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#173> .
+<http://stayPoi.org/user2#173>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:40:27" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:41:37" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#174> .
+<http://stayPoi.org/user2#174>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:41:37" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:42:41" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#175> .
+<http://stayPoi.org/user2#175>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:42:41" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:43:45" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#176> .
+<http://stayPoi.org/user2#176>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:43:45" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:44:56" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#177> .
+<http://stayPoi.org/user2#177>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:44:56" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:46:00" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#178> .
+<http://stayPoi.org/user2#178>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:46:00" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:47:26" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#179> .
+<http://stayPoi.org/user2#179>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:47:26" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:48:58" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#180> .
+<http://stayPoi.org/user2#180>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:48:58" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:50:46" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#181> .
+<http://stayPoi.org/user2#181>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:50:46" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:53:19" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#182> .
+<http://stayPoi.org/user2#182>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:53:19" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  07:58:28" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#183> .
+<http://stayPoi.org/user2#183>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  07:58:28" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:04:16" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#184> .
+<http://stayPoi.org/user2#184>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:04:16" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:05:51" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#185> .
+<http://stayPoi.org/user2#185>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:05:51" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:07:28" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#186> .
+<http://stayPoi.org/user2#186>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:07:28" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:08:58" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#187> .
+<http://stayPoi.org/user2#187>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:08:58" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:11:06" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#188> .
+<http://stayPoi.org/user2#188>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:11:06" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:13:09" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#189> .
+<http://stayPoi.org/user2#189>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:13:09" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:14:24" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#190> .
+<http://stayPoi.org/user2#190>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:14:24" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:18:23" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#191> .
+<http://stayPoi.org/user2#191>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:18:23" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:19:46" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#192> .
+<http://stayPoi.org/user2#192>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:19:46" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:24:35" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#193> .
+<http://stayPoi.org/user2#193>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:24:35" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:26:08" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#194> .
+<http://stayPoi.org/user2#194>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:26:08" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:27:20" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#195> .
+<http://stayPoi.org/user2#195>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:27:20" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:28:24" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#196> .
+<http://stayPoi.org/user2#196>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:28:24" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:29:36" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#197> .
+<http://stayPoi.org/user2#197>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:29:36" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:30:50" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#198> .
+<http://stayPoi.org/user2#198>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:30:50" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:31:54" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#199> .
+<http://stayPoi.org/user2#199>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:31:54" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:33:10" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#200> .
+<http://stayPoi.org/user2#200>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:33:10" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:34:52" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#201> .
+<http://stayPoi.org/user2#201>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:34:52" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:36:38" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#202> .
+<http://stayPoi.org/user2#202>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:36:38" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:38:21" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#203> .
+<http://stayPoi.org/user2#203>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:38:21" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:39:57" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#204> .
+<http://stayPoi.org/user2#204>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:39:57" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:41:21" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#205> .
+<http://stayPoi.org/user2#205>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:41:21" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:42:33" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#206> .
+<http://stayPoi.org/user2#206>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:42:33" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:43:42" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#207> .
+<http://stayPoi.org/user2#207>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:43:42" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:44:54" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#208> .
+<http://stayPoi.org/user2#208>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:44:54" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:46:07" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#209> .
+<http://stayPoi.org/user2#209>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:46:07" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:47:11" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#210> .
+<http://stayPoi.org/user2#210>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:47:11" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:48:14" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#211> .
+<http://stayPoi.org/user2#211>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:48:14" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:49:23" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#212> .
+<http://stayPoi.org/user2#212>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:49:23" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:50:27" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#213> .
+<http://stayPoi.org/user2#213>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:50:27" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:51:31" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#214> .
+<http://stayPoi.org/user2#214>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:51:31" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:52:45" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#215> .
+<http://stayPoi.org/user2#215>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:52:45" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:53:51" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#216> .
+<http://stayPoi.org/user2#216>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "南公園駅" ;
+    <http://stayPoi.org/prop#lat> "34.6646"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.217"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:53:51" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:55:00" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#217> .
+<http://stayPoi.org/user2#217>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:55:00" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:56:21" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#218> .
+<http://stayPoi.org/user2#218>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:56:21" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:57:30" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#219> .
+<http://stayPoi.org/user2#219>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:57:30" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:58:34" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#220> .
+<http://stayPoi.org/user2#220>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:58:34" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  08:59:39" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#221> .
+<http://stayPoi.org/user2#221>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  08:59:39" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  09:00:54" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#222> .
+<http://stayPoi.org/user2#222>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  09:00:54" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  09:01:58" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#223> .
+<http://stayPoi.org/user2#223>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  09:01:58" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  09:03:21" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#224> .
+<http://stayPoi.org/user2#224>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  09:03:21" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  09:04:36" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#225> .
+<http://stayPoi.org/user2#225>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  09:04:36" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  09:05:40" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#226> .
+<http://stayPoi.org/user2#226>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  09:05:40" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  09:06:42" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#227> .
+<http://stayPoi.org/user2#227>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  09:06:42" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  09:07:51" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#228> .
+<http://stayPoi.org/user2#228>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  09:07:51" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  09:09:21" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#229> .
+<http://stayPoi.org/user2#229>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  09:09:21" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  09:10:36" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#230> .
+<http://stayPoi.org/user2#230>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  09:10:36" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  09:11:40" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#231> .
+<http://stayPoi.org/user2#231>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  09:11:40" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  09:12:49" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#232> .
+<http://stayPoi.org/user2#232>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  09:12:49" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  09:13:53" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#233> .
+<http://stayPoi.org/user2#233>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  09:13:53" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  10:08:16" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#234> .
+<http://stayPoi.org/user2#234>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  10:08:16" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  10:09:41" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#235> .
+<http://stayPoi.org/user2#235>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  10:09:41" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  10:15:43" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#236> .
+<http://stayPoi.org/user2#236>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  10:15:43" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  10:17:23" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#237> .
+<http://stayPoi.org/user2#237>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  10:17:23" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  10:18:54" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#238> .
+<http://stayPoi.org/user2#238>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  10:18:54" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  10:20:45" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#239> .
+<http://stayPoi.org/user2#239>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  10:20:45" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  10:39:17" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#240> .
+<http://stayPoi.org/user2#240>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  10:39:17" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  10:41:03" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#241> .
+<http://stayPoi.org/user2#241>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  10:41:03" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  11:23:40" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#242> .
+<http://stayPoi.org/user2#242>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  11:23:40" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  11:25:22" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#243> .
+<http://stayPoi.org/user2#243>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  11:25:22" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  11:27:03" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#244> .
+<http://stayPoi.org/user2#244>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  11:27:03" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  11:28:57" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#245> .
+<http://stayPoi.org/user2#245>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  11:28:57" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  11:34:16" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#246> .
+<http://stayPoi.org/user2#246>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  11:34:16" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  11:36:02" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#247> .
+<http://stayPoi.org/user2#247>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  11:36:02" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  11:37:07" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#248> .
+<http://stayPoi.org/user2#248>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  11:37:07" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  11:38:54" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#249> .
+<http://stayPoi.org/user2#249>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  11:38:54" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  11:40:39" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#250> .
+<http://stayPoi.org/user2#250>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  11:40:39" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  11:44:39" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#251> .
+<http://stayPoi.org/user2#251>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  11:44:39" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  11:46:28" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#252> .
+<http://stayPoi.org/user2#252>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  11:46:28" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  11:50:01" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#253> .
+<http://stayPoi.org/user2#253>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  11:50:01" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  11:52:10" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#254> .
+<http://stayPoi.org/user2#254>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  11:52:10" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  11:53:22" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#255> .
+<http://stayPoi.org/user2#255>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  11:53:22" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  11:54:46" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#256> .
+<http://stayPoi.org/user2#256>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  11:54:46" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  11:56:13" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#257> .
+<http://stayPoi.org/user2#257>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  11:56:13" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  12:01:44" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#258> .
+<http://stayPoi.org/user2#258>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  12:01:44" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  12:03:36" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#259> .
+<http://stayPoi.org/user2#259>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  12:03:36" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  12:10:21" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#260> .
+<http://stayPoi.org/user2#260>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  12:10:21" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  12:12:07" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#261> .
+<http://stayPoi.org/user2#261>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  12:12:07" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  12:14:05" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#262> .
+<http://stayPoi.org/user2#262>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  12:14:05" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  12:16:41" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#263> .
+<http://stayPoi.org/user2#263>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  12:16:41" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  12:18:50" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#264> .
+<http://stayPoi.org/user2#264>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  12:18:50" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  12:26:04" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#265> .
+<http://stayPoi.org/user2#265>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  12:26:04" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  12:28:54" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#266> .
+<http://stayPoi.org/user2#266>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  12:28:54" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  12:35:46" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#267> .
+<http://stayPoi.org/user2#267>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  12:35:46" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  12:36:58" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#268> .
+<http://stayPoi.org/user2#268>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  12:36:58" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  12:38:10" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#269> .
+<http://stayPoi.org/user2#269>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  12:38:10" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  12:39:42" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#270> .
+<http://stayPoi.org/user2#270>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  12:39:42" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  12:41:11" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#271> .
+<http://stayPoi.org/user2#271>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  12:41:11" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  12:42:38" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#272> .
+<http://stayPoi.org/user2#272>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  12:42:38" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  12:44:08" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#273> .
+<http://stayPoi.org/user2#273>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  12:44:08" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  12:45:24" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#274> .
+<http://stayPoi.org/user2#274>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  12:45:24" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  12:47:04" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#275> .
+<http://stayPoi.org/user2#275>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  12:47:04" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  12:50:37" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#276> .
+<http://stayPoi.org/user2#276>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  12:50:37" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  12:52:39" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#277> .
+<http://stayPoi.org/user2#277>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  12:52:39" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  12:55:09" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#278> .
+<http://stayPoi.org/user2#278>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  12:55:09" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  12:57:26" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#279> .
+<http://stayPoi.org/user2#279>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  12:57:26" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  12:59:44" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#280> .
+<http://stayPoi.org/user2#280>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  12:59:44" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  13:02:04" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#281> .
+<http://stayPoi.org/user2#281>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  13:02:04" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  13:03:08" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#282> .
+<http://stayPoi.org/user2#282>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  13:03:08" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  13:04:12" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#283> .
+<http://stayPoi.org/user2#283>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  13:04:12" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  13:05:15" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#284> .
+<http://stayPoi.org/user2#284>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  13:05:15" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  13:06:30" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#285> .
+<http://stayPoi.org/user2#285>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  13:06:30" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  13:08:00" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#286> .
+<http://stayPoi.org/user2#286>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  13:08:00" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  13:10:02" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#287> .
+<http://stayPoi.org/user2#287>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  13:10:02" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  13:12:15" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#288> .
+<http://stayPoi.org/user2#288>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  13:12:15" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  13:13:23" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#289> .
+<http://stayPoi.org/user2#289>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  13:13:23" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  13:20:51" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#290> .
+<http://stayPoi.org/user2#290>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  13:20:51" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  13:22:49" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#291> .
+<http://stayPoi.org/user2#291>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  13:22:49" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  13:24:51" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#292> .
+<http://stayPoi.org/user2#292>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  13:24:51" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  13:27:16" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#293> .
+<http://stayPoi.org/user2#293>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  13:27:16" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  13:29:56" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#294> .
+<http://stayPoi.org/user2#294>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  13:29:56" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  13:32:41" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#295> .
+<http://stayPoi.org/user2#295>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  13:32:41" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  13:37:12" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#296> .
+<http://stayPoi.org/user2#296>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  13:37:12" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  13:43:24" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#297> .
+<http://stayPoi.org/user2#297>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  13:43:24" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  13:44:35" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#298> .
+<http://stayPoi.org/user2#298>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  13:44:35" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  13:45:45" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#299> .
+<http://stayPoi.org/user2#299>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  13:45:45" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  13:47:05" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#300> .
+<http://stayPoi.org/user2#300>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  13:47:05" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  13:49:28" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#301> .
+<http://stayPoi.org/user2#301>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  13:49:28" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  13:50:39" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#302> .
+<http://stayPoi.org/user2#302>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  13:50:39" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  13:52:16" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#303> .
+<http://stayPoi.org/user2#303>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  13:52:16" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  14:10:28" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#304> .
+<http://stayPoi.org/user2#304>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  14:10:28" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  14:20:44" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#305> .
+<http://stayPoi.org/user2#305>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  14:20:44" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  15:43:19" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#306> .
+<http://stayPoi.org/user2#306>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  15:43:19" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  15:45:24" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#307> .
+<http://stayPoi.org/user2#307>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  15:45:24" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  15:46:35" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#308> .
+<http://stayPoi.org/user2#308>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  15:46:35" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  15:47:46" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#309> .
+<http://stayPoi.org/user2#309>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸市立港島中学校" ;
+    <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  15:47:46" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  15:48:55" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#310> .
+<http://stayPoi.org/user2#310>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  15:48:55" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  16:28:57" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#311> .
+<http://stayPoi.org/user2#311>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  16:28:57" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  16:46:31" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#312> .
+<http://stayPoi.org/user2#312>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  16:46:31" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  18:45:47" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#313> .
+<http://stayPoi.org/user2#313>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  18:45:47" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  18:48:48" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#314> .
+<http://stayPoi.org/user2#314>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  18:48:48" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  18:50:14" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#315> .
+<http://stayPoi.org/user2#315>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "市民広場駅" ;
+    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  18:50:14" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  18:52:43" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#316> .
+<http://stayPoi.org/user2#316>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸女子短期大学" ;
+    <http://stayPoi.org/prop#lat> "34.6677"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.208"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  18:52:43" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  18:55:28" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#317> .
+<http://stayPoi.org/user2#317>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "防災未来館" ;
+    <http://stayPoi.org/prop#lat> "34.6833"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.2"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  18:55:28" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  18:59:03" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#318> .
+<http://stayPoi.org/user2#318>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸サンボーホール" ;
+    <http://stayPoi.org/prop#lat> "34.6886"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.199"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  18:59:03" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  19:05:50" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#319> .
+<http://stayPoi.org/user2#319>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "太陽と虎" ;
+    <http://stayPoi.org/prop#lat> "34.696901"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.197309"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  19:05:50" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  19:08:34" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#320> .
+<http://stayPoi.org/user2#320>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "GREEN HOUSE Silva(グリーンハウスシルバ)" ;
+    <http://stayPoi.org/prop#lat> "34.695944"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.194894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  19:08:34" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  20:17:32" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#321> .
+<http://stayPoi.org/user2#321>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "GREEN HOUSE Silva(グリーンハウスシルバ)" ;
+    <http://stayPoi.org/prop#lat> "34.695944"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.194894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  20:17:32" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  20:18:53" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#322> .
+<http://stayPoi.org/user2#322>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "三宮駅" ;
+    <http://stayPoi.org/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.194"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  20:18:53" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  20:20:05" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#323> .
+<http://stayPoi.org/user2#323>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "そごう神戸店" ;
+    <http://stayPoi.org/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  20:20:05" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  20:21:09" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#324> .
+<http://stayPoi.org/user2#324>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "三宮・花時計前駅" ;
+    <http://stayPoi.org/prop#lat> "34.6916"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.196"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  20:21:09" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  20:22:17" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#325> .
+<http://stayPoi.org/user2#325>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "そごう神戸店" ;
+    <http://stayPoi.org/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  20:22:17" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  20:23:25" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#326> .
+<http://stayPoi.org/user2#326>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "そごう神戸店" ;
+    <http://stayPoi.org/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  20:23:25" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  20:24:36" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#327> .
+<http://stayPoi.org/user2#327>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "三宮・花時計前駅" ;
+    <http://stayPoi.org/prop#lat> "34.6916"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.196"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  20:24:36" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  20:25:46" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#328> .
+<http://stayPoi.org/user2#328>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "そごう神戸店" ;
+    <http://stayPoi.org/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  20:25:46" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  20:27:01" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#329> .
+<http://stayPoi.org/user2#329>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "三宮ビブレ" ;
+    <http://stayPoi.org/prop#lat> "34.6917"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.194"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  20:27:01" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  20:28:05" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#330> .
+<http://stayPoi.org/user2#330>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "三宮ビブレ" ;
+    <http://stayPoi.org/prop#lat> "34.6917"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.194"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  20:28:05" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  20:29:12" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#331> .
+<http://stayPoi.org/user2#331>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "三宮ビブレ" ;
+    <http://stayPoi.org/prop#lat> "34.6917"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.194"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  20:29:12" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  20:30:17" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#332> .
+<http://stayPoi.org/user2#332>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "三宮ビブレ" ;
+    <http://stayPoi.org/prop#lat> "34.6917"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.194"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  20:30:17" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  20:31:26" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#333> .
+<http://stayPoi.org/user2#333>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "北向地蔵 (神戸市)" ;
+    <http://stayPoi.org/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  20:31:26" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  20:32:38" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#334> .
+<http://stayPoi.org/user2#334>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "北向地蔵 (神戸市)" ;
+    <http://stayPoi.org/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  20:32:38" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  20:34:01" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#335> .
+<http://stayPoi.org/user2#335>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "北向地蔵 (神戸市)" ;
+    <http://stayPoi.org/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  20:34:01" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  20:35:09" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#336> .
+<http://stayPoi.org/user2#336>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸朝日ビル" ;
+    <http://stayPoi.org/prop#lat> "34.6894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.192"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  20:35:09" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  21:32:40" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#337> .
+<http://stayPoi.org/user2#337>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸朝日ビル" ;
+    <http://stayPoi.org/prop#lat> "34.6894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.192"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  21:32:40" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  21:34:35" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#338> .
+<http://stayPoi.org/user2#338>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "元町駅 (兵庫県)" ;
+    <http://stayPoi.org/prop#lat> "34.6896"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.187"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  21:34:35" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  21:35:44" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#339> .
+<http://stayPoi.org/user2#339>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸朝日ビル" ;
+    <http://stayPoi.org/prop#lat> "34.6894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.192"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  21:35:44" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  21:37:02" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#340> .
+<http://stayPoi.org/user2#340>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸朝日ビル" ;
+    <http://stayPoi.org/prop#lat> "34.6894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.192"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  21:37:02" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  21:38:11" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#341> .
+<http://stayPoi.org/user2#341>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸朝日ビル" ;
+    <http://stayPoi.org/prop#lat> "34.6894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.192"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  21:38:11" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  21:39:15" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#342> .
+<http://stayPoi.org/user2#342>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸朝日ビル" ;
+    <http://stayPoi.org/prop#lat> "34.6894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.192"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  21:39:15" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  21:40:18" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#343> .
+<http://stayPoi.org/user2#343>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸外国人居留地" ;
+    <http://stayPoi.org/prop#lat> "34.6881"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  21:40:18" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  21:41:21" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#344> .
+<http://stayPoi.org/user2#344>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸外国人居留地" ;
+    <http://stayPoi.org/prop#lat> "34.6881"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  21:41:21" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  22:45:06" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#345> .
+<http://stayPoi.org/user2#345>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸外国人居留地" ;
+    <http://stayPoi.org/prop#lat> "34.6881"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  22:45:06" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  23:45:03" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#346> .
+<http://stayPoi.org/user2#346>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸外国人居留地" ;
+    <http://stayPoi.org/prop#lat> "34.6881"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  23:45:03" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  23:46:14" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#347> .
+<http://stayPoi.org/user2#347>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸外国人居留地" ;
+    <http://stayPoi.org/prop#lat> "34.6881"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  23:46:14" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  23:47:29" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#348> .
+<http://stayPoi.org/user2#348>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸外国人居留地" ;
+    <http://stayPoi.org/prop#lat> "34.6881"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  23:47:29" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  23:48:34" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#349> .
+<http://stayPoi.org/user2#349>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸外国人居留地" ;
+    <http://stayPoi.org/prop#lat> "34.6881"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  23:48:34" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  23:49:41" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#350> .
+<http://stayPoi.org/user2#350>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸外国人居留地" ;
+    <http://stayPoi.org/prop#lat> "34.6881"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  23:49:41" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  23:50:49" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#351> .
+<http://stayPoi.org/user2#351>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸外国人居留地" ;
+    <http://stayPoi.org/prop#lat> "34.6881"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  23:50:49" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  23:51:59" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#352> .
+<http://stayPoi.org/user2#352>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸外国人居留地" ;
+    <http://stayPoi.org/prop#lat> "34.6881"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  23:51:59" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  23:53:09" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#353> .
+<http://stayPoi.org/user2#353>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸外国人居留地" ;
+    <http://stayPoi.org/prop#lat> "34.6881"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  23:53:09" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  23:54:17" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#354> .
+<http://stayPoi.org/user2#354>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸海軍操練所" ;
+    <http://stayPoi.org/prop#lat> "34.6858"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  23:54:17" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  23:55:33" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#355> .
+<http://stayPoi.org/user2#355>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸海軍操練所" ;
+    <http://stayPoi.org/prop#lat> "34.6858"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  23:55:33" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  23:56:50" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#356> .
+<http://stayPoi.org/user2#356>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸海軍操練所" ;
+    <http://stayPoi.org/prop#lat> "34.6858"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  23:56:50" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  23:57:55" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#357> .
+<http://stayPoi.org/user2#357>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸海軍操練所" ;
+    <http://stayPoi.org/prop#lat> "34.6858"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  23:57:55" ;
+    <http://stayPoi.org/prop#end> "2016/10/21  23:58:58" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#358> .
+<http://stayPoi.org/user2#358>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸海軍操練所" ;
+    <http://stayPoi.org/prop#lat> "34.6858"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/21  23:58:58" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  00:00:01" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#359> .
+<http://stayPoi.org/user2#359>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸ポートタワー" ;
+    <http://stayPoi.org/prop#lat> "34.6825"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.187"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  00:00:01" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  00:01:15" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#360> .
+<http://stayPoi.org/user2#360>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸海軍操練所" ;
+    <http://stayPoi.org/prop#lat> "34.6858"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  00:01:15" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  10:49:53" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#361> .
+<http://stayPoi.org/user2#361>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸海軍操練所" ;
+    <http://stayPoi.org/prop#lat> "34.6858"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  10:49:53" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  10:54:27" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#362> .
+<http://stayPoi.org/user2#362>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸海軍操練所" ;
+    <http://stayPoi.org/prop#lat> "34.6858"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  10:54:27" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  10:55:39" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#363> .
+<http://stayPoi.org/user2#363>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸海軍操練所" ;
+    <http://stayPoi.org/prop#lat> "34.6858"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  10:55:39" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  10:56:44" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#364> .
+<http://stayPoi.org/user2#364>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸海軍操練所" ;
+    <http://stayPoi.org/prop#lat> "34.6858"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  10:56:44" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  10:57:48" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#365> .
+<http://stayPoi.org/user2#365>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸らんぷミュージアム" ;
+    <http://stayPoi.org/prop#lat> "34.6884"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.194"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  10:57:48" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  10:58:52" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#366> .
+<http://stayPoi.org/user2#366>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "神戸サンボーホール" ;
+    <http://stayPoi.org/prop#lat> "34.6886"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.199"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  10:58:52" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  10:59:56" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#367> .
+<http://stayPoi.org/user2#367>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "花時計 (神戸市)" ;
+    <http://stayPoi.org/prop#lat> "34.6907"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  10:59:56" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  11:01:20" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#368> .
+<http://stayPoi.org/user2#368>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "三宮・花時計前駅" ;
+    <http://stayPoi.org/prop#lat> "34.6916"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.196"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  11:01:20" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  11:02:50" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#369> .
+<http://stayPoi.org/user2#369>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "ブランジェリー　コム・シノワ" ;
+    <http://stayPoi.org/prop#lat> "34.692913"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.196672"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  11:02:50" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  11:03:54" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#370> .
+<http://stayPoi.org/user2#370>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "ブランジェリー　コム・シノワ" ;
+    <http://stayPoi.org/prop#lat> "34.692913"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.196672"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  11:03:54" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  11:05:01" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#371> .
+<http://stayPoi.org/user2#371>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "そごう神戸店" ;
+    <http://stayPoi.org/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  11:05:01" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  11:06:06" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#372> .
+<http://stayPoi.org/user2#372>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "GREEN HOUSE Silva(グリーンハウスシルバ)" ;
+    <http://stayPoi.org/prop#lat> "34.695944"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.194894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  11:06:06" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  11:07:25" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#373> .
+<http://stayPoi.org/user2#373>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "太陽と虎" ;
+    <http://stayPoi.org/prop#lat> "34.696901"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.197309"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  11:07:25" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  11:08:39" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#374> .
+<http://stayPoi.org/user2#374>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "三宮" ;
+    <http://stayPoi.org/prop#lat> "34.6935"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  11:08:39" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  11:10:03" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#375> .
+<http://stayPoi.org/user2#375>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "LUCIOLE（ルシオル）" ;
+    <http://stayPoi.org/prop#lat> "34.699146"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.194939"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  11:10:03" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  11:11:18" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#376> .
+<http://stayPoi.org/user2#376>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "そごう神戸店" ;
+    <http://stayPoi.org/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  11:11:18" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  11:12:43" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#377> .
+<http://stayPoi.org/user2#377>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "GREEN HOUSE Silva(グリーンハウスシルバ)" ;
+    <http://stayPoi.org/prop#lat> "34.695944"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.194894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  11:12:43" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  11:13:50" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#378> .
+<http://stayPoi.org/user2#378>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "三宮" ;
+    <http://stayPoi.org/prop#lat> "34.6935"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  11:13:50" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  11:14:57" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#379> .
+<http://stayPoi.org/user2#379>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "三宮" ;
+    <http://stayPoi.org/prop#lat> "34.6935"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  11:14:57" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  11:16:02" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#380> .
+<http://stayPoi.org/user2#380>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "三宮" ;
+    <http://stayPoi.org/prop#lat> "34.6935"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  11:16:02" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  11:17:19" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#381> .
+<http://stayPoi.org/user2#381>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "三宮駅" ;
+    <http://stayPoi.org/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.194"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  11:17:19" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  11:28:43" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#382> .
+<http://stayPoi.org/user2#382>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "三宮駅" ;
+    <http://stayPoi.org/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.194"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  11:28:43" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  11:29:48" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#383> .
+<http://stayPoi.org/user2#383>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "三宮駅" ;
+    <http://stayPoi.org/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.194"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  11:29:48" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  11:30:58" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#384> .
+<http://stayPoi.org/user2#384>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "そごう神戸店" ;
+    <http://stayPoi.org/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  11:30:58" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  11:32:05" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#385> .
+<http://stayPoi.org/user2#385>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "北向地蔵 (神戸市)" ;
+    <http://stayPoi.org/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  11:32:05" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  11:33:09" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#386> .
+<http://stayPoi.org/user2#386>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "北向地蔵 (神戸市)" ;
+    <http://stayPoi.org/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  11:33:09" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  12:39:37" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#387> .
+<http://stayPoi.org/user2#387>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "北向地蔵 (神戸市)" ;
+    <http://stayPoi.org/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  12:39:37" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  12:40:48" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#388> .
+<http://stayPoi.org/user2#388>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "北向地蔵 (神戸市)" ;
+    <http://stayPoi.org/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  12:40:48" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  12:41:57" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#389> .
+<http://stayPoi.org/user2#389>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "GREEN HOUSE Silva(グリーンハウスシルバ)" ;
+    <http://stayPoi.org/prop#lat> "34.695944"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.194894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  12:41:57" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  12:43:00" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#390> .
+<http://stayPoi.org/user2#390>
+    <http://stayPoi.org/prop#user> "user2" ;
+    <http://stayPoi.org/prop#poi> "GREEN HOUSE Silva(グリーンハウスシルバ)" ;
+    <http://stayPoi.org/prop#lat> "34.695944"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#lon> "135.194894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+    <http://stayPoi.org/prop#start> "2016/10/22  12:43:00" ;
+    <http://stayPoi.org/prop#end> "2016/10/22  12:44:05" ;
+    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#391> .
