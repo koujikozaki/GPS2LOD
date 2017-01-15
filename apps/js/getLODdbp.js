@@ -7,10 +7,12 @@ var limit=11;
 $(window).load(function() {
 	
 	var query = (function () {/*
-select distinct ?u ?g ?lat ?long ?label where {
+select distinct ?u ?g ?lat ?long ?st ?ed ?label where {
   ?s <http://stayPoi.org/prop#user> ?u;
   <http://stayPoi.org/prop#poi> ?label;
   <http://stayPoi.org/prop#next> ?g;
+  <http://stayPoi.org/prop#start> ?st;
+  <http://stayPoi.org/prop#end> ?ed;
   <http://stayPoi.org/prop#lat> ?lat;
   <http://stayPoi.org/prop#lon> ?long.
 FILTER(?u="user1")

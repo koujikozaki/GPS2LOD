@@ -91,6 +91,9 @@ function showMAP(data){
 		v_lat = data[d]['lat'].value;
 		v_long = data[d]['long'].value;
 		var v_user = data[d]['u'].value;
+		var v_st = data[d]['st'].value;
+		var v_ed = data[d]['ed'].value;
+
 
 		var icon = user1Icon;
 
@@ -118,8 +121,8 @@ function showMAP(data){
 
 	var mapMarker = L.marker([v_lat, v_long], {icon: icon});
 	   mapMarker.addTo(map);
-	   mapMarker.bindPopup('<b>'+v_label+'</b><br>'+ v_user+'<br>'
-		 	+v_lat +","+v_long
+	   mapMarker.bindPopup('<b>'+v_label+'</b><br><b>'+ v_user+'</b><br>'
+		 	+v_lat +","+v_long+'<br>'+v_st+'<br> to ' +v_ed
 			//   +v_addr+v_comment
 			   );
    }
