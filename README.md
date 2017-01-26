@@ -14,9 +14,23 @@ ISWC2016の連携企画の一つとして行われた
 SPARQLエンドポイントは，<http://lod.hozo.jp/repositories/GPS2LOD2>です．
 
 #データの可視化サンプル　
-＜http://lodosaka.jp/iswc2016gtl-exp/apps/>
+<http://lodosaka.jp/iswc2016gtl-exp/apps/>
 
-※http://lodosaka.jp/iswc2016gtl-exp/apps/index.html?u=user3　
+※<http://lodosaka.jp/iswc2016gtl-exp/apps/index.html?u=user3>  
+のように  
+→?u=XXXを*user1*から*user11*に変えることで各被験者のデータが確認できます，
 
-のように
-→?u=XXXを「user1」から「user11」に変えることで各被験者のデータが確認できます，
+#サンプルクエリ
+##user1の移動軌跡を時間順に取得する
+    select distinct * where {
+      ?s <http://stayPoi.org/prop#user> "user1";
+      <http://stayPoi.org/prop#poi> ?label;
+      <http://stayPoi.org/prop#date> ?d;
+      <http://stayPoi.org/prop#start> ?st;
+      <http://stayPoi.org/prop#end> ?ed;
+      <http://stayPoi.org/prop#next> ?g;
+      <http://stayPoi.org/prop#lat> ?lat;
+      <http://stayPoi.org/prop#lon> ?long.
+    }ORDER BY ?st
+
+
