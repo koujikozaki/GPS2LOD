@@ -1,27 +1,20 @@
-ISWC2016の連携企画の一つとして行われた
-「GPS trajectory linked data project」
-　http://iswc2016.semanticweb.org/pages/attending/applications.html
- 
- で収集したデータを公開しています．
- 
- このプロジェクトでは，ISWC2016の参加者に「GPSロガー」を貸与して，会議開催期間中に，どのような場所を移動したかのデータを収集しました．
- 
- 収集したデータの情報は下記のとおりです．
+#概要
+ISWC2016の連携企画の一つとして行われた  
+*「GPS trajectory linked data project」*  
+<http://iswc2016.semanticweb.org/pages/attending/applications.html>  
+で収集したデータを公開しています．
 
--収集期間：2016/10/17-2016/10/21
+このプロジェクトでは，ISWC2016の参加者に「GPSロガー」を貸与して，会議開催期間中に，どのような場所を移動したかのデータを収集しました．  
+収集したデータの情報は下記のとおりです．
+* 収集期間：2016/10/17-2016/10/21
+* 収集データ数：被験者11名分（※個人情報は一切取得せず）
+* 収集内容：約1分ごとの緯度経度および時間
 
-ｰ収集データ数：被験者11名分（※個人情報は一切取得せず）
+収集したデータは，GXP形式，CSV形式，および，POI情報を基にRDFに変換したデータを公開しています．  
+SPARQLエンドポイントは，<http://lod.hozo.jp/repositories/GPS2LOD2>です．
 
--収集内容：約1分ごとの緯度経度および時間
-
-
-収集したデータは，GXP形式，CSV形式，および，POI情報を基にRDFに変換したデータを公開しています．
-
-SPARQLエンドポイントは，http://lod.hozo.jp/repositories/GPS2LOD
-
-データの可視化サンプル　
-
-http://lodosaka.jp/iswc2016gtl-exp/apps/
+#データの可視化サンプル　
+＜http://lodosaka.jp/iswc2016gtl-exp/apps/>
 
 ※http://lodosaka.jp/iswc2016gtl-exp/apps/index.html?u=user3　
 
