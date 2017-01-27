@@ -13,9 +13,8 @@ ISWC2016の連携企画の一つとして行われた
 収集したデータは，GXP形式，CSV形式，および，POI(Point Of Interest)情報を基にRDFに変換したデータを公開しています．  
 
 ##ライセンス
-本データは，クリエイティブコモンズ「表示 4.0 国際 (CC BY 4.0)」（https://creativecommons.org/licenses/by/4.0/deed.ja）にて提供して言います．  
-
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ 表示 4.0 国際 ライセンスの下に提供されています。</a>
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />本データ は <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ 表示 4.0 国際 ライセンスの下に提供されています。</a><br>
+著作者には*「GPS trajectory linked data project」*と表示してください．
 
 ##SPARQLエンドポイント
 <http://lod.hozo.jp/repositories/GPS2LOD2>
@@ -72,6 +71,7 @@ CSV形式のデータの各レコードに対し，POI情報の緯度経度と�
       <http://stayPoi.org/prop#lat> ?lat;
       <http://stayPoi.org/prop#lon> ?long.
     }ORDER BY ?st
+<a href="http://lod.hozo.jp/repositories/GPS2LOD2#query/d/%20%20%20%20select%20distinct%20*%20where%20%7B%0A%20%20%20%20%20%20?s%20%3Chttp://stayPoi.org/prop%23user%3E%20%22user1%22;%0A%20%20%20%20%20%20%3Chttp://stayPoi.org/prop#poi%3E%20?label;%0A%20%20%20%20%20%20%3Chttp://stayPoi.org/prop#date%3E%20?d;%0A%20%20%20%20%20%20%3Chttp://stayPoi.org/prop#start%3E%20?st;%0A%20%20%20%20%20%20%3Chttp://stayPoi.org/prop#end%3E%20?ed;%0A%20%20%20%20%20%20%3Chttp://stayPoi.org/prop#next%3E%20?g;%0A%20%20%20%20%20%20%3Chttp://stayPoi.org/prop#lat%3E%20?lat;%0A%20%20%20%20%20%20%3Chttp://stayPoi.org/prop#lon%3E%20?long.%0A%20%20%20%20%7DORDER%20BY%20?st" target="_blank">[クエリを実行]</a>
 
 ##期間中に1回以上訪問したユーザの人数でスポットをランキングする
     select  distinct ?label ?lat ?long (count(distinct ?u)AS ?c) where {
@@ -81,3 +81,22 @@ CSV形式のデータの各レコードに対し，POI情報の緯度経度と�
       <http://stayPoi.org/prop#lon> ?long.
     }GROUP BY ?label ?lat ?long
     ORDER BY DESC (?c)
+<a href="http://lod.hozo.jp/repositories/GPS2LOD2#query/d/%20%20%20%20select%20%20distinct%20?label%20?lat%20?long%20(count(distinct%20?u)AS%20?c)%20where%20%7B%0A%20%20%20%20%20%20?s%20%3Chttp://stayPoi.org/prop%23user%3E%20?u;%0A%20%20%20%20%20%20%3Chttp://stayPoi.org/prop#poi%3E%20?label;%0A%20%20%20%20%20%20%3Chttp://stayPoi.org/prop#lat%3E%20?lat;%0A%20%20%20%20%20%20%3Chttp://stayPoi.org/prop#lon%3E%20?long.%0A%20%20%20%20%7DGROUP%20BY%20?label%20?lat%20?long%0A%20%20%20%20ORDER%20BY%20DESC%20(?c)" target="_blank">[クエリを実行]</a>
+
+##期間中に「元町駅 (兵庫県)」を1回以上訪問したユーザを取得する
+    select  distinct ?u where {
+      ?s <http://stayPoi.org/prop#user> ?u;
+      <http://stayPoi.org/prop#poi> "元町駅 (兵庫県)".
+    }
+<a href="http://lod.hozo.jp/repositories/GPS2LOD2#query/d/%20%20%20%20select%20%20distinct%20?u%20where%20%7B%0A%20%20%20%20%20%20?s%20%3Chttp://stayPoi.org/prop%23user%3E%20?u;%0A%20%20%20%20%20%20%3Chttp://stayPoi.org/prop#poi%3E%20%22%E5%85%83%E7%94%BA%E9%A7%85%20(%E5%85%B5%E5%BA%AB%E7%9C%8C)%22.%0A%20%20%20%20%7D%0A" target="_blank">[クエリを実行]</a>
+
+
+
+##期間中に「元町駅 (兵庫県)」と「メリケンパーク」の両方を1回以上訪問したユーザを取得する
+    select  distinct ?u where {
+      ?s <http://stayPoi.org/prop#user> ?u;
+         <http://stayPoi.org/prop#poi> "元町駅 (兵庫県)".
+      ?s2 <http://stayPoi.org/prop#user> ?u;
+      	  <http://stayPoi.org/prop#poi> "メリケンパーク".
+    }
+<a href="http://lod.hozo.jp/repositories/GPS2LOD2#query/d/%20%20%20%20select%20%20distinct%20?u%20where%20%7B%0A%20%20%20%20%20%20?s%20%3Chttp://stayPoi.org/prop%23user%3E%20?u;%0A%20%20%20%20%20%20%20%20%20%3Chttp://stayPoi.org/prop#poi%3E%20%22%E5%85%83%E7%94%BA%E9%A7%85%20(%E5%85%B5%E5%BA%AB%E7%9C%8C)%22.%0A%20%20%20%20%20%20?s2%20%3Chttp://stayPoi.org/prop#user%3E%20?u;%0A%20%20%20%20%20%20%09%20%20%3Chttp://stayPoi.org/prop#poi%3E%20%22%E3%83%A1%E3%83%AA%E3%82%B1%E3%83%B3%E3%83%91%E3%83%BC%E3%82%AF%22.%0A%20%20%20%20%7D%0A" target="_blank">[クエリを実行]</a>
