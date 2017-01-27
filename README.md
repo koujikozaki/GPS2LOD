@@ -34,10 +34,10 @@ SPARQLエンドポイントは，<http://lod.hozo.jp/repositories/GPS2LOD2>で�
     }ORDER BY ?st
 
 ##期間中に1回以上訪問したユーザの人数でスポットをランキングする
-select  distinct ?label ?lat ?long (count(distinct ?u)AS ?c) where {
-  ?s <http://stayPoi.org/prop#user> ?u;
-  <http://stayPoi.org/prop#poi> ?label;
-  <http://stayPoi.org/prop#lat> ?lat;
-  <http://stayPoi.org/prop#lon> ?long.
-}GROUP BY ?label ?lat ?long
-ORDER BY DESC (?c)
+    select  distinct ?label ?lat ?long (count(distinct ?u)AS ?c) where {
+      ?s <http://stayPoi.org/prop#user> ?u;
+      <http://stayPoi.org/prop#poi> ?label;
+      <http://stayPoi.org/prop#lat> ?lat;
+      <http://stayPoi.org/prop#lon> ?long.
+    }GROUP BY ?label ?lat ?long
+    ORDER BY DESC (?c)
