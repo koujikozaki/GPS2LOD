@@ -1,6 +1,7 @@
 #概要
 ISWC2016の連携企画の一つとして行われた  
-*「GPS trajectory linked data project」(http://iswc2016.semanticweb.org/pages/attending/applications.html)*  
+*「GPS trajectory linked data project」*
+<http://iswc2016.semanticweb.org/pages/attending/applications.html>
 で収集したデータを公開しています．
 
 このプロジェクトでは，ISWC2016の参加者に「GPSロガー」を貸与して，会議開催期間中に，どのような場所を移動したかのデータを収集しました．  

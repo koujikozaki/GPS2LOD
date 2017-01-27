@@ -13,6 +13,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-18" ;
+    <http://stayPoi.org/prop#time> "10"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-18T10:59:28Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-18T18:09:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#5> .
@@ -22,6 +23,7 @@
     <http://stayPoi.org/prop#lat> "34.6916"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.196"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-18" ;
+    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-18T18:09:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-18T18:15:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#7> .
@@ -31,6 +33,7 @@
     <http://stayPoi.org/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-18" ;
+    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-18T18:15:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-18T18:24:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#9> .
@@ -40,6 +43,7 @@
     <http://stayPoi.org/prop#lat> "34.6886"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.199"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-18" ;
+    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-18T18:24:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-18T18:26:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#11> .
@@ -49,6 +53,7 @@
     <http://stayPoi.org/prop#lat> "34.6858"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-18" ;
+    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-18T18:26:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-18T18:29:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#12> .
@@ -58,6 +63,7 @@
     <http://stayPoi.org/prop#lat> "34.6896"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.187"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-18" ;
+    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-18T18:29:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-18T18:33:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#14> .
@@ -67,6 +73,7 @@
     <http://stayPoi.org/prop#lat> "34.6825"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.187"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-18" ;
+    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-18T18:33:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-18T18:40:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#16> .
@@ -76,6 +83,7 @@
     <http://stayPoi.org/prop#lat> "34.6894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.192"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-18" ;
+    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-18T18:40:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-18T18:41:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#17> .
@@ -85,6 +93,7 @@
     <http://stayPoi.org/prop#lat> "34.6896"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.187"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-18" ;
+    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-18T18:41:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T07:34:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#25> .
@@ -94,6 +103,7 @@
     <http://stayPoi.org/prop#lat> "34.6825"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.187"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "07"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T07:34:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T07:44:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#29> .
@@ -103,6 +113,7 @@
     <http://stayPoi.org/prop#lat> "34.6894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.192"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "07"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T07:44:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T07:46:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#30> .
@@ -112,6 +123,7 @@
     <http://stayPoi.org/prop#lat> "34.6896"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.187"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "07"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T07:46:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T07:51:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#35> .
@@ -121,6 +133,7 @@
     <http://stayPoi.org/prop#lat> "34.6894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.192"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "07"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T07:51:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T07:52:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#36> .
@@ -130,6 +143,7 @@
     <http://stayPoi.org/prop#lat> "34.6896"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.187"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "07"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T07:52:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T08:04:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#46> .
@@ -139,6 +153,7 @@
     <http://stayPoi.org/prop#lat> "34.6886"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.199"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T08:04:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T08:06:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#48> .
@@ -148,6 +163,7 @@
     <http://stayPoi.org/prop#lat> "34.6884"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.194"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T08:06:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T08:07:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#49> .
@@ -157,6 +173,7 @@
     <http://stayPoi.org/prop#lat> "34.6907"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T08:07:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T08:08:37Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#50> .
@@ -166,6 +183,7 @@
     <http://stayPoi.org/prop#lat> "34.6916"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.196"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T08:08:37Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T08:11:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#52> .
@@ -175,6 +193,7 @@
     <http://stayPoi.org/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T08:11:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T08:21:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#61> .
@@ -184,6 +203,7 @@
     <http://stayPoi.org/prop#lat> "34.6886"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.199"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T08:21:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T08:22:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#62> .
@@ -193,6 +213,7 @@
     <http://stayPoi.org/prop#lat> "34.6814"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.202"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T08:22:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T08:25:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#64> .
@@ -202,6 +223,7 @@
     <http://stayPoi.org/prop#lat> "34.6768"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.205"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T08:25:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T08:26:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#65> .
@@ -211,6 +233,7 @@
     <http://stayPoi.org/prop#lat> "34.6737"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.208"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T08:26:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T08:28:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#67> .
@@ -220,6 +243,7 @@
     <http://stayPoi.org/prop#lat> "34.6691"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.21"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T08:28:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T08:29:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#68> .
@@ -229,6 +253,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T08:29:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T08:31:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#69> .
@@ -238,6 +263,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T08:31:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T08:32:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#70> .
@@ -247,6 +273,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T08:32:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T08:34:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#72> .
@@ -256,6 +283,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T08:34:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T08:36:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#73> .
@@ -265,6 +293,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T08:36:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T08:40:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#76> .
@@ -274,6 +303,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T08:40:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T08:48:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#80> .
@@ -283,6 +313,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T08:48:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T08:49:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#81> .
@@ -292,6 +323,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T08:49:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T08:50:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#82> .
@@ -301,6 +333,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T08:50:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T10:39:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#85> .
@@ -310,6 +343,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "10"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T10:39:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T10:40:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#86> .
@@ -319,6 +353,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "10"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T10:40:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T10:44:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#89> .
@@ -328,6 +363,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "10"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T10:44:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T10:45:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#90> .
@@ -337,6 +373,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "10"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T10:45:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T11:47:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#112> .
@@ -346,6 +383,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T11:47:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T11:54:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#114> .
@@ -355,6 +393,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T11:54:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T12:32:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#117> .
@@ -364,6 +403,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "12"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T12:32:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T12:42:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#124> .
@@ -373,6 +413,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "12"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T12:42:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T12:43:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#125> .
@@ -382,6 +423,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "12"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T12:43:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T12:46:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#127> .
@@ -391,6 +433,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "12"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T12:46:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T12:48:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#129> .
@@ -400,6 +443,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "12"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T12:48:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T13:36:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#133> .
@@ -409,6 +453,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "13"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T13:36:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T13:42:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#137> .
@@ -418,6 +463,7 @@
     <http://stayPoi.org/prop#lat> "34.6691"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.21"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "13"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T13:42:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T13:44:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#138> .
@@ -427,6 +473,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "13"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T13:44:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T13:45:37Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#139> .
@@ -436,6 +483,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "13"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T13:45:37Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T14:59:47Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#143> .
@@ -445,6 +493,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "14"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T14:59:47Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T15:27:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#145> .
@@ -454,6 +503,7 @@
     <http://stayPoi.org/prop#lat> "34.6646"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.217"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "15"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T15:27:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T15:57:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#146> .
@@ -463,6 +513,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "15"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T15:57:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T16:48:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#158> .
@@ -472,6 +523,7 @@
     <http://stayPoi.org/prop#lat> "34.6737"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.208"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "16"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T16:48:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T17:50:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#160> .
@@ -481,6 +533,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "17"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T17:50:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T17:59:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#165> .
@@ -490,6 +543,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "17"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T17:59:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T18:05:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#167> .
@@ -499,6 +553,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T18:05:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T18:38:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#196> .
@@ -508,6 +563,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T18:38:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T18:39:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#197> .
@@ -517,6 +573,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T18:39:04Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T19:34:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#210> .
@@ -526,6 +583,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T19:34:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T19:37:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#212> .
@@ -535,6 +593,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T19:37:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T19:38:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#213> .
@@ -544,6 +603,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T19:38:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T19:39:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#214> .
@@ -553,6 +613,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T19:39:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T19:40:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#215> .
@@ -562,6 +623,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T19:40:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T19:41:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#216> .
@@ -571,6 +633,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T19:41:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T19:44:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#218> .
@@ -580,6 +643,7 @@
     <http://stayPoi.org/prop#lat> "34.6691"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.21"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T19:44:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T19:47:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#220> .
@@ -589,6 +653,7 @@
     <http://stayPoi.org/prop#lat> "34.6737"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.208"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T19:47:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T19:49:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#221> .
@@ -598,6 +663,7 @@
     <http://stayPoi.org/prop#lat> "34.6833"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.2"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T19:49:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T19:51:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#222> .
@@ -607,6 +673,7 @@
     <http://stayPoi.org/prop#lat> "34.6867"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.201"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T19:51:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T19:53:54Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#223> .
@@ -616,6 +683,7 @@
     <http://stayPoi.org/prop#lat> "34.692913"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.196672"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T19:53:54Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T19:59:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#225> .
@@ -625,6 +693,7 @@
     <http://stayPoi.org/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T19:59:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T20:02:42Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#226> .
@@ -634,6 +703,7 @@
     <http://stayPoi.org/prop#lat> "34.6916"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.196"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T20:02:42Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T20:05:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#227> .
@@ -643,6 +713,7 @@
     <http://stayPoi.org/prop#lat> "34.6886"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.199"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T20:05:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T20:08:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#228> .
@@ -652,6 +723,7 @@
     <http://stayPoi.org/prop#lat> "34.6896"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.187"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T20:08:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T20:14:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#231> .
@@ -661,6 +733,7 @@
     <http://stayPoi.org/prop#lat> "34.6833"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.183"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T20:14:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T20:16:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#232> .
@@ -670,6 +743,7 @@
     <http://stayPoi.org/prop#lat> "34.6896"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.187"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T20:16:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-19T21:31:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#251> .
@@ -679,6 +753,7 @@
     <http://stayPoi.org/prop#lat> "34.6825"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.187"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-19" ;
+    <http://stayPoi.org/prop#time> "21"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-19T21:31:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T07:59:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#253> .
@@ -688,6 +763,7 @@
     <http://stayPoi.org/prop#lat> "34.6896"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.187"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "07"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T07:59:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T08:23:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#256> .
@@ -697,6 +773,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T08:23:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T08:32:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#260> .
@@ -706,6 +783,7 @@
     <http://stayPoi.org/prop#lat> "34.6646"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.217"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T08:32:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T08:34:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#261> .
@@ -715,6 +793,7 @@
     <http://stayPoi.org/prop#lat> "34.6661"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.22"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T08:34:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T09:51:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#264> .
@@ -724,6 +803,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "09"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T09:51:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T09:58:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#266> .
@@ -733,6 +813,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "09"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T09:58:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T10:37:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#267> .
@@ -742,6 +823,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "10"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T10:37:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T11:38:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#273> .
@@ -751,6 +833,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T11:38:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T12:46:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#280> .
@@ -760,6 +843,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "12"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T12:46:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T12:51:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#281> .
@@ -769,6 +853,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "12"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T12:51:27Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T12:57:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#282> .
@@ -778,6 +863,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "12"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T12:57:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T13:13:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#285> .
@@ -787,6 +873,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "13"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T13:13:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T13:19:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#286> .
@@ -796,6 +883,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "13"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T13:19:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T13:22:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#287> .
@@ -805,6 +893,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "13"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T13:22:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T13:24:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#288> .
@@ -814,6 +903,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "13"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T13:24:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T14:16:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#292> .
@@ -823,6 +913,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "14"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T14:16:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T15:03:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#298> .
@@ -832,6 +923,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "15"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T15:03:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T15:12:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#300> .
@@ -841,6 +933,7 @@
     <http://stayPoi.org/prop#lat> "34.6646"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.217"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "15"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T15:12:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T15:16:30Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#301> .
@@ -850,6 +943,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "15"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T15:16:30Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T16:47:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#311> .
@@ -859,6 +953,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "16"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T16:47:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T16:52:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#312> .
@@ -868,6 +963,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "16"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T16:52:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T18:16:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#318> .
@@ -877,6 +973,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T18:16:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T18:17:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#319> .
@@ -886,6 +983,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T18:17:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T21:47:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#323> .
@@ -895,6 +993,7 @@
     <http://stayPoi.org/prop#lat> "34.6768"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.205"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "21"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T21:47:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T21:52:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#324> .
@@ -904,6 +1003,7 @@
     <http://stayPoi.org/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "21"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T21:52:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T21:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#325> .
@@ -913,6 +1013,7 @@
     <http://stayPoi.org/prop#lat> "34.6907"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "21"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T21:56:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T22:00:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#326> .
@@ -922,6 +1023,7 @@
     <http://stayPoi.org/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "22"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T22:00:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T22:04:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#327> .
@@ -931,6 +1033,7 @@
     <http://stayPoi.org/prop#lat> "34.6886"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.199"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "22"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T22:04:35Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T22:08:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#328> .
@@ -940,6 +1043,7 @@
     <http://stayPoi.org/prop#lat> "34.6858"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "22"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T22:08:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T22:09:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#329> .
@@ -949,6 +1053,7 @@
     <http://stayPoi.org/prop#lat> "34.688119"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.187948"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "22"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T22:09:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T22:10:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#330> .
@@ -958,6 +1063,7 @@
     <http://stayPoi.org/prop#lat> "34.6894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.192"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "22"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T22:10:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T22:14:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#331> .
@@ -967,6 +1073,7 @@
     <http://stayPoi.org/prop#lat> "34.6896"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.187"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "22"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T22:14:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T22:21:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#332> .
@@ -976,6 +1083,7 @@
     <http://stayPoi.org/prop#lat> "34.6825"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.187"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "22"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T22:21:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-20T23:56:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#337> .
@@ -985,6 +1093,7 @@
     <http://stayPoi.org/prop#lat> "34.6896"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.187"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-20" ;
+    <http://stayPoi.org/prop#time> "23"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-20T23:56:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T09:14:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#341> .
@@ -994,6 +1103,7 @@
     <http://stayPoi.org/prop#lat> "34.6833"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.183"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "09"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T09:14:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T09:59:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#342> .
@@ -1003,6 +1113,7 @@
     <http://stayPoi.org/prop#lat> "34.6858"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "09"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T09:59:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T11:05:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#343> .
@@ -1012,6 +1123,7 @@
     <http://stayPoi.org/prop#lat> "34.6896"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.187"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T11:05:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T12:05:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#345> .
@@ -1021,6 +1133,7 @@
     <http://stayPoi.org/prop#lat> "34.6884"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.194"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "12"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T12:05:21Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T12:13:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#346> .
@@ -1030,6 +1143,7 @@
     <http://stayPoi.org/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.194"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "12"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T12:13:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T12:19:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#347> .
@@ -1039,6 +1153,7 @@
     <http://stayPoi.org/prop#lat> "34.6768"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.205"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "12"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T12:19:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T12:20:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#348> .
@@ -1048,6 +1163,7 @@
     <http://stayPoi.org/prop#lat> "34.6737"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.208"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "12"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T12:20:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T12:21:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#349> .
@@ -1057,6 +1173,7 @@
     <http://stayPoi.org/prop#lat> "34.6677"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.208"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "12"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T12:21:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T12:25:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#351> .
@@ -1066,6 +1183,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "12"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T12:25:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T12:36:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#357> .
@@ -1075,6 +1193,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "12"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T12:36:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T13:38:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#366> .
@@ -1084,6 +1203,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "13"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T13:38:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T14:36:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#374> .
@@ -1093,6 +1213,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "14"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T14:36:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T14:44:43Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#375> .
@@ -1102,6 +1223,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "14"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T14:44:43Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T15:40:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#378> .
@@ -1111,6 +1233,7 @@
     <http://stayPoi.org/prop#lat> "34.6696"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.214"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "15"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T15:40:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T18:49:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#387> .
@@ -1120,6 +1243,7 @@
     <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T18:49:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T18:53:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#390> .
@@ -1129,6 +1253,7 @@
     <http://stayPoi.org/prop#lat> "34.6737"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.208"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T18:53:12Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T18:54:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#391> .
@@ -1138,6 +1263,7 @@
     <http://stayPoi.org/prop#lat> "34.6814"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.202"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T18:54:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T18:55:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#392> .
@@ -1147,6 +1273,7 @@
     <http://stayPoi.org/prop#lat> "34.6833"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.2"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T18:55:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T18:56:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#393> .
@@ -1156,6 +1283,7 @@
     <http://stayPoi.org/prop#lat> "34.6886"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.199"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T18:56:23Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T19:03:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#396> .
@@ -1165,6 +1293,7 @@
     <http://stayPoi.org/prop#lat> "34.692913"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.196672"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T19:03:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T19:06:42Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#397> .
@@ -1174,6 +1303,7 @@
     <http://stayPoi.org/prop#lat> "34.695944"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.194894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T19:06:42Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T20:18:55Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#399> .
@@ -1183,6 +1313,7 @@
     <http://stayPoi.org/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T20:18:55Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T20:20:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#400> .
@@ -1192,6 +1323,7 @@
     <http://stayPoi.org/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T20:20:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T20:22:28Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#401> .
@@ -1201,6 +1333,7 @@
     <http://stayPoi.org/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T20:22:28Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T20:23:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#402> .
@@ -1210,6 +1343,7 @@
     <http://stayPoi.org/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T20:23:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T20:27:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#404> .
@@ -1219,6 +1353,7 @@
     <http://stayPoi.org/prop#lat> "34.6917"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.194"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T20:27:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T20:31:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#407> .
@@ -1228,6 +1363,7 @@
     <http://stayPoi.org/prop#lat> "34.6907"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T20:31:16Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T20:34:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#408> .
@@ -1237,6 +1373,7 @@
     <http://stayPoi.org/prop#lat> "34.6917"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.194"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T20:34:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T21:36:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#410> .
@@ -1246,6 +1383,7 @@
     <http://stayPoi.org/prop#lat> "34.6894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.192"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "21"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T21:36:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T21:41:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#412> .
@@ -1255,6 +1393,7 @@
     <http://stayPoi.org/prop#lat> "34.6881"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "21"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T21:41:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-21T23:53:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#420> .
@@ -1264,6 +1403,7 @@
     <http://stayPoi.org/prop#lat> "34.6858"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-21" ;
+    <http://stayPoi.org/prop#time> "23"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-21T23:53:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-22T10:52:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#428> .
@@ -1273,6 +1413,7 @@
     <http://stayPoi.org/prop#lat> "34.6825"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.187"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-22" ;
+    <http://stayPoi.org/prop#time> "10"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-22T10:52:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-22T11:00:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#431> .
@@ -1282,6 +1423,7 @@
     <http://stayPoi.org/prop#lat> "34.6907"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-22" ;
+    <http://stayPoi.org/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-22T11:00:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-22T11:05:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#432> .
@@ -1291,6 +1433,7 @@
     <http://stayPoi.org/prop#lat> "34.692913"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.196672"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-22" ;
+    <http://stayPoi.org/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-22T11:05:06Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-22T11:14:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#434> .
@@ -1300,6 +1443,7 @@
     <http://stayPoi.org/prop#lat> "34.695944"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#lon> "135.194894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
     <http://stayPoi.org/prop#date> "2016-10-22" ;
+    <http://stayPoi.org/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
     <http://stayPoi.org/prop#start> "2016-10-22T11:14:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#end> "2016-10-22T11:32:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
     <http://stayPoi.org/prop#next> <http://stayPoi.org/test#436> .
