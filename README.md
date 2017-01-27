@@ -11,6 +11,14 @@ ISWC2016の連携企画の一つとして行われた
 * 収集内容：約1分ごとの緯度経度および時間
 
 収集したデータは，GXP形式，CSV形式，および，POI(Point Of Interest)情報を基にRDFに変換したデータを公開しています．  
+POI情報は，神戸市のオープンデータ(http://www.city.kobe.lg.jp/information/opendata/catalogue.html)およびDBpedia Japanese(http://ja.dbpedia.org/)を用いて作成しました．
+
+##データの公開場所
+各データは，それぞれ下記のフォルダから取得できます．
+* CSV　CSV形式のデータ
+* GPX　GPX形式のデータ
+* RDF　RDF形式のデータ（CSV形式のデータを元に変換して作成）
+* POI.csv　RDF形式のデータ作成に利用したPOI情報
 
 ##ライセンス
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />本データ は <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ 表示 4.0 国際 ライセンスの下に提供されています。</a><br>
