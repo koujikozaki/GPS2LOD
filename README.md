@@ -13,12 +13,13 @@ ISWC2016の連携企画の一つとして行われた
 収集したデータは，GXP形式，CSV形式，および，POI情報を基にRDFに変換したデータを公開しています．  
 SPARQLエンドポイントは，<http://lod.hozo.jp/repositories/GPS2LOD2>です．
 
-#データの可視化サンプル　
-<http://lodosaka.jp/iswc2016gtl-exp/apps/>
+#データの可視化サンプル
+##参加者が訪問したスポットの可視化[参加者毎の訪問日数]
+<http://lodosaka.jp/iswc2016gtl-exp/apps2a/>
 
-※<http://lodosaka.jp/iswc2016gtl-exp/apps/index.html?u=user3>  
-のように  
-→?u=XXXを*user1*から*user11*に変えることで各被験者のデータが確認できます，
+##参加者が訪問したスポットの可視化[訪問した人数]
+<http://lodosaka.jp/iswc2016gtl-exp/apps2b/>
+
 
 #サンプルクエリ
 ##user1の移動軌跡を時間順に取得する
