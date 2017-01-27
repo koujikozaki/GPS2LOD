@@ -10,7 +10,12 @@ ISWC2016の連携企画の一つとして行われた
 * 収集データ数：被験者11名分（※個人情報は一切取得せず）
 * 収集内容：約1分ごとの緯度経度および時間
 
-収集したデータは，GXP形式，CSV形式，および，POI情報を基にRDFに変換したデータを公開しています．  
+収集したデータは，GXP形式，CSV形式，および，POI(Point Of Interest)情報を基にRDFに変換したデータを公開しています．  
+
+##ライセンス
+本データは，クリエイティブコモンズ「表示 4.0 国際 (CC BY 4.0)」（https://creativecommons.org/licenses/by/4.0/deed.ja）にて提供して言います．  
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ 表示 4.0 国際 ライセンスの下に提供されています。</a>
 
 ##SPARQLエンドポイント
 <http://lod.hozo.jp/repositories/GPS2LOD2>
@@ -18,7 +23,11 @@ ISWC2016の連携企画の一つとして行われた
 #RDFデータのモデル
 ##基本的な考え方
 各ユーザが訪問した（通過した）スポットの「訪問情報」を以下のプロパティで表しています．  
-「訪問情報」には'<http://stayPoi.org/ユーザID#id>'という一意のURIが与えられており，「訪問情報」のつながりを辿ることで，そのユーザの「移動軌跡」が分かります．
+「訪問情報」には```<http://stayPoi.org/ユーザID#id>```という一意のURIが与えられており，「訪問情報」のつながりを辿ることで，そのユーザの「移動軌跡」が分かります．
+
+##データ作成方法
+CSV形式のデータの各レコードに対し，POI情報の緯度経度と比較し，一定の距離内にあるとき「そのスポットに入った」と判定して，下記のプロパティを持つ「訪問情報」を作成しています．  
+連続するレコードが「同じスポット」と判定された場合は，１つの「訪問情報」としてまとめています．
 
 ##プロパティ
 	<http://stayPoi.org/prop#user>　ユーザID
