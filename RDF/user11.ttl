@@ -7,753 +7,793 @@
 <>
 	cc:attributionName "古崎晃司"@ja ;
 	cc:license <http://creativecommons.org/publicdomain/zero/1.0/deed.ja> .
-<http://stayPoi.org/user11#24>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "神戸国際会議場" ;
-    <http://stayPoi.org/prop#lat> "34.666241"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.21301"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-17" ;
-    <http://stayPoi.org/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-17T11:30:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-17T17:48:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#25> .
-<http://stayPoi.org/user11#26>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "太陽と虎" ;
-    <http://stayPoi.org/prop#lat> "34.696901"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.197309"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-17" ;
-    <http://stayPoi.org/prop#time> "17"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-17T17:48:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-17T20:41:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#27> .
-<http://stayPoi.org/user11#28>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "そごう神戸店" ;
-    <http://stayPoi.org/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-17" ;
-    <http://stayPoi.org/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-17T20:41:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-17T21:05:28Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#29> .
-<http://stayPoi.org/user11#33>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "ブランジェリー　コム・シノワ" ;
-    <http://stayPoi.org/prop#lat> "34.692913"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.196672"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-17" ;
-    <http://stayPoi.org/prop#time> "21"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-17T21:05:28Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-18T08:23:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#34> .
-<http://stayPoi.org/user11#39>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "そごう神戸店" ;
-    <http://stayPoi.org/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-18" ;
-    <http://stayPoi.org/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-18T08:23:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-18T08:38:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#40> .
-<http://stayPoi.org/user11#40>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "みなとじま駅" ;
-    <http://stayPoi.org/prop#lat> "34.6691"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.21"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-18" ;
-    <http://stayPoi.org/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-18T08:38:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-18T08:40:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#41> .
-<http://stayPoi.org/user11#58>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "神戸国際会議場" ;
-    <http://stayPoi.org/prop#lat> "34.666241"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.21301"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-18" ;
-    <http://stayPoi.org/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-18T08:40:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-18T20:39:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#59> .
-<http://stayPoi.org/user11#59>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "ブランジェリー　コム・シノワ" ;
-    <http://stayPoi.org/prop#lat> "34.692913"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.196672"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-18" ;
-    <http://stayPoi.org/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-18T20:39:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-18T20:44:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#60> .
-<http://stayPoi.org/user11#60>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "花時計 (神戸市)" ;
-    <http://stayPoi.org/prop#lat> "34.6907"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-18" ;
-    <http://stayPoi.org/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-18T20:44:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-18T20:46:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#61> .
-<http://stayPoi.org/user11#61>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "そごう神戸店" ;
-    <http://stayPoi.org/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-18" ;
-    <http://stayPoi.org/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-18T20:46:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-19T14:30:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#62> .
-<http://stayPoi.org/user11#63>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "ポートターミナル駅" ;
-    <http://stayPoi.org/prop#lat> "34.6814"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.202"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-19" ;
-    <http://stayPoi.org/prop#time> "14"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-19T14:30:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-19T14:46:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#64> .
-<http://stayPoi.org/user11#64>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "ポートアイランド北公園" ;
-    <http://stayPoi.org/prop#lat> "34.6768"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.205"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-19" ;
-    <http://stayPoi.org/prop#time> "14"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-19T14:46:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-19T14:47:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#65> .
-<http://stayPoi.org/user11#65>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "ポートアイランド中公園" ;
-    <http://stayPoi.org/prop#lat> "34.6737"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.208"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-19" ;
-    <http://stayPoi.org/prop#time> "14"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-19T14:47:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-19T14:49:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#66> .
-<http://stayPoi.org/user11#66>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "みなとじま駅" ;
-    <http://stayPoi.org/prop#lat> "34.6691"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.21"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-19" ;
-    <http://stayPoi.org/prop#time> "14"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-19T14:49:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-19T14:54:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#67> .
-<http://stayPoi.org/user11#134>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "神戸国際会議場" ;
-    <http://stayPoi.org/prop#lat> "34.666241"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.21301"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-19" ;
-    <http://stayPoi.org/prop#time> "14"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-19T14:54:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-20T02:05:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#135> .
-<http://stayPoi.org/user11#136>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "三宮ビブレ" ;
-    <http://stayPoi.org/prop#lat> "34.6917"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.194"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-20" ;
-    <http://stayPoi.org/prop#time> "02"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-20T02:05:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-20T02:18:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#137> .
-<http://stayPoi.org/user11#137>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "そごう神戸店" ;
-    <http://stayPoi.org/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-20" ;
-    <http://stayPoi.org/prop#time> "02"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-20T02:18:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-20T02:19:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#138> .
-<http://stayPoi.org/user11#138>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "三宮・花時計前駅" ;
-    <http://stayPoi.org/prop#lat> "34.6916"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.196"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-20" ;
-    <http://stayPoi.org/prop#time> "02"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-20T02:19:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-20T02:23:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#139> .
-<http://stayPoi.org/user11#139>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "三宮ビブレ" ;
-    <http://stayPoi.org/prop#lat> "34.6917"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.194"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-20" ;
-    <http://stayPoi.org/prop#time> "02"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-20T02:23:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-20T02:24:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#140> .
-<http://stayPoi.org/user11#145>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "そごう神戸店" ;
-    <http://stayPoi.org/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-20" ;
-    <http://stayPoi.org/prop#time> "02"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-20T02:24:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-20T02:32:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#146> .
-<http://stayPoi.org/user11#146>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "三宮・花時計前駅" ;
-    <http://stayPoi.org/prop#lat> "34.6916"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.196"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-20" ;
-    <http://stayPoi.org/prop#time> "02"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-20T02:32:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-20T02:33:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#147> .
-<http://stayPoi.org/user11#148>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "そごう神戸店" ;
-    <http://stayPoi.org/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-20" ;
-    <http://stayPoi.org/prop#time> "02"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-20T02:33:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-20T03:09:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#149> .
-<http://stayPoi.org/user11#151>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "ブランジェリー　コム・シノワ" ;
-    <http://stayPoi.org/prop#lat> "34.692913"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.196672"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-20" ;
-    <http://stayPoi.org/prop#time> "03"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-20T03:09:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-20T17:35:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#152> .
-<http://stayPoi.org/user11#155>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "神戸国際会議場" ;
-    <http://stayPoi.org/prop#lat> "34.666241"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.21301"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-20" ;
-    <http://stayPoi.org/prop#time> "17"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-20T17:35:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-20T21:23:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#156> .
-<http://stayPoi.org/user11#157>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "ポートターミナル駅" ;
-    <http://stayPoi.org/prop#lat> "34.6814"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.202"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-20" ;
-    <http://stayPoi.org/prop#time> "21"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-20T21:23:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-20T21:28:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#158> .
-<http://stayPoi.org/user11#160>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "そごう神戸店" ;
-    <http://stayPoi.org/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-20" ;
-    <http://stayPoi.org/prop#time> "21"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-20T21:28:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-20T21:57:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#161> .
-<http://stayPoi.org/user11#161>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "ブランジェリー　コム・シノワ" ;
-    <http://stayPoi.org/prop#lat> "34.692913"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.196672"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-20" ;
-    <http://stayPoi.org/prop#time> "21"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-20T21:57:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-20T22:09:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#162> .
-<http://stayPoi.org/user11#163>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "そごう神戸店" ;
-    <http://stayPoi.org/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-20" ;
-    <http://stayPoi.org/prop#time> "22"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-20T22:09:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T11:09:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#164> .
-<http://stayPoi.org/user11#206>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "神戸国際会議場" ;
-    <http://stayPoi.org/prop#lat> "34.666241"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.21301"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T11:09:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T18:35:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#207> .
-<http://stayPoi.org/user11#207>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "南公園駅" ;
-    <http://stayPoi.org/prop#lat> "34.6646"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.217"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T18:35:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T18:36:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#208> .
-<http://stayPoi.org/user11#211>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "神戸国際会議場" ;
-    <http://stayPoi.org/prop#lat> "34.666241"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.21301"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T18:36:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T18:42:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#212> .
-<http://stayPoi.org/user11#213>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "南公園駅" ;
-    <http://stayPoi.org/prop#lat> "34.6646"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.217"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T18:42:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T18:45:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#214> .
-<http://stayPoi.org/user11#217>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "神戸国際会議場" ;
-    <http://stayPoi.org/prop#lat> "34.666241"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.21301"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T18:45:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T18:50:47Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#218> .
-<http://stayPoi.org/user11#219>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "市民広場駅" ;
-    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T18:50:47Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T18:53:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#220> .
-<http://stayPoi.org/user11#220>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "ポートアイランド中公園" ;
-    <http://stayPoi.org/prop#lat> "34.6737"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.208"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T18:53:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T18:54:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#221> .
-<http://stayPoi.org/user11#221>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "ポートターミナル駅" ;
-    <http://stayPoi.org/prop#lat> "34.6814"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.202"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T18:54:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T18:55:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#222> .
-<http://stayPoi.org/user11#223>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "防災未来館" ;
-    <http://stayPoi.org/prop#lat> "34.6833"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.2"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T18:55:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T18:57:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#224> .
-<http://stayPoi.org/user11#225>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "神戸サンボーホール" ;
-    <http://stayPoi.org/prop#lat> "34.6886"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.199"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T18:57:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T19:00:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#226> .
-<http://stayPoi.org/user11#226>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "三宮・花時計前駅" ;
-    <http://stayPoi.org/prop#lat> "34.6916"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.196"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T19:00:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T19:01:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#227> .
-<http://stayPoi.org/user11#229>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "ブランジェリー　コム・シノワ" ;
-    <http://stayPoi.org/prop#lat> "34.692913"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.196672"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T19:01:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T19:05:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#230> .
-<http://stayPoi.org/user11#230>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "LUCIOLE（ルシオル）" ;
-    <http://stayPoi.org/prop#lat> "34.699146"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.194939"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T19:05:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T19:06:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#231> .
-<http://stayPoi.org/user11#232>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "GREEN HOUSE Silva(グリーンハウスシルバ)" ;
-    <http://stayPoi.org/prop#lat> "34.695944"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.194894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T19:06:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T19:08:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#233> .
-<http://stayPoi.org/user11#234>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "三宮駅" ;
-    <http://stayPoi.org/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.194"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T19:08:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T19:10:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#235> .
-<http://stayPoi.org/user11#236>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "北向地蔵 (神戸市)" ;
-    <http://stayPoi.org/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T19:10:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T20:18:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#237> .
-<http://stayPoi.org/user11#238>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "三宮駅" ;
-    <http://stayPoi.org/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.194"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T20:18:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T20:20:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#239> .
-<http://stayPoi.org/user11#243>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "そごう神戸店" ;
-    <http://stayPoi.org/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T20:20:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T20:27:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#244> .
-<http://stayPoi.org/user11#245>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "三宮ビブレ" ;
-    <http://stayPoi.org/prop#lat> "34.6917"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.194"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T20:27:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T20:29:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#246> .
-<http://stayPoi.org/user11#246>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "花時計 (神戸市)" ;
-    <http://stayPoi.org/prop#lat> "34.6907"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T20:29:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T20:30:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#247> .
-<http://stayPoi.org/user11#250>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "三宮ビブレ" ;
-    <http://stayPoi.org/prop#lat> "34.6917"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.194"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T20:30:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T20:34:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#251> .
-<http://stayPoi.org/user11#252>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "神戸朝日ビル" ;
-    <http://stayPoi.org/prop#lat> "34.6894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.192"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T20:34:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T21:35:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#253> .
-<http://stayPoi.org/user11#253>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "元町駅 (兵庫県)" ;
-    <http://stayPoi.org/prop#lat> "34.6896"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.187"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "21"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T21:35:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T21:38:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#254> .
-<http://stayPoi.org/user11#254>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "神戸朝日ビル" ;
-    <http://stayPoi.org/prop#lat> "34.6894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.192"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "21"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T21:38:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T21:39:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#255> .
-<http://stayPoi.org/user11#262>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "神戸外国人居留地" ;
-    <http://stayPoi.org/prop#lat> "34.6881"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "21"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T21:39:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T23:52:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#263> .
-<http://stayPoi.org/user11#263>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "ブランジェリー　コム・シノワ" ;
-    <http://stayPoi.org/prop#lat> "34.692913"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.196672"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "23"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T23:52:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-21T23:55:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#264> .
-<http://stayPoi.org/user11#266>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "神戸海軍操練所" ;
-    <http://stayPoi.org/prop#lat> "34.6858"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-21" ;
-    <http://stayPoi.org/prop#time> "23"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-21T23:55:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-22T00:01:54Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#267> .
-<http://stayPoi.org/user11#268>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "神戸ポートタワー" ;
-    <http://stayPoi.org/prop#lat> "34.6825"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.187"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-22" ;
-    <http://stayPoi.org/prop#time> "00"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-22T00:01:54Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-22T10:51:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#269> .
-<http://stayPoi.org/user11#272>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "神戸朝日ビル" ;
-    <http://stayPoi.org/prop#lat> "34.6894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.192"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-22" ;
-    <http://stayPoi.org/prop#time> "10"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-22T10:51:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-22T10:57:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#273> .
-<http://stayPoi.org/user11#273>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "神戸海軍操練所" ;
-    <http://stayPoi.org/prop#lat> "34.6858"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-22" ;
-    <http://stayPoi.org/prop#time> "10"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-22T10:57:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-22T10:58:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#274> .
-<http://stayPoi.org/user11#275>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "神戸サンボーホール" ;
-    <http://stayPoi.org/prop#lat> "34.6886"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.199"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-22" ;
-    <http://stayPoi.org/prop#time> "10"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-22T10:58:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-22T11:00:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#276> .
-<http://stayPoi.org/user11#276>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "花時計 (神戸市)" ;
-    <http://stayPoi.org/prop#lat> "34.6907"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-22" ;
-    <http://stayPoi.org/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-22T11:00:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-22T11:01:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#277> .
-<http://stayPoi.org/user11#277>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "三宮・花時計前駅" ;
-    <http://stayPoi.org/prop#lat> "34.6916"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.196"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-22" ;
-    <http://stayPoi.org/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-22T11:01:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-22T11:02:28Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#278> .
-<http://stayPoi.org/user11#280>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "ブランジェリー　コム・シノワ" ;
-    <http://stayPoi.org/prop#lat> "34.692913"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.196672"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-22" ;
-    <http://stayPoi.org/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-22T11:02:28Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-22T11:05:43Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#281> .
-<http://stayPoi.org/user11#281>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "三宮" ;
-    <http://stayPoi.org/prop#lat> "34.6935"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-22" ;
-    <http://stayPoi.org/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-22T11:05:43Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-22T11:06:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#282> .
-<http://stayPoi.org/user11#282>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "GREEN HOUSE Silva(グリーンハウスシルバ)" ;
-    <http://stayPoi.org/prop#lat> "34.695944"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.194894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-22" ;
-    <http://stayPoi.org/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-22T11:06:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-22T11:07:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#283> .
-<http://stayPoi.org/user11#283>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "太陽と虎" ;
-    <http://stayPoi.org/prop#lat> "34.696901"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.197309"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-22" ;
-    <http://stayPoi.org/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-22T11:07:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-22T11:08:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#284> .
-<http://stayPoi.org/user11#284>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "LUCIOLE（ルシオル）" ;
-    <http://stayPoi.org/prop#lat> "34.699146"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.194939"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-22" ;
-    <http://stayPoi.org/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-22T11:08:59Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-22T11:10:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#285> .
-<http://stayPoi.org/user11#285>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "三宮" ;
-    <http://stayPoi.org/prop#lat> "34.6935"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-22" ;
-    <http://stayPoi.org/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-22T11:10:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-22T11:11:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#286> .
-<http://stayPoi.org/user11#287>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "GREEN HOUSE Silva(グリーンハウスシルバ)" ;
-    <http://stayPoi.org/prop#lat> "34.695944"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.194894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-22" ;
-    <http://stayPoi.org/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-22T11:11:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-22T11:13:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#288> .
-<http://stayPoi.org/user11#288>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "LUCIOLE（ルシオル）" ;
-    <http://stayPoi.org/prop#lat> "34.699146"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.194939"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-22" ;
-    <http://stayPoi.org/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-22T11:13:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-22T11:14:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#289> .
-<http://stayPoi.org/user11#290>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "三宮" ;
-    <http://stayPoi.org/prop#lat> "34.6935"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-22" ;
-    <http://stayPoi.org/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-22T11:14:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-22T11:16:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#291> .
-<http://stayPoi.org/user11#292>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "そごう神戸店" ;
-    <http://stayPoi.org/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-22" ;
-    <http://stayPoi.org/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-22T11:16:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-22T11:29:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#293> .
-<http://stayPoi.org/user11#293>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "北向地蔵 (神戸市)" ;
-    <http://stayPoi.org/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-22" ;
-    <http://stayPoi.org/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-22T11:29:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-22T11:30:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#294> .
-<http://stayPoi.org/user11#294>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "そごう神戸店" ;
-    <http://stayPoi.org/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-22" ;
-    <http://stayPoi.org/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-22T11:30:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-22T11:32:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#295> .
-<http://stayPoi.org/user11#298>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "北向地蔵 (神戸市)" ;
-    <http://stayPoi.org/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-22" ;
-    <http://stayPoi.org/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-22T11:32:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-22T12:41:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#299> .
-<http://stayPoi.org/user11#300>
-    <http://stayPoi.org/prop#user> "user11" ;
-    <http://stayPoi.org/prop#poi> "GREEN HOUSE Silva(グリーンハウスシルバ)" ;
-    <http://stayPoi.org/prop#lat> "34.695944"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#lon> "135.194894"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-    <http://stayPoi.org/prop#date> "2016-10-22" ;
-    <http://stayPoi.org/prop#time> "12"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-    <http://stayPoi.org/prop#start> "2016-10-22T12:41:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#end> "2016-10-22T12:43:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#301> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#24>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "神戸国際会議場" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.666241"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.21301"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-17" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-17T11:30:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-17T17:48:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#25> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#26>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "太陽と虎" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.696901"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.197309"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-17" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "17"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-17T17:48:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-17T20:41:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#27> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#28>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "そごう神戸店" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-17" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-17T20:41:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-17T21:05:28Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#29> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#33>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "ブランジェリー　コム・シノワ" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.692913"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.196672"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-17" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "21"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-17T21:05:28Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-18T08:23:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#34> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#39>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "そごう神戸店" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-18" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-18T08:23:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-18T08:38:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#40> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#40>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "みなとじま駅" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6691"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.21"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-18" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-18T08:38:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-18T08:40:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#41> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#56>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "神戸国際会議場" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.666241"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.21301"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-18" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "08"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-18T08:40:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-18T15:54:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#57> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#58>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "市民広場駅" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-18" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "15"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-18T15:54:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-18T20:39:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#59> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#59>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "ブランジェリー　コム・シノワ" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.692913"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.196672"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-18" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-18T20:39:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-18T20:44:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#60> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#60>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "花時計 (神戸市)" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6907"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-18" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-18T20:44:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-18T20:46:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#61> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#61>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "そごう神戸店" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-18" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-18T20:46:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-19T14:30:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#62> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#63>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "ポートターミナル駅" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6814"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.202"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-19" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "14"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-19T14:30:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-19T14:46:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#64> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#64>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "ポートアイランド北公園" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6768"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.205"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-19" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "14"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-19T14:46:41Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-19T14:47:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#65> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#65>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "ポートアイランド中公園" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6737"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.208"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-19" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "14"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-19T14:47:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-19T14:49:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#66> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#66>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "みなとじま駅" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6691"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.21"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-19" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "14"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-19T14:49:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-19T14:54:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#67> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#134>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "神戸国際会議場" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.666241"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.21301"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-19" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "14"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-19T14:54:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-20T02:05:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#135> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#136>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "三宮ビブレ" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6917"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.194"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-20" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "02"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-20T02:05:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-20T02:18:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#137> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#137>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "北向地蔵 (神戸市)" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-20" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "02"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-20T02:18:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-20T02:19:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#138> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#139>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "三宮ビブレ" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6917"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.194"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-20" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "02"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-20T02:19:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-20T02:24:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#140> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#141>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "北向地蔵 (神戸市)" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-20" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "02"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-20T02:24:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-20T02:26:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#142> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#145>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "そごう神戸店" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-20" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "02"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-20T02:26:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-20T02:32:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#146> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#146>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "三宮・花時計前駅" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6916"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.196"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-20" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "02"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-20T02:32:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-20T02:33:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#147> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#148>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "そごう神戸店" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-20" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "02"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-20T02:33:26Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-20T03:09:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#149> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#151>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "ブランジェリー　コム・シノワ" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.692913"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.196672"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-20" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "03"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-20T03:09:19Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-20T17:35:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#152> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#155>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "神戸国際会議場" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.666241"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.21301"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-20" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "17"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-20T17:35:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-20T21:23:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#156> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#157>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "ポートターミナル駅" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6814"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.202"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-20" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "21"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-20T21:23:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-20T21:28:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#158> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#160>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "そごう神戸店" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-20" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "21"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-20T21:28:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-20T21:57:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#161> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#161>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "ブランジェリー　コム・シノワ" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.692913"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.196672"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-20" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "21"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-20T21:57:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-20T22:09:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#162> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#163>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "そごう神戸店" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-20" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "22"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-20T22:09:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T11:09:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#164> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#206>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "神戸国際会議場" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.666241"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.21301"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T11:09:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T18:35:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#207> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#207>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "南公園駅" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6646"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.217"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T18:35:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T18:36:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#208> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#211>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "神戸国際会議場" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.666241"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.21301"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T18:36:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T18:42:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#212> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#213>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "南公園駅" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6646"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.217"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T18:42:32Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T18:45:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#214> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#215>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "神戸国際会議場" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.666241"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.21301"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T18:45:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T18:48:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#216> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#216>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "市民広場駅" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T18:48:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T18:53:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#217> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#217>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "中公園駅" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6732"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.207"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T18:53:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T18:55:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#218> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#219>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "防災未来館" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6833"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T18:55:11Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T18:57:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#220> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#220>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "日本真珠会館" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.687"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T18:57:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T18:59:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#221> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#221>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "神戸サンボーホール" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6886"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.199"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "18"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T18:59:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T19:00:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#222> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#222>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "三宮・花時計前駅" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6916"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.196"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T19:00:33Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T19:01:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#223> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#225>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "ブランジェリー　コム・シノワ" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.692913"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.196672"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T19:01:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T19:05:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#226> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#226>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "太陽と虎" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.696901"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.197309"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T19:05:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T19:06:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#227> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#228>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "GREEN HOUSE Silva(グリーンハウスシルバ)" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.695944"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.194894"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T19:06:03Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T19:08:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#229> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#230>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "三宮駅" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.194"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T19:08:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T19:10:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#231> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#232>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "北向地蔵 (神戸市)" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "19"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T19:10:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T20:18:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#233> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#234>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "三宮駅" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.194"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T20:18:45Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T20:20:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#235> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#236>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "そごう神戸店" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T20:20:51Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T20:22:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#237> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#239>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "北向地蔵 (神戸市)" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T20:22:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T20:27:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#240> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#243>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "チキンジョージ" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6941"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.19"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T20:27:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T20:31:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#244> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#246>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "神戸 プレジール" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.693262"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.19019"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T20:31:38Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T20:34:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#247> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#250>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "元町駅 (兵庫県)" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6896"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.187"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "20"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T20:34:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T21:39:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#251> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#255>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "旧居留地・大丸前駅" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6896"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.191"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "21"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T21:39:18Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T23:49:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#256> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#256>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "元町駅 (兵庫県)" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6896"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.187"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "23"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T23:49:07Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T23:50:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#257> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#257>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "旧居留地・大丸前駅" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6896"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.191"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "23"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T23:50:15Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T23:51:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#258> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#258>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "元町駅 (兵庫県)" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6896"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.187"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "23"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T23:51:20Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T23:52:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#259> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#259>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "ブランジェリー　コム・シノワ" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.692913"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.196672"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "23"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T23:52:44Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T23:55:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#260> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#260>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "神戸マシュマロ浪漫" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.687536"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.18681"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "23"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T23:55:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-21T23:57:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#261> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#261>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "ハオス ダイニングルーム" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.686671"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.188453"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-21" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "23"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-21T23:57:31Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-22T00:01:54Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#262> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#263>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "神戸ポートタワー" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6825"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.187"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-22" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "00"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-22T00:01:54Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-22T10:51:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#264> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#264>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "モンプリュ" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.686261"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.18683"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-22" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "10"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-22T10:51:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-22T10:52:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#265> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#266>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "ハオス ダイニングルーム" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.686671"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.188453"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-22" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "10"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-22T10:52:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-22T10:55:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#267> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#267>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "Est.Est （エストエスト）" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.68603747"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.1854784"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-22" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "10"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-22T10:55:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-22T10:57:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#268> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#268>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "ハオス ダイニングルーム" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.686671"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.188453"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-22" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "10"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-22T10:57:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-22T10:59:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#269> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#269>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "神戸サンボーホール" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6886"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.199"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-22" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "10"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-22T10:59:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-22T11:00:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#270> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#270>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "花時計 (神戸市)" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6907"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-22" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-22T11:00:17Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-22T11:01:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#271> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#271>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "三宮・花時計前駅" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6916"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.196"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-22" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-22T11:01:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-22T11:02:28Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#272> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#274>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "ブランジェリー　コム・シノワ" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.692913"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.196672"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-22" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-22T11:02:28Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-22T11:05:43Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#275> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#275>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "三宮" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6935"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-22" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-22T11:05:43Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-22T11:06:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#276> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#276>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "GREEN HOUSE Silva(グリーンハウスシルバ)" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.695944"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.194894"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-22" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-22T11:06:46Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-22T11:07:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#277> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#278>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "太陽と虎" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.696901"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.197309"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-22" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-22T11:07:52Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-22T11:10:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#279> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#279>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "三宮" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6935"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-22" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-22T11:10:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-22T11:11:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#280> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#281>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "GREEN HOUSE Silva(グリーンハウスシルバ)" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.695944"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.194894"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-22" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-22T11:11:29Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-22T11:13:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#282> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#282>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "太陽と虎" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.696901"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.197309"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-22" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-22T11:13:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-22T11:14:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#283> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#284>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "三宮" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6935"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-22" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-22T11:14:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-22T11:16:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#285> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#286>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "そごう神戸店" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-22" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-22T11:16:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-22T11:29:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#287> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#287>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "北向地蔵 (神戸市)" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-22" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-22T11:29:50Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-22T11:30:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#288> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#288>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "そごう神戸店" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.693"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-22" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-22T11:30:56Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-22T11:32:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#289> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#292>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "北向地蔵 (神戸市)" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6946"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.193"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-22" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-22T11:32:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-22T12:41:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#293> .
+<http://lodosaka.jp/iswc2016gtl-exp/data/user11#294>
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user11" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "GREEN HOUSE Silva(グリーンハウスシルバ)" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.695944"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.194894"^^<http://www.w3.org/2001/XMLSchema#double> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-22" ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "12"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-22T12:41:53Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-22T12:43:58Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://stayPoi.org/datauser11#295> .
