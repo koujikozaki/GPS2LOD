@@ -30,34 +30,34 @@ POI情報は，神戸市のオープンデータ(http://www.city.kobe.lg.jp/info
 #RDFデータのモデル
 ##基本的な考え方
 各ユーザが訪問した（通過した）スポットの「訪問情報」を以下のプロパティで表しています．  
-「訪問情報」には```<http://stayPoi.org/ユーザID#id>```という一意のURIが与えられており，「訪問情報」のつながりを辿ることで，そのユーザの「移動軌跡」が分かります．
+「訪問情報」には```<http://lodosaka.jp/iswc2016gtl-exp/data/ユーザID#id>```という一意のURIが与えられており，「訪問情報」のつながりを辿ることで，そのユーザの「移動軌跡」が分かります．
 
 ##データ作成方法
 CSV形式のデータの各レコードに対し，POI情報の緯度経度と比較し，一定の距離内にあるとき「そのスポットに入った」と判定して，下記のプロパティを持つ「訪問情報」を作成しています．  
 連続するレコードが「同じスポット」と判定された場合は，１つの「訪問情報」としてまとめています．
 
 ##プロパティ
-	<http://stayPoi.org/prop#user>　ユーザID
-    <http://stayPoi.org/prop#poi> 　訪問したスポットの名称
-    <http://stayPoi.org/prop#lat> 　訪問したスポットの緯度
-    <http://stayPoi.org/prop#lon> 　訪問したスポットの経度
-    <http://stayPoi.org/prop#date>　訪問日
-    <http://stayPoi.org/prop#time>　訪問した時間（0-23）
-    <http://stayPoi.org/prop#start>　そのスポットに到達した日時
-    <http://stayPoi.org/prop#end>　　そのスポットから出た日時
-    <http://stayPoi.org/prop#next>　次に訪れたスポットの訪問情報
+	<http://lodosaka.jp/iswc2016gtl-exp/prop#user>　ユーザID
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> 　訪問したスポットの名称
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> 　訪問したスポットの緯度
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> 　訪問したスポットの経度
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#date>　訪問日
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#time>　訪問した時間（0-23）
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#start>　そのスポットに到達した日時
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#end>　　そのスポットから出た日時
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#next>　次に訪れたスポットの訪問情報
 
 ##データ例
-	<http://stayPoi.org/user1#0>
-	    <http://stayPoi.org/prop#user> "user1" ;
-	    <http://stayPoi.org/prop#poi> "市民広場駅" ;
-	    <http://stayPoi.org/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-	    <http://stayPoi.org/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-	    <http://stayPoi.org/prop#date> "2016-10-17" ;
-	    <http://stayPoi.org/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-	    <http://stayPoi.org/prop#start> "2016-10-17T11:18:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	    <http://stayPoi.org/prop#end> "2016-10-17T11:24:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	    <http://stayPoi.org/prop#next> <http://stayPoi.org/test#1> .
+	<http://lodosaka.jp/iswc2016gtl-exp/user1#0>
+	    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user1" ;
+	    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "市民広場駅" ;
+	    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+	    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
+	    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-17" ;
+	    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
+	    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-17T11:18:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-17T11:24:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://lodosaka.jp/iswc2016gtl-exp/test#1> .
 
 #データの可視化サンプル
 ##参加者が訪問したスポットの可視化[参加者毎の訪問日数]
@@ -70,41 +70,41 @@ CSV形式のデータの各レコードに対し，POI情報の緯度経度と�
 #サンプルクエリ
 ##user1の移動軌跡を時間順に取得する
     select distinct * where {
-      ?s <http://stayPoi.org/prop#user> "user1";
-      <http://stayPoi.org/prop#poi> ?label;
-      <http://stayPoi.org/prop#date> ?d;
-      <http://stayPoi.org/prop#start> ?st;
-      <http://stayPoi.org/prop#end> ?ed;
-      <http://stayPoi.org/prop#next> ?g;
-      <http://stayPoi.org/prop#lat> ?lat;
-      <http://stayPoi.org/prop#lon> ?long.
+      ?s <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user1";
+      <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> ?label;
+      <http://lodosaka.jp/iswc2016gtl-exp/prop#date> ?d;
+      <http://lodosaka.jp/iswc2016gtl-exp/prop#start> ?st;
+      <http://lodosaka.jp/iswc2016gtl-exp/prop#end> ?ed;
+      <http://lodosaka.jp/iswc2016gtl-exp/prop#next> ?g;
+      <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> ?lat;
+      <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> ?long.
     }ORDER BY ?st
-<a href="http://lod.hozo.jp/repositories/GPS2LOD2#query/d/%20%20%20%20select%20distinct%20*%20where%20%7B%0A%20%20%20%20%20%20?s%20%3Chttp://stayPoi.org/prop%23user%3E%20%22user1%22;%0A%20%20%20%20%20%20%3Chttp://stayPoi.org/prop#poi%3E%20?label;%0A%20%20%20%20%20%20%3Chttp://stayPoi.org/prop#date%3E%20?d;%0A%20%20%20%20%20%20%3Chttp://stayPoi.org/prop#start%3E%20?st;%0A%20%20%20%20%20%20%3Chttp://stayPoi.org/prop#end%3E%20?ed;%0A%20%20%20%20%20%20%3Chttp://stayPoi.org/prop#next%3E%20?g;%0A%20%20%20%20%20%20%3Chttp://stayPoi.org/prop#lat%3E%20?lat;%0A%20%20%20%20%20%20%3Chttp://stayPoi.org/prop#lon%3E%20?long.%0A%20%20%20%20%7DORDER%20BY%20?st" target="_blank">[クエリを実行]</a>
+<a href="http://lod.hozo.jp/repositories/GPS2LOD2#query/d/%20%20%20%20select%20distinct%20*%20where%20%7B%0A%20%20%20%20%20%20?s%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop%23user%3E%20%22user1%22;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#poi%3E%20?label;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#date%3E%20?d;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#start%3E%20?st;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#end%3E%20?ed;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#next%3E%20?g;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#lat%3E%20?lat;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#lon%3E%20?long.%0A%20%20%20%20%7DORDER%20BY%20?st" target="_blank">[クエリを実行]</a>
 
 ##期間中に1回以上訪問したユーザの人数でスポットをランキングする
     select  distinct ?label ?lat ?long (count(distinct ?u)AS ?c) where {
-      ?s <http://stayPoi.org/prop#user> ?u;
-      <http://stayPoi.org/prop#poi> ?label;
-      <http://stayPoi.org/prop#lat> ?lat;
-      <http://stayPoi.org/prop#lon> ?long.
+      ?s <http://lodosaka.jp/iswc2016gtl-exp/prop#user> ?u;
+      <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> ?label;
+      <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> ?lat;
+      <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> ?long.
     }GROUP BY ?label ?lat ?long
     ORDER BY DESC (?c)
-<a href="http://lod.hozo.jp/repositories/GPS2LOD2#query/d/%20%20%20%20select%20%20distinct%20?label%20?lat%20?long%20(count(distinct%20?u)AS%20?c)%20where%20%7B%0A%20%20%20%20%20%20?s%20%3Chttp://stayPoi.org/prop%23user%3E%20?u;%0A%20%20%20%20%20%20%3Chttp://stayPoi.org/prop#poi%3E%20?label;%0A%20%20%20%20%20%20%3Chttp://stayPoi.org/prop#lat%3E%20?lat;%0A%20%20%20%20%20%20%3Chttp://stayPoi.org/prop#lon%3E%20?long.%0A%20%20%20%20%7DGROUP%20BY%20?label%20?lat%20?long%0A%20%20%20%20ORDER%20BY%20DESC%20(?c)" target="_blank">[クエリを実行]</a>
+<a href="http://lod.hozo.jp/repositories/GPS2LOD2#query/d/%20%20%20%20select%20%20distinct%20?label%20?lat%20?long%20(count(distinct%20?u)AS%20?c)%20where%20%7B%0A%20%20%20%20%20%20?s%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop%23user%3E%20?u;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#poi%3E%20?label;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#lat%3E%20?lat;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#lon%3E%20?long.%0A%20%20%20%20%7DGROUP%20BY%20?label%20?lat%20?long%0A%20%20%20%20ORDER%20BY%20DESC%20(?c)" target="_blank">[クエリを実行]</a>
 
 ##期間中に「元町駅 (兵庫県)」を1回以上訪問したユーザを取得する
     select  distinct ?u where {
-      ?s <http://stayPoi.org/prop#user> ?u;
-      <http://stayPoi.org/prop#poi> "元町駅 (兵庫県)".
+      ?s <http://lodosaka.jp/iswc2016gtl-exp/prop#user> ?u;
+      <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "元町駅 (兵庫県)".
     }
-<a href="http://lod.hozo.jp/repositories/GPS2LOD2#query/d/%20%20%20%20select%20%20distinct%20?u%20where%20%7B%0A%20%20%20%20%20%20?s%20%3Chttp://stayPoi.org/prop%23user%3E%20?u;%0A%20%20%20%20%20%20%3Chttp://stayPoi.org/prop#poi%3E%20%22%E5%85%83%E7%94%BA%E9%A7%85%20(%E5%85%B5%E5%BA%AB%E7%9C%8C)%22.%0A%20%20%20%20%7D%0A" target="_blank">[クエリを実行]</a>
+<a href="http://lod.hozo.jp/repositories/GPS2LOD2#query/d/%20%20%20%20select%20%20distinct%20?u%20where%20%7B%0A%20%20%20%20%20%20?s%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop%23user%3E%20?u;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#poi%3E%20%22%E5%85%83%E7%94%BA%E9%A7%85%20(%E5%85%B5%E5%BA%AB%E7%9C%8C)%22.%0A%20%20%20%20%7D%0A" target="_blank">[クエリを実行]</a>
 
 
 
 ##期間中に「元町駅 (兵庫県)」と「メリケンパーク」の両方を1回以上訪問したユーザを取得する
     select  distinct ?u where {
-      ?s <http://stayPoi.org/prop#user> ?u;
-         <http://stayPoi.org/prop#poi> "元町駅 (兵庫県)".
-      ?s2 <http://stayPoi.org/prop#user> ?u;
-      	  <http://stayPoi.org/prop#poi> "メリケンパーク".
+      ?s <http://lodosaka.jp/iswc2016gtl-exp/prop#user> ?u;
+         <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "元町駅 (兵庫県)".
+      ?s2 <http://lodosaka.jp/iswc2016gtl-exp/prop#user> ?u;
+      	  <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "メリケンパーク".
     }
-<a href="http://lod.hozo.jp/repositories/GPS2LOD2#query/d/%20%20%20%20select%20%20distinct%20?u%20where%20%7B%0A%20%20%20%20%20%20?s%20%3Chttp://stayPoi.org/prop%23user%3E%20?u;%0A%20%20%20%20%20%20%20%20%20%3Chttp://stayPoi.org/prop#poi%3E%20%22%E5%85%83%E7%94%BA%E9%A7%85%20(%E5%85%B5%E5%BA%AB%E7%9C%8C)%22.%0A%20%20%20%20%20%20?s2%20%3Chttp://stayPoi.org/prop#user%3E%20?u;%0A%20%20%20%20%20%20%09%20%20%3Chttp://stayPoi.org/prop#poi%3E%20%22%E3%83%A1%E3%83%AA%E3%82%B1%E3%83%B3%E3%83%91%E3%83%BC%E3%82%AF%22.%0A%20%20%20%20%7D%0A" target="_blank">[クエリを実行]</a>
+<a href="http://lod.hozo.jp/repositories/GPS2LOD2#query/d/%20%20%20%20select%20%20distinct%20?u%20where%20%7B%0A%20%20%20%20%20%20?s%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop%23user%3E%20?u;%0A%20%20%20%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#poi%3E%20%22%E5%85%83%E7%94%BA%E9%A7%85%20(%E5%85%B5%E5%BA%AB%E7%9C%8C)%22.%0A%20%20%20%20%20%20?s2%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#user%3E%20?u;%0A%20%20%20%20%20%20%09%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#poi%3E%20%22%E3%83%A1%E3%83%AA%E3%82%B1%E3%83%B3%E3%83%91%E3%83%BC%E3%82%AF%22.%0A%20%20%20%20%7D%0A" target="_blank">[クエリを実行]</a>
