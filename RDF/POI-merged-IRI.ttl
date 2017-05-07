@@ -1,0 +1,5420 @@
+@prefix gtl:   <http://lodosaka.jp/iswc2016gtl-exp/data/>.
+@prefix gtl-class:   <http://lodosaka.jp/iswc2016gtl-exp/class#>.
+@prefix gtl-prop:   <http://lodosaka.jp/iswc2016gtl-exp/prop#>.
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix cc:   <http://creativecommons.org/ns#> .
+<> cc:attributionName "古崎晃司"@ja ;
+   cc:license <http://creativecommons.org/publicdomain/zero/1.0/deed.ja> .
+
+gtl:poi-0
+    rdf:type gtl-class:POI;
+    rdfs:label "香りの家オランダ館(旧ヴォルヒン邸、伝統的建造物)" ;
+    geo:lat "34.702201"^^xsd:float ;
+    geo:lon "135.190651"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-1
+    rdf:type gtl-class:POI;
+    rdfs:label "デンマーク館(旧ヨハン・フラウベルト邸)" ;
+    geo:lat "34.702354"^^xsd:float ;
+    geo:lon "135.190549"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-2
+    rdf:type gtl-class:POI;
+    rdfs:label "ウィーン・オーストリアの家(旧W.クンツェ邸)" ;
+    geo:lat "34.702409"^^xsd:float ;
+    geo:lon "135.190794"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-3
+    rdf:type gtl-class:POI;
+    rdfs:label "竹中大工道具館" ;
+    geo:lat "34.706863"^^xsd:float ;
+    geo:lon "135.197532"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q24882700> ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/竹中大工道具館> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q24882700> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-4
+    rdf:type gtl-class:POI;
+    rdfs:label "風見鶏の館" ;
+    geo:lat "34.701396"^^xsd:float ;
+    geo:lon "135.189475"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11282566> ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/北野町山本通> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q10855753> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11282566> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-5
+    rdf:type gtl-class:POI;
+    rdfs:label "ラインの館 ※工事のため休館中" ;
+    geo:lat "34.701126"^^xsd:float ;
+    geo:lon "135.191206"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11510891> ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/旧ドレウェル邸> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11510891> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-6
+    rdf:type gtl-class:POI;
+    rdfs:label "うろこの家・うろこ美術館" ;
+    geo:lat "34.702959"^^xsd:float ;
+    geo:lon "135.190666"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11263124> ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/うろこの家・うろこ美術館> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11468702> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11263124> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-7
+    rdf:type gtl-class:POI;
+    rdfs:label "異人館 パラスティン邸" ;
+    geo:lat "34.700932"^^xsd:float ;
+    geo:lon "135.190592"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-8
+    rdf:type gtl-class:POI;
+    rdfs:label "萌黄の館" ;
+    geo:lat "34.700979"^^xsd:float ;
+    geo:lon "135.189256"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q515026> ;
+    gtl-prop:source "ロケ地" ;
+    gtl-prop:source "ロケ地" ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/旧シャープ住宅> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q515026> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-9
+    rdf:type gtl-class:POI;
+    rdfs:label "山手八番館" ;
+    geo:lat "34.702787"^^xsd:float ;
+    geo:lon "135.190621"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-10
+    rdf:type gtl-class:POI;
+    rdfs:label "北野外国人倶楽部" ;
+    geo:lat "34.703134"^^xsd:float ;
+    geo:lon "135.191493"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-11
+    rdf:type gtl-class:POI;
+    rdfs:label "坂の上の異人館(旧中国領事館)" ;
+    geo:lat "34.703165"^^xsd:float ;
+    geo:lon "135.191593"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-12
+    rdf:type gtl-class:POI;
+    rdfs:label "ベンの家" ;
+    geo:lat "34.700929"^^xsd:float ;
+    geo:lon "135.191534"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11337211> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11337211> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-13
+    rdf:type gtl-class:POI;
+    rdfs:label "洋館長屋(仏蘭西館)" ;
+    geo:lat "34.700862"^^xsd:float ;
+    geo:lon "135.191391"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11555770> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11555770> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-14
+    rdf:type gtl-class:POI;
+    rdfs:label "英国館" ;
+    geo:lat "34.700782"^^xsd:float ;
+    geo:lon "135.191203"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-15
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸トリックアート不思議な領事館" ;
+    geo:lat "34.700915"^^xsd:float ;
+    geo:lon "135.190861"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11510893> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11510893> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-16
+    rdf:type gtl-class:POI;
+    rdfs:label "イタリア館(プラトン装飾美術館)" ;
+    geo:lat "34.702431"^^xsd:float ;
+    geo:lon "135.192079"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11286729> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11286729> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-17
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸北野美術館" ;
+    geo:lat "34.701254"^^xsd:float ;
+    geo:lon "135.191516"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589817> ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/神戸北野美術館> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589817> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-18
+    rdf:type gtl-class:POI;
+    rdfs:label "北野工房のまち" ;
+    geo:lat "34.695563"^^xsd:float ;
+    geo:lon "135.18722"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-19
+    rdf:type gtl-class:POI;
+    rdfs:label "SPACE11 DARVISH MUSEUM" ;
+    geo:lat "34.698886"^^xsd:float ;
+    geo:lon "135.191201"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-20
+    rdf:type gtl-class:POI;
+    rdfs:label "花と緑のまち推進センター" ;
+    geo:lat "34.69461"^^xsd:float ;
+    geo:lon "135.179416"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-21
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸ドールミュージアム" ;
+    geo:lat "34.689377"^^xsd:float ;
+    geo:lon "135.190595"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/旧居留地・大丸前駅> ;
+    gtl-prop:source "ロケ地" ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/旧居留地・大丸前駅> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-22
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市役所1号館24階展望ロビー" ;
+    geo:lat "34.689486"^^xsd:float ;
+    geo:lon "135.195739"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3198121> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3198121> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-23
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市危機管理センター防災展示室" ;
+    geo:lat "34.689764"^^xsd:float ;
+    geo:lon "135.194547"^^xsd:float ;
+    gtl-prop:source "ロケ地" ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-24
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立相楽園" ;
+    geo:lat "34.692394"^^xsd:float ;
+    geo:lon "135.182691"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-25
+    rdf:type gtl-class:POI;
+    rdfs:label "KOBEとんぼ玉ミュージアム" ;
+    geo:lat "34.688577"^^xsd:float ;
+    geo:lon "135.193739"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589727> ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/神戸らんぷミュージアム> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11228060> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589727> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-26
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立博物館" ;
+    geo:lat "34.687271"^^xsd:float ;
+    geo:lon "135.192884"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3330666> ;
+    gtl-prop:source "ロケ地" ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3330666> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-27
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県公館" ;
+    geo:lat "34.690965"^^xsd:float ;
+    geo:lon "135.184591"^^xsd:float ;
+    gtl-prop:source "ロケ地" ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-28
+    rdf:type gtl-class:POI;
+    rdfs:label "南京町" ;
+    geo:lat "34.688019"^^xsd:float ;
+    geo:lon "135.188048"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q912392> ;
+    gtl-prop:source "ロケ地" ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q912392> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-29
+    rdf:type gtl-class:POI;
+    rdfs:label "巨大アートギャラリー＆アトリエ　神戸波止場町 TEN×TEN" ;
+    geo:lat "34.684039"^^xsd:float ;
+    geo:lon "135.184285"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-30
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸海洋博物館・カワサキワールド" ;
+    geo:lat "34.682914"^^xsd:float ;
+    geo:lon "135.188285"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5364119> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5364119> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-31
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸華僑歴史博物館" ;
+    geo:lat "34.685954"^^xsd:float ;
+    geo:lon "135.187173"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11558880> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11558880> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-32
+    rdf:type gtl-class:POI;
+    rdfs:label "ルミナス神戸2" ;
+    geo:lat "34.680326"^^xsd:float ;
+    geo:lon "135.188386"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5363534> ;
+    gtl-prop:source "ロケ地" ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5363534> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-33
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸シーバス　ファンタジー号" ;
+    geo:lat "34.682241"^^xsd:float ;
+    geo:lon "135.184712"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-34
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸　船の旅　コンチェルト" ;
+    geo:lat "34.680028"^^xsd:float ;
+    geo:lon "135.184504"^^xsd:float ;
+    gtl-prop:source "ロケ地" ;
+    gtl-prop:source "ロケ地" ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-35
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸ベイクルーズ（ﾛｲﾔﾙﾌﾟﾘﾝｾｽ・ｵｰｼｬﾝﾌﾟﾘﾝｽ）" ;
+    geo:lat "34.682347"^^xsd:float ;
+    geo:lon "135.185179"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-36
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸アンパンマンこどもミュージアム&モール" ;
+    geo:lat "34.678522"^^xsd:float ;
+    geo:lon "135.184857"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589733> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11344287> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589733> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-37
+    rdf:type gtl-class:POI;
+    rdfs:label "中突堤中央ターミナル（かもめりあ）" ;
+    geo:lat "34.682512"^^xsd:float ;
+    geo:lon "135.185013"^^xsd:float ;
+    gtl-prop:source "ロケ地" ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-38
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立ポートアイランドスポーツセンター" ;
+    geo:lat "34.663116"^^xsd:float ;
+    geo:lon "135.210713"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-39
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸空港ターミナル" ;
+    geo:lat "34.636888"^^xsd:float ;
+    geo:lon "135.228763"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q17219235> ;
+    gtl-prop:source "夜景スポット" ;
+    gtl-prop:source "ロケ地" ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/神戸空港駅> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q17219235> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-40
+    rdf:type gtl-class:POI;
+    rdfs:label "UCCコーヒー博物館" ;
+    geo:lat "34.665264"^^xsd:float ;
+    geo:lon "135.216871"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11251779> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11251779> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-41
+    rdf:type gtl-class:POI;
+    rdfs:label "バンドー神戸青少年科学館" ;
+    geo:lat "34.666026"^^xsd:float ;
+    geo:lon "135.218393"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590107> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590107> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-42
+    rdf:type gtl-class:POI;
+    rdfs:label "ワールド記念ホール" ;
+    geo:lat "34.664066"^^xsd:float ;
+    geo:lon "135.210121"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q8035957> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q8035957> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-43
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸国際会議場" ;
+    geo:lat "34.666234"^^xsd:float ;
+    geo:lon "135.21301"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589835> ;
+    gtl-prop:source "ロケ地" ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589835> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-44
+    rdf:type gtl-class:POI;
+    rdfs:label "アシックススポーツミュージアム" ;
+    geo:lat "34.668785"^^xsd:float ;
+    geo:lon "135.215631"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-45
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸国際展示場" ;
+    geo:lat "34.663719"^^xsd:float ;
+    geo:lon "135.212499"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-46
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立小磯記念美術館" ;
+    geo:lat "34.692814"^^xsd:float ;
+    geo:lon "135.267214"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589991> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589991> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-47
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸ゆかりの美術館" ;
+    geo:lat "34.688539"^^xsd:float ;
+    geo:lon "135.270826"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589762> ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/神戸ファッションプラザ> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589760> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589726> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589762> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-48
+    rdf:type gtl-class:POI;
+    rdfs:label "シルクロード　絨毯ギャラリー" ;
+    geo:lat "34.689228"^^xsd:float ;
+    geo:lon "135.268283"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589761> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589761> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-49
+    rdf:type gtl-class:POI;
+    rdfs:label "灘浜サイエンススクエア" ;
+    geo:lat "34.702115"^^xsd:float ;
+    geo:lon "135.236581"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-50
+    rdf:type gtl-class:POI;
+    rdfs:label "阪神・淡路大震災記念 人と防災未来センター" ;
+    geo:lat "34.69841"^^xsd:float ;
+    geo:lon "135.215316"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q15192671> ;
+    gtl-prop:source "ロケ地" ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q15192671> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-51
+    rdf:type gtl-class:POI;
+    rdfs:label "世良美術館" ;
+    geo:lat "34.723147"^^xsd:float ;
+    geo:lon "135.252308"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-52
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県立美術館" ;
+    geo:lat "34.699249"^^xsd:float ;
+    geo:lon "135.217853"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3329607> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3329607> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-53
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立王子動物園" ;
+    geo:lat "34.709488"^^xsd:float ;
+    geo:lon "135.215289"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-54
+    rdf:type gtl-class:POI;
+    rdfs:label "櫻正宗記念館　櫻宴" ;
+    geo:lat "34.710184"^^xsd:float ;
+    geo:lon "135.27146"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11544833> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11544833> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-55
+    rdf:type gtl-class:POI;
+    rdfs:label "浜福鶴吟醸工房" ;
+    geo:lat "34.709837"^^xsd:float ;
+    geo:lon "135.272863"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/浜福鶴吟醸工房> ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/浜福鶴吟醸工房> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-56
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸文学館" ;
+    geo:lat "34.709103"^^xsd:float ;
+    geo:lon "135.21322"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11572985> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3330671> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11572985> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-57
+    rdf:type gtl-class:POI;
+    rdfs:label "菊正宗酒造記念館" ;
+    geo:lat "34.708612"^^xsd:float ;
+    geo:lon "135.267888"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11619678> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11619678> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-58
+    rdf:type gtl-class:POI;
+    rdfs:label "香雪美術館" ;
+    geo:lat "34.723585"^^xsd:float ;
+    geo:lon "135.255889"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-59
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県立美術館王子分館（原田の森ギャラリー）" ;
+    geo:lat "34.708598"^^xsd:float ;
+    geo:lon "135.214073"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-60
+    rdf:type gtl-class:POI;
+    rdfs:label "横尾忠則現代美術館" ;
+    geo:lat "34.708541"^^xsd:float ;
+    geo:lon "135.2134"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11542451> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11542451> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-61
+    rdf:type gtl-class:POI;
+    rdfs:label "HATなぎさの湯" ;
+    geo:lat "34.689466"^^xsd:float ;
+    geo:lon "135.195729"^^xsd:float ;
+    gtl-prop:source "夜景スポット" ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-62
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市埋蔵文化財センター" ;
+    geo:lat "34.714909"^^xsd:float ;
+    geo:lon "135.017872"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-63
+    rdf:type gtl-class:POI;
+    rdfs:label "こうべ環境未来館" ;
+    geo:lat "34.741598"^^xsd:float ;
+    geo:lon "135.088543"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-64
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸ワイナリー(農業公園)" ;
+    geo:lat "34.733184"^^xsd:float ;
+    geo:lon "135.037754"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-65
+    rdf:type gtl-class:POI;
+    rdfs:label "太山寺" ;
+    geo:lat "34.696579"^^xsd:float ;
+    geo:lon "135.067474"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-66
+    rdf:type gtl-class:POI;
+    rdfs:label "大山寺温泉　なでしこの湯" ;
+    geo:lat "34.695716"^^xsd:float ;
+    geo:lon "135.063697"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-67
+    rdf:type gtl-class:POI;
+    rdfs:label "マリンピア神戸 さかなの学校" ;
+    geo:lat "34.624845"^^xsd:float ;
+    geo:lon "135.048189"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-68
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立平磯海づり公園" ;
+    geo:lat "34.626691"^^xsd:float ;
+    geo:lon "135.064071"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-69
+    rdf:type gtl-class:POI;
+    rdfs:label "五色塚古墳" ;
+    geo:lat "34.629532"^^xsd:float ;
+    geo:lon "135.045828"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-70
+    rdf:type gtl-class:POI;
+    rdfs:label "絵葉書資料館" ;
+    geo:lat "34.634998"^^xsd:float ;
+    geo:lon "135.041934"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-71
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立須磨離宮公園" ;
+    geo:lat "34.653879"^^xsd:float ;
+    geo:lon "135.116307"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-72
+    rdf:type gtl-class:POI;
+    rdfs:label "須磨寺" ;
+    geo:lat "34.649247"^^xsd:float ;
+    geo:lon "135.111756"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-73
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立須磨海づり公園" ;
+    geo:lat "34.634194"^^xsd:float ;
+    geo:lon "135.104508"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-74
+    rdf:type gtl-class:POI;
+    rdfs:label "六甲山カンツリーハウス" ;
+    geo:lat "34.765075"^^xsd:float ;
+    geo:lon "135.24291"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-75
+    rdf:type gtl-class:POI;
+    rdfs:label "六甲山フィールド・アスレチック" ;
+    geo:lat "34.767329"^^xsd:float ;
+    geo:lon "135.246692"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-76
+    rdf:type gtl-class:POI;
+    rdfs:label "六甲高山植物園" ;
+    geo:lat "34.761865"^^xsd:float ;
+    geo:lon "135.240472"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-77
+    rdf:type gtl-class:POI;
+    rdfs:label "六甲ケーブル" ;
+    geo:lat "34.737356"^^xsd:float ;
+    geo:lon "135.233567"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392444> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392444> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-78
+    rdf:type gtl-class:POI;
+    rdfs:label "六甲オルゴールミュージアム" ;
+    geo:lat "34.761642"^^xsd:float ;
+    geo:lon "135.238351"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-79
+    rdf:type gtl-class:POI;
+    rdfs:label "摩耶山天上寺" ;
+    geo:lat "34.739025"^^xsd:float ;
+    geo:lon "135.204712"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3518099> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3518099> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-80
+    rdf:type gtl-class:POI;
+    rdfs:label "六甲ガーデンテラス" ;
+    geo:lat "34.764056"^^xsd:float ;
+    geo:lon "135.246726"^^xsd:float ;
+    gtl-prop:source "夜景スポット" ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-81
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立森林植物園" ;
+    geo:lat "34.74081"^^xsd:float ;
+    geo:lon "135.178112"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6424318> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6424318> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-82
+    rdf:type gtl-class:POI;
+    rdfs:label "自然体感展望台 六甲枝垂れ" ;
+    geo:lat "34.764737"^^xsd:float ;
+    geo:lon "135.247263"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-83
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸スカイアドベンチャーすずらん" ;
+    geo:lat "34.735195"^^xsd:float ;
+    geo:lon "135.162434"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-84
+    rdf:type gtl-class:POI;
+    rdfs:label "六甲山スノーパーク" ;
+    geo:lat "34.766999"^^xsd:float ;
+    geo:lon "135.24192"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-85
+    rdf:type gtl-class:POI;
+    rdfs:label "天覧台" ;
+    geo:lat "34.752018"^^xsd:float ;
+    geo:lon "135.237173"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392462> ;
+    gtl-prop:source "夜景スポット" ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7360052> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392462> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-86
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸映画資料館" ;
+    geo:lat "34.654365"^^xsd:float ;
+    geo:lon "135.146227"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590151> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590151> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-87
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市水の科学博物館" ;
+    geo:lat "34.693348"^^xsd:float ;
+    geo:lon "135.175132"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-88
+    rdf:type gtl-class:POI;
+    rdfs:label "蛭子神社" ;
+    geo:lat "34.669476"^^xsd:float ;
+    geo:lon "135.168155"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-89
+    rdf:type gtl-class:POI;
+    rdfs:label "長田神社" ;
+    geo:lat "34.671315"^^xsd:float ;
+    geo:lon "135.146643"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q661395> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q661395> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-90
+    rdf:type gtl-class:POI;
+    rdfs:label "ノエビアスタジアム神戸" ;
+    geo:lat "34.656671"^^xsd:float ;
+    geo:lon "135.169661"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-91
+    rdf:type gtl-class:POI;
+    rdfs:label "シューズプラザ" ;
+    geo:lat "34.659204"^^xsd:float ;
+    geo:lon "135.144593"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11283290> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11283290> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-92
+    rdf:type gtl-class:POI;
+    rdfs:label "孫文記念館(移情閣)" ;
+    geo:lat "34.630962"^^xsd:float ;
+    geo:lon "135.034204"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-93
+    rdf:type gtl-class:POI;
+    rdfs:label "橋の科学館" ;
+    geo:lat "34.631623"^^xsd:float ;
+    geo:lon "135.032673"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-94
+    rdf:type gtl-class:POI;
+    rdfs:label "舞子海上プロムナード" ;
+    geo:lat "34.630752"^^xsd:float ;
+    geo:lon "135.032979"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-95
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸フルーツ・フラワーパーク" ;
+    geo:lat "34.845773"^^xsd:float ;
+    geo:lon "135.191766"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-96
+    rdf:type gtl-class:POI;
+    rdfs:label "キリンビール神戸工場" ;
+    geo:lat "34.878487"^^xsd:float ;
+    geo:lon "135.17855"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-97
+    rdf:type gtl-class:POI;
+    rdfs:label "有馬玩具博物館" ;
+    geo:lat "34.797043"^^xsd:float ;
+    geo:lon "135.247874"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-98
+    rdf:type gtl-class:POI;
+    rdfs:label "切手文化博物館" ;
+    geo:lat "34.798766"^^xsd:float ;
+    geo:lon "135.250943"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11516762> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11516762> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-99
+    rdf:type gtl-class:POI;
+    rdfs:label "有馬本温泉　金の湯" ;
+    geo:lat "34.796785"^^xsd:float ;
+    geo:lon "135.247864"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11646262> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11646262> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-100
+    rdf:type gtl-class:POI;
+    rdfs:label "有馬温泉 太閤の湯" ;
+    geo:lat "34.797891"^^xsd:float ;
+    geo:lon "135.251318"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-101
+    rdf:type gtl-class:POI;
+    rdfs:label "有馬ます池" ;
+    geo:lat "34.790972"^^xsd:float ;
+    geo:lon "135.244591"^^xsd:float ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-102
+    rdf:type gtl-class:POI;
+    rdfs:label "御祖師庵" ;
+    geo:lat "34.795808"^^xsd:float ;
+    geo:lon "135.248186"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589987> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589987> ;
+    gtl-prop:source "観光施設情報" .
+gtl:poi-103
+    rdf:type gtl-class:POI;
+    rdfs:label "高浜岸壁" ;
+    geo:lat "34.679142"^^xsd:float ;
+    geo:lon "135.185357"^^xsd:float ;
+    gtl-prop:source "夜景スポット" .
+gtl:poi-104
+    rdf:type gtl-class:POI;
+    rdfs:label "中突堤西側" ;
+    geo:lat "34.680531"^^xsd:float ;
+    geo:lon "135.187501"^^xsd:float ;
+    gtl-prop:source "夜景スポット" .
+gtl:poi-105
+    rdf:type gtl-class:POI;
+    rdfs:label "元町商店街" ;
+    geo:lat "34.686675"^^xsd:float ;
+    geo:lon "135.183614"^^xsd:float ;
+    gtl-prop:source "夜景スポット" .
+gtl:poi-106
+    rdf:type gtl-class:POI;
+    rdfs:label "西安門前" ;
+    geo:lat "34.687737"^^xsd:float ;
+    geo:lon "135.186715"^^xsd:float ;
+    gtl-prop:source "夜景スポット" .
+gtl:poi-107
+    rdf:type gtl-class:POI;
+    rdfs:label "乙仲通" ;
+    geo:lat "34.686506"^^xsd:float ;
+    geo:lon "135.187057"^^xsd:float ;
+    gtl-prop:source "夜景スポット" .
+gtl:poi-108
+    rdf:type gtl-class:POI;
+    rdfs:label "明石町筋" ;
+    geo:lat "34.688225"^^xsd:float ;
+    geo:lon "135.19102"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11511037> ;
+    gtl-prop:source "ロケ地" ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11511037> ;
+    gtl-prop:source "夜景スポット" .
+gtl:poi-109
+    rdf:type gtl-class:POI;
+    rdfs:label "三宮センターサウス" ;
+    geo:lat "34.690554"^^xsd:float ;
+    geo:lon "135.191563"^^xsd:float ;
+    gtl-prop:source "夜景スポット" .
+gtl:poi-110
+    rdf:type gtl-class:POI;
+    rdfs:label "北野坂" ;
+    geo:lat "34.70041"^^xsd:float ;
+    geo:lon "135.190184"^^xsd:float ;
+    gtl-prop:source "夜景スポット" .
+gtl:poi-111
+    rdf:type gtl-class:POI;
+    rdfs:label "ポーアイしおさい公園" ;
+    geo:lat "34.672483"^^xsd:float ;
+    geo:lon "135.201711"^^xsd:float ;
+    gtl-prop:source "夜景スポット" .
+gtl:poi-112
+    rdf:type gtl-class:POI;
+    rdfs:label "ビーナスブリッジ" ;
+    geo:lat "34.697176"^^xsd:float ;
+    geo:lon "135.180686"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11352108> ;
+    gtl-prop:source "ロケ地" ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/ヴィーナスブリッジ> ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/愛の鍵モニュメント> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11493361> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11352108> ;
+    gtl-prop:source "夜景スポット" .
+gtl:poi-113
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸布引ハーブ園 / ロープウェイ" ;
+    geo:lat "34.714377"^^xsd:float ;
+    geo:lon "135.191913"^^xsd:float ;
+    gtl-prop:source "夜景スポット" .
+gtl:poi-114
+    rdf:type gtl-class:POI;
+    rdfs:label "まやビューライン　掬星台" ;
+    geo:lat "34.734234"^^xsd:float ;
+    geo:lon "135.206355"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6406436> ;
+    gtl-prop:source "ロケ地" ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6406436> ;
+    gtl-prop:source "夜景スポット" .
+gtl:poi-115
+    rdf:type gtl-class:POI;
+    rdfs:label "鉢巻天覧台" ;
+    geo:lat "34.748753"^^xsd:float ;
+    geo:lon "135.225077"^^xsd:float ;
+    gtl-prop:source "夜景スポット" .
+gtl:poi-116
+    rdf:type gtl-class:POI;
+    rdfs:label "旧居留地" ;
+    geo:lat "34.688716"^^xsd:float ;
+    geo:lon "135.190447"^^xsd:float ;
+    gtl-prop:source "ロケ地" ;
+    gtl-prop:source "夜景スポット" .
+gtl:poi-117
+    rdf:type gtl-class:POI;
+    rdfs:label "明石海峡大橋（パールブリッジ）" ;
+    geo:lat "34.631301"^^xsd:float ;
+    geo:lon "135.035766"^^xsd:float ;
+    gtl-prop:source "夜景スポット" .
+gtl:poi-118
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸ハーバーランド" ;
+    geo:lat "34.678478"^^xsd:float ;
+    geo:lon "135.178638"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5654726> ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/ハーバーランド駅> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5654726> ;
+    gtl-prop:source "夜景スポット" .
+gtl:poi-119
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸ポートタワー・神戸海洋博物館 / カワサキワールド" ;
+    geo:lat "34.682759"^^xsd:float ;
+    geo:lon "135.187303"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/神戸ポートタワー> ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/神戸ポートタワー> ;
+    gtl-prop:source "夜景スポット" .
+gtl:poi-120
+    rdf:type gtl-class:POI;
+    rdfs:label "ポートアイランド北公園" ;
+    geo:lat "34.676626"^^xsd:float ;
+    geo:lon "135.204618"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11339444> ;
+    gtl-prop:source "ロケ地" ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/ポートアイランド北公園> ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/野添北公園> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q17215435> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11339444> ;
+    gtl-prop:source "夜景スポット" .
+gtl:poi-121
+    rdf:type gtl-class:POI;
+    rdfs:label "クラブ月世界" ;
+    geo:lat "34.694333"^^xsd:float ;
+    geo:lon "135.191397"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-122
+    rdf:type gtl-class:POI;
+    rdfs:label "デザイン・クリエイティブセンター神戸（KIITO）" ;
+    geo:lat "34.685064"^^xsd:float ;
+    geo:lon "135.199122"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-123
+    rdf:type gtl-class:POI;
+    rdfs:label "相楽園会館" ;
+    geo:lat "34.692796"^^xsd:float ;
+    geo:lon "135.181108"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-124
+    rdf:type gtl-class:POI;
+    rdfs:label "神港ビルヂング" ;
+    geo:lat "34.686722"^^xsd:float ;
+    geo:lon "135.192336"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-125
+    rdf:type gtl-class:POI;
+    rdfs:label "新港貿易会館" ;
+    geo:lat "34.68449"^^xsd:float ;
+    geo:lon "135.198945"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-126
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸ポートターミナル" ;
+    geo:lat "34.680299"^^xsd:float ;
+    geo:lon "135.203016"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-127
+    rdf:type gtl-class:POI;
+    rdfs:label "ポートアイランド市民広場" ;
+    geo:lat "34.665975"^^xsd:float ;
+    geo:lon "135.213794"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-128
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸芸術工科大学" ;
+    geo:lat "34.677688"^^xsd:float ;
+    geo:lon "135.056777"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-129
+    rdf:type gtl-class:POI;
+    rdfs:label "カフェフロインドリーブ" ;
+    geo:lat "34.700836"^^xsd:float ;
+    geo:lon "135.195222"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11511108> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11511108> ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-130
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市中央卸売市場本場" ;
+    geo:lat "34.666254"^^xsd:float ;
+    geo:lon "135.17724"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-131
+    rdf:type gtl-class:POI;
+    rdfs:label "長田区役所" ;
+    geo:lat "34.665758"^^xsd:float ;
+    geo:lon "135.150762"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-132
+    rdf:type gtl-class:POI;
+    rdfs:label "東門街" ;
+    geo:lat "34.693565"^^xsd:float ;
+    geo:lon "135.191472"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-133
+    rdf:type gtl-class:POI;
+    rdfs:label "フラワーロード" ;
+    geo:lat "34.692964"^^xsd:float ;
+    geo:lon "135.194618"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/そごう神戸店> ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/そごう神戸店> ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-134
+    rdf:type gtl-class:POI;
+    rdfs:label "須磨海岸" ;
+    geo:lat "34.64265"^^xsd:float ;
+    geo:lon "135.127416"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-135
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸大学（六甲台キャンパス）" ;
+    geo:lat "34.725759"^^xsd:float ;
+    geo:lon "135.235348"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-136
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸商工会議所会館" ;
+    geo:lat "34.666976"^^xsd:float ;
+    geo:lon "135.212066"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-137
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市看護大学" ;
+    geo:lat "34.686669"^^xsd:float ;
+    geo:lon "135.052625"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-138
+    rdf:type gtl-class:POI;
+    rdfs:label "長田港" ;
+    geo:lat "34.648598"^^xsd:float ;
+    geo:lon "135.148514"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-139
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立王子動物園" ;
+    geo:lat "34.710925"^^xsd:float ;
+    geo:lon "135.214621"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-140
+    rdf:type gtl-class:POI;
+    rdfs:label "中突堤・メリケンパーク" ;
+    geo:lat "34.682285"^^xsd:float ;
+    geo:lon "135.188484"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q2500526> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q2500526> ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-141
+    rdf:type gtl-class:POI;
+    rdfs:label "明石海峡大橋" ;
+    geo:lat "34.631319"^^xsd:float ;
+    geo:lon "135.033345"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-142
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫突堤" ;
+    geo:lat "34.667532"^^xsd:float ;
+    geo:lon "135.184751"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-143
+    rdf:type gtl-class:POI;
+    rdfs:label "海外移住と文化の交流センター" ;
+    geo:lat "34.697365"^^xsd:float ;
+    geo:lon "135.184571"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/神戸移住センター> ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/神戸_はばたきの坂> ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/神戸移住センター> ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-144
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市営地下鉄上沢駅" ;
+    geo:lat "34.673267"^^xsd:float ;
+    geo:lon "135.158325"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5358508> ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/上沢駅> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5358508> ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-145
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸税関" ;
+    geo:lat "34.685095"^^xsd:float ;
+    geo:lon "135.198178"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-146
+    rdf:type gtl-class:POI;
+    rdfs:label "ハーバーランドセンタービル" ;
+    geo:lat "34.678928"^^xsd:float ;
+    geo:lon "135.180277"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589749> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589749> ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-147
+    rdf:type gtl-class:POI;
+    rdfs:label "三宮中央通り" ;
+    geo:lat "34.691133"^^xsd:float ;
+    geo:lon "135.194557"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-148
+    rdf:type gtl-class:POI;
+    rdfs:label "グリル十字屋" ;
+    geo:lat "34.691451"^^xsd:float ;
+    geo:lon "135.194407"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-149
+    rdf:type gtl-class:POI;
+    rdfs:label "岡方会館" ;
+    geo:lat "34.66967"^^xsd:float ;
+    geo:lon "135.174012"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-150
+    rdf:type gtl-class:POI;
+    rdfs:label "はねっこ広場" ;
+    geo:lat "34.67747"^^xsd:float ;
+    geo:lon "135.182436"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-151
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸ポートピアホテル" ;
+    geo:lat "34.664576"^^xsd:float ;
+    geo:lon "135.214786"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-152
+    rdf:type gtl-class:POI;
+    rdfs:label "ほっともっとフィールド神戸" ;
+    geo:lat "34.680935"^^xsd:float ;
+    geo:lon "135.073471"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-153
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸学院大学ポートアイランドキャンパス" ;
+    geo:lat "34.670276"^^xsd:float ;
+    geo:lon "135.203912"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-154
+    rdf:type gtl-class:POI;
+    rdfs:label "プレンティ" ;
+    geo:lat "34.719252"^^xsd:float ;
+    geo:lon "135.019999"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-155
+    rdf:type gtl-class:POI;
+    rdfs:label "三井アウトレットパーク　マリンピア神戸" ;
+    geo:lat "34.625686"^^xsd:float ;
+    geo:lon "135.047357"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-156
+    rdf:type gtl-class:POI;
+    rdfs:label "エビアンコーヒー" ;
+    geo:lat "34.689184"^^xsd:float ;
+    geo:lon "135.189192"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-157
+    rdf:type gtl-class:POI;
+    rdfs:label "カフェフィッシュ" ;
+    geo:lat "34.684733"^^xsd:float ;
+    geo:lon "135.189739"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-158
+    rdf:type gtl-class:POI;
+    rdfs:label "シーサイドホテル舞子ビラ神戸" ;
+    geo:lat "34.63131"^^xsd:float ;
+    geo:lon "135.038801"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-159
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸昇天教会" ;
+    geo:lat "34.688619"^^xsd:float ;
+    geo:lon "135.16914"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-160
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸インキュベーションオフィス" ;
+    geo:lat "34.660499"^^xsd:float ;
+    geo:lon "135.226083"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-161
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸高速鉄道西元町駅" ;
+    geo:lat "34.683895"^^xsd:float ;
+    geo:lon "135.179587"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7040379> ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/西元町駅> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7040379> ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-162
+    rdf:type gtl-class:POI;
+    rdfs:label "湊川隧道（不定期公開）" ;
+    geo:lat "34.681135"^^xsd:float ;
+    geo:lon "135.159465"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-163
+    rdf:type gtl-class:POI;
+    rdfs:label "東遊園地" ;
+    geo:lat "34.687792"^^xsd:float ;
+    geo:lon "135.196391"^^xsd:float ;
+    gtl-prop:source "野外彫刻" ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-164
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸布引ハーブ園／ロープウェイ" ;
+    geo:lat "34.717116"^^xsd:float ;
+    geo:lon "135.191172"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7497110> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7497110> ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-165
+    rdf:type gtl-class:POI;
+    rdfs:label "レアル プリンセサ・リカルディーナ 磯上邸" ;
+    geo:lat "34.693043"^^xsd:float ;
+    geo:lon "135.199572"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-166
+    rdf:type gtl-class:POI;
+    rdfs:label "加藤陸送ビル" ;
+    geo:lat "34.669333"^^xsd:float ;
+    geo:lon "135.17739"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-167
+    rdf:type gtl-class:POI;
+    rdfs:label "三宮センター街" ;
+    geo:lat "34.691808"^^xsd:float ;
+    geo:lon "135.193562"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11355145> ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/三宮ビブレ> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11355145> ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-168
+    rdf:type gtl-class:POI;
+    rdfs:label "阪急西口本通2・3丁目" ;
+    geo:lat "34.690879"^^xsd:float ;
+    geo:lon "135.189208"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-169
+    rdf:type gtl-class:POI;
+    rdfs:label "元町高架下商店街" ;
+    geo:lat "34.688936"^^xsd:float ;
+    geo:lon "135.185502"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-170
+    rdf:type gtl-class:POI;
+    rdfs:label "新開地劇場" ;
+    geo:lat "34.676534"^^xsd:float ;
+    geo:lon "135.174856"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-171
+    rdf:type gtl-class:POI;
+    rdfs:label "しおさい公園" ;
+    geo:lat "34.667734"^^xsd:float ;
+    geo:lon "135.201981"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-172
+    rdf:type gtl-class:POI;
+    rdfs:label "レストランヴィラブランシュ" ;
+    geo:lat "34.687088"^^xsd:float ;
+    geo:lon "135.196885"^^xsd:float ;
+    gtl-prop:source "野外彫刻" ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-173
+    rdf:type gtl-class:POI;
+    rdfs:label "クレフィ三宮" ;
+    geo:lat "34.691027"^^xsd:float ;
+    geo:lon "135.193071"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-174
+    rdf:type gtl-class:POI;
+    rdfs:label "ポートアイランド中央緑地" ;
+    geo:lat "34.661431"^^xsd:float ;
+    geo:lon "135.216712"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-175
+    rdf:type gtl-class:POI;
+    rdfs:label "湯本坂" ;
+    geo:lat "34.796651"^^xsd:float ;
+    geo:lon "135.248397"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-176
+    rdf:type gtl-class:POI;
+    rdfs:label "陶泉御所坊" ;
+    geo:lat "34.79672"^^xsd:float ;
+    geo:lon "135.247308"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-177
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立地域人材支援センター" ;
+    geo:lat "34.651901"^^xsd:float ;
+    geo:lon "135.146076"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-178
+    rdf:type gtl-class:POI;
+    rdfs:label "二葉34商店街" ;
+    geo:lat "34.653726"^^xsd:float ;
+    geo:lon "135.149547"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-179
+    rdf:type gtl-class:POI;
+    rdfs:label "西神戸センター街" ;
+    geo:lat "34.65367"^^xsd:float ;
+    geo:lon "135.148262"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-180
+    rdf:type gtl-class:POI;
+    rdfs:label "六間道商店街" ;
+    geo:lat "34.652035"^^xsd:float ;
+    geo:lon "135.148171"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-181
+    rdf:type gtl-class:POI;
+    rdfs:label "丸五市場" ;
+    geo:lat "34.654237"^^xsd:float ;
+    geo:lon "135.149606"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-182
+    rdf:type gtl-class:POI;
+    rdfs:label "関帝廟" ;
+    geo:lat "34.689389"^^xsd:float ;
+    geo:lon "135.178077"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-183
+    rdf:type gtl-class:POI;
+    rdfs:label "ミント神戸" ;
+    geo:lat "34.694536"^^xsd:float ;
+    geo:lon "135.196096"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-184
+    rdf:type gtl-class:POI;
+    rdfs:label "浪花町筋" ;
+    geo:lat "34.688626"^^xsd:float ;
+    geo:lon "135.192617"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-185
+    rdf:type gtl-class:POI;
+    rdfs:label "京町筋" ;
+    geo:lat "34.687652"^^xsd:float ;
+    geo:lon "135.193393"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-186
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市営地下鉄海岸線" ;
+    geo:lat "34.654701"^^xsd:float ;
+    geo:lon "135.165031"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6875065> ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/御崎公園駅> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6875065> ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-187
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立須磨海浜水族園" ;
+    geo:lat "34.643931"^^xsd:float ;
+    geo:lon "135.127813"^^xsd:float ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-188
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立御影公会堂" ;
+    geo:lat "34.716016"^^xsd:float ;
+    geo:lon "135.249287"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590005> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590005> ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-189
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立六甲山牧場" ;
+    geo:lat "34.751584"^^xsd:float ;
+    geo:lon "135.209056"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589953> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589953> ;
+    gtl-prop:source "ロケ地" .
+gtl:poi-190
+    rdf:type gtl-class:POI;
+    rdfs:label "なほ" ;
+    geo:lat "34.699847"^^xsd:float ;
+    geo:lon "135.19391"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590208> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590208> ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-191
+    rdf:type gtl-class:POI;
+    rdfs:label "少女" ;
+    geo:lat "34.698435"^^xsd:float ;
+    geo:lon "135.193782"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-192
+    rdf:type gtl-class:POI;
+    rdfs:label "家族（女神と天使そして男）" ;
+    geo:lat "34.697714"^^xsd:float ;
+    geo:lon "135.19369"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-193
+    rdf:type gtl-class:POI;
+    rdfs:label "WIND" ;
+    geo:lat "34.69692"^^xsd:float ;
+    geo:lon "135.194014"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-194
+    rdf:type gtl-class:POI;
+    rdfs:label "MEDETAI" ;
+    geo:lat "34.695883"^^xsd:float ;
+    geo:lon "135.193664"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-195
+    rdf:type gtl-class:POI;
+    rdfs:label "長い午後" ;
+    geo:lat "34.69492"^^xsd:float ;
+    geo:lon "135.193637"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-196
+    rdf:type gtl-class:POI;
+    rdfs:label "浮遊する物体" ;
+    geo:lat "34.694777"^^xsd:float ;
+    geo:lon "135.194346"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-197
+    rdf:type gtl-class:POI;
+    rdfs:label "AMORE" ;
+    geo:lat "34.694276"^^xsd:float ;
+    geo:lon "135.193497"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-198
+    rdf:type gtl-class:POI;
+    rdfs:label "風の標識No.45" ;
+    geo:lat "34.694433"^^xsd:float ;
+    geo:lon "135.193655"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/三宮駅> ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/三宮駅> ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-199
+    rdf:type gtl-class:POI;
+    rdfs:label "雲の中の海" ;
+    geo:lat "34.692229"^^xsd:float ;
+    geo:lon "135.19479"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-200
+    rdf:type gtl-class:POI;
+    rdfs:label "レダ" ;
+    geo:lat "34.691715"^^xsd:float ;
+    geo:lon "135.195072"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-201
+    rdf:type gtl-class:POI;
+    rdfs:label "追憶" ;
+    geo:lat "34.691334"^^xsd:float ;
+    geo:lon "135.195234"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-202
+    rdf:type gtl-class:POI;
+    rdfs:label "わたしと私" ;
+    geo:lat "34.690842"^^xsd:float ;
+    geo:lon "135.195265"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/花時計_(神戸市)> ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/花時計_(神戸市)> ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-203
+    rdf:type gtl-class:POI;
+    rdfs:label "湖風" ;
+    geo:lat "34.691534"^^xsd:float ;
+    geo:lon "135.195536"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6542103> ;
+    gtl-prop:source "DBpediaJapanese" ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/三宮・花時計前駅> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6542103> ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-204
+    rdf:type gtl-class:POI;
+    rdfs:label "帽子・裸婦" ;
+    geo:lat "34.690657"^^xsd:float ;
+    geo:lon "135.19599"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q686802> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q686802> ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-205
+    rdf:type gtl-class:POI;
+    rdfs:label "道標・鴉" ;
+    geo:lat "34.690339"^^xsd:float ;
+    geo:lon "135.196146"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-206
+    rdf:type gtl-class:POI;
+    rdfs:label "WOMAN" ;
+    geo:lat "34.689671"^^xsd:float ;
+    geo:lon "135.196469"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-207
+    rdf:type gtl-class:POI;
+    rdfs:label "エーゲ海に捧ぐ" ;
+    geo:lat "34.68887"^^xsd:float ;
+    geo:lon "135.195824"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-208
+    rdf:type gtl-class:POI;
+    rdfs:label "MARINA" ;
+    geo:lat "34.688999"^^xsd:float ;
+    geo:lon "135.196031"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-209
+    rdf:type gtl-class:POI;
+    rdfs:label "スプリング・ストーン" ;
+    geo:lat "34.68902"^^xsd:float ;
+    geo:lon "135.196171"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-210
+    rdf:type gtl-class:POI;
+    rdfs:label "シオン" ;
+    geo:lat "34.688999"^^xsd:float ;
+    geo:lon "135.196415"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-211
+    rdf:type gtl-class:POI;
+    rdfs:label "日本近代洋服発祥の地記念彫刻" ;
+    geo:lat "34.688512"^^xsd:float ;
+    geo:lon "135.19632"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-212
+    rdf:type gtl-class:POI;
+    rdfs:label "加納宗七像" ;
+    geo:lat "34.688695"^^xsd:float ;
+    geo:lon "135.196473"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-213
+    rdf:type gtl-class:POI;
+    rdfs:label "困っている道祖神" ;
+    geo:lat "34.689125"^^xsd:float ;
+    geo:lon "135.196748"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-214
+    rdf:type gtl-class:POI;
+    rdfs:label "スペース・アイ" ;
+    geo:lat "34.688442"^^xsd:float ;
+    geo:lon "135.196666"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-215
+    rdf:type gtl-class:POI;
+    rdfs:label "マスクA" ;
+    geo:lat "34.688639"^^xsd:float ;
+    geo:lon "135.197003"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-216
+    rdf:type gtl-class:POI;
+    rdfs:label "老人" ;
+    geo:lat "34.688247"^^xsd:float ;
+    geo:lon "135.196829"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-217
+    rdf:type gtl-class:POI;
+    rdfs:label "歩く鉄" ;
+    geo:lat "34.688308"^^xsd:float ;
+    geo:lon "135.197196"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-218
+    rdf:type gtl-class:POI;
+    rdfs:label "W・Jモラエス翁像" ;
+    geo:lat "34.687399"^^xsd:float ;
+    geo:lon "135.196116"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-219
+    rdf:type gtl-class:POI;
+    rdfs:label "星の肖像" ;
+    geo:lat "34.687394"^^xsd:float ;
+    geo:lon "135.197706"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-220
+    rdf:type gtl-class:POI;
+    rdfs:label "海の栄え" ;
+    geo:lat "34.687225"^^xsd:float ;
+    geo:lon "135.197424"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-221
+    rdf:type gtl-class:POI;
+    rdfs:label "愛「仔馬の像」" ;
+    geo:lat "34.686737"^^xsd:float ;
+    geo:lon "135.197278"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-222
+    rdf:type gtl-class:POI;
+    rdfs:label "KAWASAKIへの道（瞑想のための彫刻）" ;
+    geo:lat "34.686394"^^xsd:float ;
+    geo:lon "135.197136"^^xsd:float ;
+    gtl-prop:source "野外彫刻" .
+gtl:poi-223
+    rdf:type gtl-class:POI;
+    rdfs:label "和田岬" ;
+    geo:lat "34.6528"^^xsd:float ;
+    geo:lon "135.187"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11417983> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11417983> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-224
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸サンボーホール" ;
+    geo:lat "34.6886"^^xsd:float ;
+    geo:lon "135.199"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589745> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589745> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-225
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸海軍操練所" ;
+    geo:lat "34.6858"^^xsd:float ;
+    geo:lon "135.193"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3951742> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3951742> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-226
+    rdf:type gtl-class:POI;
+    rdfs:label "福原京" ;
+    geo:lat "34.6853"^^xsd:float ;
+    geo:lon "135.168"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6031707> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6031707> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-227
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県立長田高等学校" ;
+    geo:lat "34.6702"^^xsd:float ;
+    geo:lon "135.143"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11393128> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q463791> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11393128> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-228
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県道491号摩耶埠頭線" ;
+    geo:lat "34.7026"^^xsd:float ;
+    geo:lon "135.226"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11393486> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11393486> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-229
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市水の科学博物館" ;
+    geo:lat "34.6833"^^xsd:float ;
+    geo:lon "135.167"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/神戸市水の科学博物館> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-230
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立六甲アイランド高等学校" ;
+    geo:lat "34.6842"^^xsd:float ;
+    geo:lon "135.271"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589950> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589950> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-231
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸情報文化ビル" ;
+    geo:lat "34.6783"^^xsd:float ;
+    geo:lon "135.182"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590137> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590137> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-232
+    rdf:type gtl-class:POI;
+    rdfs:label "箕谷出入口" ;
+    geo:lat "34.7575"^^xsd:float ;
+    geo:lon "135.158"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11603147> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11603147> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-233
+    rdf:type gtl-class:POI;
+    rdfs:label "シュウエケ邸" ;
+    geo:lat "34.6979"^^xsd:float ;
+    geo:lon "135.187"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11307947> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11307947> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-234
+    rdf:type gtl-class:POI;
+    rdfs:label "上筒井駅" ;
+    geo:lat "34.708"^^xsd:float ;
+    geo:lon "135.211"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11360013> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11360013> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-235
+    rdf:type gtl-class:POI;
+    rdfs:label "北野物語館" ;
+    geo:lat "34.6998"^^xsd:float ;
+    geo:lon "135.19"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11404302> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11404302> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-236
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸女子短期大学" ;
+    geo:lat "34.6677"^^xsd:float ;
+    geo:lon "135.208"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6424347> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6424347> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-237
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸親和女子大学" ;
+    geo:lat "34.728"^^xsd:float ;
+    geo:lon "135.155"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6103451> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6103451> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-238
+    rdf:type gtl-class:POI;
+    rdfs:label "イオンモール神戸北" ;
+    geo:lat "34.86"^^xsd:float ;
+    geo:lon "135.195"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11286166> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11286166> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-239
+    rdf:type gtl-class:POI;
+    rdfs:label "東神戸大橋" ;
+    geo:lat "34.7094"^^xsd:float ;
+    geo:lon "135.29"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/東神戸大橋> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-240
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸地方裁判所" ;
+    geo:lat "34.6828"^^xsd:float ;
+    geo:lon "135.176"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/神戸地方裁判所> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-241
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸朝鮮初中級学校" ;
+    geo:lat "34.7051"^^xsd:float ;
+    geo:lon "135.215"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590155> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590155> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-242
+    rdf:type gtl-class:POI;
+    rdfs:label "西神戸朝鮮初級学校" ;
+    geo:lat "34.6581"^^xsd:float ;
+    geo:lon "135.155"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11629341> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11629341> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-243
+    rdf:type gtl-class:POI;
+    rdfs:label "岡本梅林公園" ;
+    geo:lat "34.7345"^^xsd:float ;
+    geo:lon "135.273"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11473150> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11473150> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-244
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立図書館" ;
+    geo:lat "34.6856"^^xsd:float ;
+    geo:lon "135.174"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589972> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589972> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-245
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立神戸工科高等学校" ;
+    geo:lat "34.7042"^^xsd:float ;
+    geo:lon "135.213"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590074> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590070> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590074> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-246
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸常盤女子高等学校" ;
+    geo:lat "34.6675"^^xsd:float ;
+    geo:lon "135.143"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590133> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590133> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-247
+    rdf:type gtl-class:POI;
+    rdfs:label "旧キャセリン・アンダーセン邸" ;
+    geo:lat "34.6975"^^xsd:float ;
+    geo:lon "135.187"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11510884> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11510884> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-248
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸家庭裁判所" ;
+    geo:lat "34.6873"^^xsd:float ;
+    geo:lon "135.168"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589877> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589877> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-249
+    rdf:type gtl-class:POI;
+    rdfs:label "チキンジョージ" ;
+    geo:lat "34.6941"^^xsd:float ;
+    geo:lon "135.19"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11317901> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11317901> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-250
+    rdf:type gtl-class:POI;
+    rdfs:label "会下山" ;
+    geo:lat "34.6781"^^xsd:float ;
+    geo:lon "135.157"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/会下山> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-251
+    rdf:type gtl-class:POI;
+    rdfs:label "東神戸駅" ;
+    geo:lat "34.7025"^^xsd:float ;
+    geo:lon "135.217"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11528136> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11528136> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-252
+    rdf:type gtl-class:POI;
+    rdfs:label "鈴蘭台車両基地" ;
+    geo:lat "34.7171"^^xsd:float ;
+    geo:lon "135.147"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/鈴蘭台車両基地> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-253
+    rdf:type gtl-class:POI;
+    rdfs:label "河内国魂神社" ;
+    geo:lat "34.7186"^^xsd:float ;
+    geo:lon "135.22"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11553387> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11553387> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-254
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸三田プレミアム・アウトレット" ;
+    geo:lat "34.8602"^^xsd:float ;
+    geo:lon "135.192"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589792> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589792> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-255
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市バス石屋川営業所" ;
+    geo:lat "34.7194"^^xsd:float ;
+    geo:lon "135.247"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/神戸市バス石屋川営業所> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-256
+    rdf:type gtl-class:POI;
+    rdfs:label "甲南大学" ;
+    geo:lat "34.7297"^^xsd:float ;
+    geo:lon "135.268"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/甲南大学> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-257
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸海星女子学院大学" ;
+    geo:lat "34.7122"^^xsd:float ;
+    geo:lon "135.212"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6424315> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6424315> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-258
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸ハーバーランドセンタービル" ;
+    geo:lat "34.6783"^^xsd:float ;
+    geo:lon "135.18"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589758> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589758> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-259
+    rdf:type gtl-class:POI;
+    rdfs:label "五助堰堤" ;
+    geo:lat "34.7494"^^xsd:float ;
+    geo:lon "135.261"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11372045> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11372045> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-260
+    rdf:type gtl-class:POI;
+    rdfs:label "日本真珠会館" ;
+    geo:lat "34.687"^^xsd:float ;
+    geo:lon "135.195"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11508676> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11508676> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-261
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸震災復興記念公園" ;
+    geo:lat "34.6867"^^xsd:float ;
+    geo:lon "135.201"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590252> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590252> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-262
+    rdf:type gtl-class:POI;
+    rdfs:label "サザンモール六甲B612" ;
+    geo:lat "34.7082"^^xsd:float ;
+    geo:lon "135.24"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/サザンモール六甲B612> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-263
+    rdf:type gtl-class:POI;
+    rdfs:label "京 (スーパーコンピュータ)" ;
+    geo:lat "34.6534"^^xsd:float ;
+    geo:lon "135.22"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q183012> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q183012> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-264
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸外国人居留地" ;
+    geo:lat "34.6881"^^xsd:float ;
+    geo:lon "135.193"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/神戸外国人居留地> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-265
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸水天宮" ;
+    geo:lat "34.6821"^^xsd:float ;
+    geo:lon "135.146"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590168> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590168> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-266
+    rdf:type gtl-class:POI;
+    rdfs:label "丸山断層" ;
+    geo:lat "34.684"^^xsd:float ;
+    geo:lon "135.143"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11238801> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11238801> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-267
+    rdf:type gtl-class:POI;
+    rdfs:label "会下山遺跡" ;
+    geo:lat "34.7408"^^xsd:float ;
+    geo:lon "135.291"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11381184> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11381184> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-268
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸外国倶楽部" ;
+    geo:lat "34.6987"^^xsd:float ;
+    geo:lon "135.186"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11320987> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589847> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11320987> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-269
+    rdf:type gtl-class:POI;
+    rdfs:label "福厳寺 (神戸市)" ;
+    geo:lat "34.6703"^^xsd:float ;
+    geo:lon "135.17"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/福厳寺_(神戸市)> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-270
+    rdf:type gtl-class:POI;
+    rdfs:label "宇仁菅書店" ;
+    geo:lat "34.717"^^xsd:float ;
+    geo:lon "135.238"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11449030> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11449030> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-271
+    rdf:type gtl-class:POI;
+    rdfs:label "中村八幡神社 (神戸市)" ;
+    geo:lat "34.7004"^^xsd:float ;
+    geo:lon "135.206"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/中村八幡神社_(神戸市)> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-272
+    rdf:type gtl-class:POI;
+    rdfs:label "北向地蔵 (神戸市)" ;
+    geo:lat "34.6946"^^xsd:float ;
+    geo:lon "135.193"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/北向地蔵_(神戸市)> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-273
+    rdf:type gtl-class:POI;
+    rdfs:label "三宮" ;
+    geo:lat "34.6935"^^xsd:float ;
+    geo:lon "135.195"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/三宮> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-274
+    rdf:type gtl-class:POI;
+    rdfs:label "元町駅 (兵庫県)" ;
+    geo:lat "34.6896"^^xsd:float ;
+    geo:lon "135.187"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q59520> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q1038095> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q59520> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-275
+    rdf:type gtl-class:POI;
+    rdfs:label "大石駅" ;
+    geo:lat "34.7078"^^xsd:float ;
+    geo:lon "135.231"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q8081516> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q8081516> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-276
+    rdf:type gtl-class:POI;
+    rdfs:label "大開駅" ;
+    geo:lat "34.6712"^^xsd:float ;
+    geo:lon "135.162"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5209161> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5209161> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-277
+    rdf:type gtl-class:POI;
+    rdfs:label "岡本駅 (兵庫県)" ;
+    geo:lat "34.7291"^^xsd:float ;
+    geo:lon "135.276"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3970335> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3970335> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-278
+    rdf:type gtl-class:POI;
+    rdfs:label "岩屋駅 (兵庫県)" ;
+    geo:lat "34.7041"^^xsd:float ;
+    geo:lon "135.218"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6100854> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6100854> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-279
+    rdf:type gtl-class:POI;
+    rdfs:label "御影駅 (阪神)" ;
+    geo:lat "34.7148"^^xsd:float ;
+    geo:lon "135.256"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6845652> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6845652> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-280
+    rdf:type gtl-class:POI;
+    rdfs:label "新在家駅" ;
+    geo:lat "34.7107"^^xsd:float ;
+    geo:lon "135.241"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7497846> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7497846> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-281
+    rdf:type gtl-class:POI;
+    rdfs:label "新神戸駅" ;
+    geo:lat "34.7067"^^xsd:float ;
+    geo:lon "135.196"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q801435> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q801435> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-282
+    rdf:type gtl-class:POI;
+    rdfs:label "春日野道駅 (阪神)" ;
+    geo:lat "34.703"^^xsd:float ;
+    geo:lon "135.205"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6374883> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3969854> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6374883> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-283
+    rdf:type gtl-class:POI;
+    rdfs:label "深江駅 (兵庫県)" ;
+    geo:lat "34.7227"^^xsd:float ;
+    geo:lon "135.291"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5507563> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5507563> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-284
+    rdf:type gtl-class:POI;
+    rdfs:label "王子公園駅" ;
+    geo:lat "34.7102"^^xsd:float ;
+    geo:lon "135.218"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3971394> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3971394> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-285
+    rdf:type gtl-class:POI;
+    rdfs:label "石屋川駅" ;
+    geo:lat "34.7134"^^xsd:float ;
+    geo:lon "135.25"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6080422> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6080422> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-286
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸港" ;
+    geo:lat "34.6775"^^xsd:float ;
+    geo:lon "135.227"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q1336906> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q1336906> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-287
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸空港" ;
+    geo:lat "34.6328"^^xsd:float ;
+    geo:lon "135.224"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q741372> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q741372> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-288
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸駅 (兵庫県)" ;
+    geo:lat "34.6795"^^xsd:float ;
+    geo:lon "135.178"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q1072984> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q1072984> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-289
+    rdf:type gtl-class:POI;
+    rdfs:label "花隈駅" ;
+    geo:lat "34.6861"^^xsd:float ;
+    geo:lon "135.182"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5646864> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5646864> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-290
+    rdf:type gtl-class:POI;
+    rdfs:label "西灘駅" ;
+    geo:lat "34.7059"^^xsd:float ;
+    geo:lon "135.225"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7040635> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7040635> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-291
+    rdf:type gtl-class:POI;
+    rdfs:label "青木駅" ;
+    geo:lat "34.7171"^^xsd:float ;
+    geo:lon "135.281"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q8081472> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q8081472> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-292
+    rdf:type gtl-class:POI;
+    rdfs:label "高速神戸駅" ;
+    geo:lat "34.6794"^^xsd:float ;
+    geo:lon "135.174"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6455300> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6455300> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-293
+    rdf:type gtl-class:POI;
+    rdfs:label "高速長田駅" ;
+    geo:lat "34.6673"^^xsd:float ;
+    geo:lon "135.152"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6455302> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6455302> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-294
+    rdf:type gtl-class:POI;
+    rdfs:label "住吉駅 (JR西日本・神戸新交通)" ;
+    geo:lat "34.7195"^^xsd:float ;
+    geo:lon "135.262"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/住吉駅_(JR西日本・神戸新交通)> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-295
+    rdf:type gtl-class:POI;
+    rdfs:label "住吉駅 (JR西日本・神戸新交通)" ;
+    geo:lat "34.7196"^^xsd:float ;
+    geo:lon "135.262"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q1131199> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q1131199> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-296
+    rdf:type gtl-class:POI;
+    rdfs:label "住吉駅 (JR西日本・神戸新交通)" ;
+    geo:lat "34.7195"^^xsd:float ;
+    geo:lon "135.262"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/住吉駅_(JR西日本・神戸新交通)> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-297
+    rdf:type gtl-class:POI;
+    rdfs:label "住吉駅 (JR西日本・神戸新交通)" ;
+    geo:lat "34.7196"^^xsd:float ;
+    geo:lon "135.262"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/住吉駅_(JR西日本・神戸新交通)> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-298
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫駅" ;
+    geo:lat "34.6684"^^xsd:float ;
+    geo:lon "135.165"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q59517> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q59517> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-299
+    rdf:type gtl-class:POI;
+    rdfs:label "和田岬駅" ;
+    geo:lat "34.6569"^^xsd:float ;
+    geo:lon "135.175"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q749787> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q749787> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-300
+    rdf:type gtl-class:POI;
+    rdfs:label "大倉山駅 (兵庫県)" ;
+    geo:lat "34.6846"^^xsd:float ;
+    geo:lon "135.175"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/大倉山駅_(兵庫県)> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-301
+    rdf:type gtl-class:POI;
+    rdfs:label "摂津本山駅" ;
+    geo:lat "34.7267"^^xsd:float ;
+    geo:lon "135.276"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q1042797> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q1042797> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-302
+    rdf:type gtl-class:POI;
+    rdfs:label "新長田駅" ;
+    geo:lat "34.6585"^^xsd:float ;
+    geo:lon "135.146"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/新長田駅> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-303
+    rdf:type gtl-class:POI;
+    rdfs:label "湊川公園駅" ;
+    geo:lat "34.6794"^^xsd:float ;
+    geo:lon "135.167"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5358502> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5358502> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-304
+    rdf:type gtl-class:POI;
+    rdfs:label "甲南山手駅" ;
+    geo:lat "34.7306"^^xsd:float ;
+    geo:lon "135.292"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q1042463> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q1042463> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-305
+    rdf:type gtl-class:POI;
+    rdfs:label "県庁前駅 (兵庫県)" ;
+    geo:lat "34.6909"^^xsd:float ;
+    geo:lon "135.184"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5358517> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5358517> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-306
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸ハーバーランド" ;
+    geo:lat "34.6791"^^xsd:float ;
+    geo:lon "135.182"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5364704> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5364704> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-307
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸松蔭女子学院大学" ;
+    geo:lat "34.7273"^^xsd:float ;
+    geo:lon "135.23"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3551835> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3551835> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-308
+    rdf:type gtl-class:POI;
+    rdfs:label "神鉄道場駅" ;
+    geo:lat "34.8666"^^xsd:float ;
+    geo:lon "135.226"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7497793> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7497793> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-309
+    rdf:type gtl-class:POI;
+    rdfs:label "谷上駅" ;
+    geo:lat "34.7618"^^xsd:float ;
+    geo:lon "135.171"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q873599> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q873599> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-310
+    rdf:type gtl-class:POI;
+    rdfs:label "鈴蘭台西口駅" ;
+    geo:lat "34.7264"^^xsd:float ;
+    geo:lon "135.141"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7651392> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7651392> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-311
+    rdf:type gtl-class:POI;
+    rdfs:label "鈴蘭台駅" ;
+    geo:lat "34.7237"^^xsd:float ;
+    geo:lon "135.146"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7651395> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7651395> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-312
+    rdf:type gtl-class:POI;
+    rdfs:label "長田駅 (神戸市営地下鉄)" ;
+    geo:lat "34.6685"^^xsd:float ;
+    geo:lon "135.152"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/長田駅_(神戸市営地下鉄)> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-313
+    rdf:type gtl-class:POI;
+    rdfs:label "みなと元町駅" ;
+    geo:lat "34.6859"^^xsd:float ;
+    geo:lon "135.184"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6863247> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6863247> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-314
+    rdf:type gtl-class:POI;
+    rdfs:label "メリケンパーク" ;
+    geo:lat "34.6817"^^xsd:float ;
+    geo:lon "135.188"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5365128> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5365128> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-315
+    rdf:type gtl-class:POI;
+    rdfs:label "中埠頭駅" ;
+    geo:lat "34.6694"^^xsd:float ;
+    geo:lon "135.217"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11363501> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11363501> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-316
+    rdf:type gtl-class:POI;
+    rdfs:label "中央市場前駅" ;
+    geo:lat "34.6662"^^xsd:float ;
+    geo:lon "135.176"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5119034> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5119034> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-317
+    rdf:type gtl-class:POI;
+    rdfs:label "丸山駅 (兵庫県)" ;
+    geo:lat "34.6858"^^xsd:float ;
+    geo:lon "135.144"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6778053> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6778053> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-318
+    rdf:type gtl-class:POI;
+    rdfs:label "二郎駅" ;
+    geo:lat "34.849"^^xsd:float ;
+    geo:lon "135.227"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11371826> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11371826> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-319
+    rdf:type gtl-class:POI;
+    rdfs:label "五社駅" ;
+    geo:lat "34.8061"^^xsd:float ;
+    geo:lon "135.216"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5587229> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5587229> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-320
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県立兵庫高等学校" ;
+    geo:lat "34.6731"^^xsd:float ;
+    geo:lon "135.152"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392948> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392948> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-321
+    rdf:type gtl-class:POI;
+    rdfs:label "北鈴蘭台駅" ;
+    geo:lat "34.7395"^^xsd:float ;
+    geo:lon "135.152"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6417608> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6417608> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-322
+    rdf:type gtl-class:POI;
+    rdfs:label "唐櫃台駅" ;
+    geo:lat "34.7907"^^xsd:float ;
+    geo:lon "135.212"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/唐櫃台駅> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-323
+    rdf:type gtl-class:POI;
+    rdfs:label "大池駅" ;
+    geo:lat "34.7807"^^xsd:float ;
+    geo:lon "135.198"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q8081511> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q8081511> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-324
+    rdf:type gtl-class:POI;
+    rdfs:label "岡場駅" ;
+    geo:lat "34.8215"^^xsd:float ;
+    geo:lon "135.222"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/岡場駅> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-325
+    rdf:type gtl-class:POI;
+    rdfs:label "摩耶山" ;
+    geo:lat "34.7328"^^xsd:float ;
+    geo:lon "135.204"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/摩耶山> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-326
+    rdf:type gtl-class:POI;
+    rdfs:label "有馬口駅" ;
+    geo:lat "34.7967"^^xsd:float ;
+    geo:lon "135.221"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q4790685> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q4790685> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-327
+    rdf:type gtl-class:POI;
+    rdfs:label "有馬温泉駅" ;
+    geo:lat "34.7993"^^xsd:float ;
+    geo:lon "135.246"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q4790676> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q4790676> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-328
+    rdf:type gtl-class:POI;
+    rdfs:label "湊川駅" ;
+    geo:lat "34.6793"^^xsd:float ;
+    geo:lon "135.166"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589947> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589947> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-329
+    rdf:type gtl-class:POI;
+    rdfs:label "田尾寺駅" ;
+    geo:lat "34.8355"^^xsd:float ;
+    geo:lon "135.226"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11576558> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11576558> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-330
+    rdf:type gtl-class:POI;
+    rdfs:label "神鉄六甲駅" ;
+    geo:lat "34.7856"^^xsd:float ;
+    geo:lon "135.207"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/神鉄六甲駅> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-331
+    rdf:type gtl-class:POI;
+    rdfs:label "箕谷駅" ;
+    geo:lat "34.7569"^^xsd:float ;
+    geo:lon "135.156"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6869363> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6869363> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-332
+    rdf:type gtl-class:POI;
+    rdfs:label "苅藻駅" ;
+    geo:lat "34.6536"^^xsd:float ;
+    geo:lon "135.157"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/苅藻駅> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-333
+    rdf:type gtl-class:POI;
+    rdfs:label "道場南口駅" ;
+    geo:lat "34.8563"^^xsd:float ;
+    geo:lon "135.223"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/道場南口駅> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-334
+    rdf:type gtl-class:POI;
+    rdfs:label "長田駅 (神戸電鉄)" ;
+    geo:lat "34.6817"^^xsd:float ;
+    geo:lon "135.15"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/長田駅_(神戸電鉄)> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-335
+    rdf:type gtl-class:POI;
+    rdfs:label "駒ヶ林駅" ;
+    geo:lat "34.6521"^^xsd:float ;
+    geo:lon "135.15"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6428051> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6428051> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-336
+    rdf:type gtl-class:POI;
+    rdfs:label "みなとじま駅" ;
+    geo:lat "34.6691"^^xsd:float ;
+    geo:lon "135.21"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11279137> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11279137> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-337
+    rdf:type gtl-class:POI;
+    rdfs:label "ポートターミナル駅" ;
+    geo:lat "34.6814"^^xsd:float ;
+    geo:lon "135.202"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11339449> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11339449> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-338
+    rdf:type gtl-class:POI;
+    rdfs:label "中公園駅" ;
+    geo:lat "34.6732"^^xsd:float ;
+    geo:lon "135.207"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11363035> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11363035> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-339
+    rdf:type gtl-class:POI;
+    rdfs:label "北埠頭駅" ;
+    geo:lat "34.6736"^^xsd:float ;
+    geo:lon "135.215"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11401332> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11401332> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-340
+    rdf:type gtl-class:POI;
+    rdfs:label "南公園駅" ;
+    geo:lat "34.6646"^^xsd:float ;
+    geo:lon "135.217"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6863047> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6863047> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-341
+    rdf:type gtl-class:POI;
+    rdfs:label "市民広場駅" ;
+    geo:lat "34.6649"^^xsd:float ;
+    geo:lon "135.212"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11480595> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11480595> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-342
+    rdf:type gtl-class:POI;
+    rdfs:label "生田神社" ;
+    geo:lat "34.6947"^^xsd:float ;
+    geo:lon "135.191"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/生田神社> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-343
+    rdf:type gtl-class:POI;
+    rdfs:label "貿易センター駅" ;
+    geo:lat "34.6894"^^xsd:float ;
+    geo:lon "135.199"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5005688> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5005688> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-344
+    rdf:type gtl-class:POI;
+    rdfs:label "布引の滝" ;
+    geo:lat "34.7097"^^xsd:float ;
+    geo:lon "135.194"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3695449> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3695449> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-345
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立森林植物園" ;
+    geo:lat "34.7376"^^xsd:float ;
+    geo:lon "135.181"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/神戸市立森林植物園> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-346
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸朝日ビル" ;
+    geo:lat "34.6894"^^xsd:float ;
+    geo:lon "135.192"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/神戸朝日ビル> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-347
+    rdf:type gtl-class:POI;
+    rdfs:label "防災未来館" ;
+    geo:lat "34.6833"^^xsd:float ;
+    geo:lon "135.2"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/防災未来館> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-348
+    rdf:type gtl-class:POI;
+    rdfs:label "Umie" ;
+    geo:lat "34.6792"^^xsd:float ;
+    geo:lon "135.183"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11223123> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11223123> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-349
+    rdf:type gtl-class:POI;
+    rdfs:label "京コンピュータ前駅" ;
+    geo:lat "34.6548"^^xsd:float ;
+    geo:lon "135.222"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11374187> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11374187> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-350
+    rdf:type gtl-class:POI;
+    rdfs:label "医療センター駅" ;
+    geo:lat "34.6586"^^xsd:float ;
+    geo:lon "135.216"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11404632> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11404632> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-351
+    rdf:type gtl-class:POI;
+    rdfs:label "山口組" ;
+    geo:lat "34.72"^^xsd:float ;
+    geo:lon "135.226"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q763018> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q763018> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-352
+    rdf:type gtl-class:POI;
+    rdfs:label "摩耶観光ホテル" ;
+    geo:lat "34.7276"^^xsd:float ;
+    geo:lon "135.213"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11498635> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11498635> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-353
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸ヘリポート" ;
+    geo:lat "34.6589"^^xsd:float ;
+    geo:lon "135.207"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589769> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589769> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-354
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸マルイ" ;
+    geo:lat "34.6925"^^xsd:float ;
+    geo:lon "135.194"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589778> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589778> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-355
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸学院大学附属高等学校" ;
+    geo:lat "34.6676"^^xsd:float ;
+    geo:lon "135.21"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/神戸学院大学附属高等学校> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-356
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸龍谷中学校・高等学校" ;
+    geo:lat "34.7126"^^xsd:float ;
+    geo:lon "135.205"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6424329> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6424329> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-357
+    rdf:type gtl-class:POI;
+    rdfs:label "灘温泉" ;
+    geo:lat "34.7136"^^xsd:float ;
+    geo:lon "135.24"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/灘温泉> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-358
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立兵庫中学校" ;
+    geo:lat "34.6733"^^xsd:float ;
+    geo:lon "135.17"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589954> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589954> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-359
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立港島中学校" ;
+    geo:lat "34.6696"^^xsd:float ;
+    geo:lon "135.214"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590054> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590054> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-360
+    rdf:type gtl-class:POI;
+    rdfs:label "ポートアイランド西公園" ;
+    geo:lat "34.6686"^^xsd:float ;
+    geo:lon "135.202"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11339445> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11339445> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-361
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県立光風病院" ;
+    geo:lat "34.7642"^^xsd:float ;
+    geo:lon "135.171"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392943> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392943> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-362
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立湊川中学校" ;
+    geo:lat "34.6794"^^xsd:float ;
+    geo:lon "135.165"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590053> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590053> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-363
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立湊翔楠中学校" ;
+    geo:lat "34.6881"^^xsd:float ;
+    geo:lon "135.167"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590056> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590056> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-364
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸第一高等学校" ;
+    geo:lat "34.71"^^xsd:float ;
+    geo:lon "135.197"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590197> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590197> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-365
+    rdf:type gtl-class:POI;
+    rdfs:label "若松公園" ;
+    geo:lat "34.6556"^^xsd:float ;
+    geo:lon "135.144"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11616383> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11616383> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-366
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸華僑歴史博物館" ;
+    geo:lat "34.6833"^^xsd:float ;
+    geo:lon "135.183"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590230> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590230> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-367
+    rdf:type gtl-class:POI;
+    rdfs:label "なぎさ公園 (神戸市)" ;
+    geo:lat "34.6961"^^xsd:float ;
+    geo:lon "135.214"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/なぎさ公園_(神戸市)> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-368
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立港島小学校" ;
+    geo:lat "34.6692"^^xsd:float ;
+    geo:lon "135.212"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/神戸市立港島小学校> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-369
+    rdf:type gtl-class:POI;
+    rdfs:label "阪神電気鉄道石屋川車庫" ;
+    geo:lat "34.7114"^^xsd:float ;
+    geo:lon "135.245"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11585508> ;
+    gtl-prop:source "Wikidata" ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11585508> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-370
+    rdf:type gtl-class:POI;
+    rdfs:label "中埠頭車両基地" ;
+    geo:lat "34.6661"^^xsd:float ;
+    geo:lon "135.22"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/中埠頭車両基地> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-371
+    rdf:type gtl-class:POI;
+    rdfs:label "ダイヤニッセイビル" ;
+    geo:lat "34.6796"^^xsd:float ;
+    geo:lon "135.182"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/ダイヤニッセイビル> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-372
+    rdf:type gtl-class:POI;
+    rdfs:label "禍福無門の碑" ;
+    geo:lat "34.7248"^^xsd:float ;
+    geo:lon "135.261"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/禍福無門の碑> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-373
+    rdf:type gtl-class:POI;
+    rdfs:label "ポートアイランド中公園" ;
+    geo:lat "34.6737"^^xsd:float ;
+    geo:lon "135.208"^^xsd:float ;
+    rdfs:seeAlso <http://ja.dbpedia.org/resource/ポートアイランド中公園> ;
+    gtl-prop:source "DBpediaJapanese" .
+gtl:poi-374
+    rdf:type gtl-class:POI;
+    rdfs:label "Q6424299" ;
+    geo:lat "34.656744"^^xsd:float ;
+    geo:lon "135.168967"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6424299> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-375
+    rdf:type gtl-class:POI;
+    rdfs:label "ひよどり展望公園" ;
+    geo:lat "34.686944"^^xsd:float ;
+    geo:lon "135.150694"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11276647> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-376
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県立兵庫工業高等学校" ;
+    geo:lat "34.659861"^^xsd:float ;
+    geo:lon "135.172917"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392947> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-377
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県立神戸工業高等学校" ;
+    geo:lat "34.659861"^^xsd:float ;
+    geo:lon "135.172917"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11393078> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-378
+    rdf:type gtl-class:POI;
+    rdfs:label "和田岬砲台" ;
+    geo:lat "34.652361"^^xsd:float ;
+    geo:lon "135.184889"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11417985> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-379
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸山田郵便局" ;
+    geo:lat "34.758833"^^xsd:float ;
+    geo:lon "135.15325"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589887> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-380
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立兵庫商業高等学校" ;
+    geo:lat "34.7275"^^xsd:float ;
+    geo:lon "135.147083"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589956> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-381
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立医療センター西市民病院" ;
+    geo:lat "34.667361"^^xsd:float ;
+    geo:lon "135.156972"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589962> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-382
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立小部小学校" ;
+    geo:lat "34.729667"^^xsd:float ;
+    geo:lon "135.148139"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589994> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-383
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立駒ケ林小学校" ;
+    geo:lat "34.649972"^^xsd:float ;
+    geo:lon "135.141444"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590114> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-384
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸百年記念病院" ;
+    geo:lat "34.658833"^^xsd:float ;
+    geo:lon "135.168556"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590186> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-385
+    rdf:type gtl-class:POI;
+    rdfs:label "能福寺" ;
+    geo:lat "34.667989"^^xsd:float ;
+    geo:lon "135.171392"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11612054> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-386
+    rdf:type gtl-class:POI;
+    rdfs:label "新川駅" ;
+    geo:lat "34.66169444"^^xsd:float ;
+    geo:lon "135.1657778"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11502112> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-387
+    rdf:type gtl-class:POI;
+    rdfs:label "御崎公園球技場" ;
+    geo:lat "34.656708"^^xsd:float ;
+    geo:lon "135.168964"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q494766> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-388
+    rdf:type gtl-class:POI;
+    rdfs:label "長田駅" ;
+    geo:lat "34.66861111"^^xsd:float ;
+    geo:lon "135.1513889"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5358480> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-389
+    rdf:type gtl-class:POI;
+    rdfs:label "鵯越駅" ;
+    geo:lat "34.6924"^^xsd:float ;
+    geo:lon "135.1422"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5872940> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-390
+    rdf:type gtl-class:POI;
+    rdfs:label "和田岬線" ;
+    geo:lat "34.6598"^^xsd:float ;
+    geo:lon "135.168"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q1052671> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-391
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸どうぶつ王国" ;
+    geo:lat "34.65416667"^^xsd:float ;
+    geo:lon "135.2230556"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6424313> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-392
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸常盤大学" ;
+    geo:lat "34.66546111"^^xsd:float ;
+    geo:lon "135.14135"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6424342> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-393
+    rdf:type gtl-class:POI;
+    rdfs:label "長田駅 (神戸電鉄" ;
+    geo:lat "34.68166667"^^xsd:float ;
+    geo:lon "135.1494444"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6958663> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-394
+    rdf:type gtl-class:POI;
+    rdfs:label "山の街駅" ;
+    geo:lat "34.7467"^^xsd:float ;
+    geo:lon "135.153"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q8047898> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-395
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸北警察署" ;
+    geo:lat "34.740611"^^xsd:float ;
+    geo:lon "135.147917"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589813> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-396
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立和田岬小学校" ;
+    geo:lat "34.654861"^^xsd:float ;
+    geo:lon "135.175389"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589968> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-397
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立宮川小学校" ;
+    geo:lat "34.671972"^^xsd:float ;
+    geo:lon "135.147056"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589989> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-398
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立桂木小学校" ;
+    geo:lat "34.747167"^^xsd:float ;
+    geo:lon "135.145111"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590037> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-399
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立甲緑小学校" ;
+    geo:lat "34.744917"^^xsd:float ;
+    geo:lon "135.1505"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590063> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-400
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立神港高等学校" ;
+    geo:lat "34.675111"^^xsd:float ;
+    geo:lon "135.156889"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590073> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-401
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立長田中学校" ;
+    geo:lat "34.661361"^^xsd:float ;
+    geo:lon "135.153278"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590102> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-402
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立長田小学校" ;
+    geo:lat "34.672333"^^xsd:float ;
+    geo:lon "135.143"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590105> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-403
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸村野工業高等学校" ;
+    geo:lat "34.667528"^^xsd:float ;
+    geo:lon "135.149722"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590162> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-404
+    rdf:type gtl-class:POI;
+    rdfs:label "菊水山駅" ;
+    geo:lat "34.70030278"^^xsd:float ;
+    geo:lon "135.1476583"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11619686> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-405
+    rdf:type gtl-class:POI;
+    rdfs:label "長田警察署" ;
+    geo:lat "34.666333"^^xsd:float ;
+    geo:lon "135.150778"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11653489> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-406
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫区" ;
+    geo:lat "34.67583333"^^xsd:float ;
+    geo:lon "135.1666667"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q1078790> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-407
+    rdf:type gtl-class:POI;
+    rdfs:label "長田区" ;
+    geo:lat "34.67"^^xsd:float ;
+    geo:lon "135.1441667"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q1078801> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-408
+    rdf:type gtl-class:POI;
+    rdfs:label "苅藻駅" ;
+    geo:lat "34.6534"^^xsd:float ;
+    geo:lon "135.1565"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6373648> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-409
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県立神戸鈴蘭台高等学校" ;
+    geo:lat "34.719722"^^xsd:float ;
+    geo:lon "135.153111"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11393082> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-410
+    rdf:type gtl-class:POI;
+    rdfs:label "大京聚楽館ビル" ;
+    geo:lat "34.677194"^^xsd:float ;
+    geo:lon "135.170139"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11432251> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-411
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸アートビレッジセンター" ;
+    geo:lat "34.676194"^^xsd:float ;
+    geo:lon "135.173556"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589734> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-412
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立兵庫大開小学校" ;
+    geo:lat "34.673583"^^xsd:float ;
+    geo:lon "135.166389"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589955> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-413
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立吉田中学校" ;
+    geo:lat "34.652444"^^xsd:float ;
+    geo:lon "135.170611"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589965> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-414
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立大原中学校" ;
+    geo:lat "34.745472"^^xsd:float ;
+    geo:lon "135.143833"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589980> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-415
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立桜の宮小学校" ;
+    geo:lat "34.740111"^^xsd:float ;
+    geo:lon "135.154917"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590042> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-416
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立水木小学校" ;
+    geo:lat "34.670389"^^xsd:float ;
+    geo:lon "135.159306"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590049> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-417
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立真陽小学校" ;
+    geo:lat "34.655472"^^xsd:float ;
+    geo:lon "135.151278"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590067> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-418
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立長田南小学校" ;
+    geo:lat "34.661833"^^xsd:float ;
+    geo:lon "135.149917"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590104> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-419
+    rdf:type gtl-class:POI;
+    rdfs:label "ピフレ新長田" ;
+    geo:lat "34.656833"^^xsd:float ;
+    geo:lon "135.145667"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11331537> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-420
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県立夢野台高等学校" ;
+    geo:lat "34.677111"^^xsd:float ;
+    geo:lon "135.153472"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392971> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-421
+    rdf:type gtl-class:POI;
+    rdfs:label "柳原天神社" ;
+    geo:lat "34.667667"^^xsd:float ;
+    geo:lon "135.169361"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11534137> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-422
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立医療センター中央市民病院" ;
+    geo:lat "34.659536"^^xsd:float ;
+    geo:lon "135.215161"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589960> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-423
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立小部中学校" ;
+    geo:lat "34.730389"^^xsd:float ;
+    geo:lon "135.155194"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589993> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-424
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立箕谷小学校" ;
+    geo:lat "34.758444"^^xsd:float ;
+    geo:lon "135.149389"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590077> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-425
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸野田高等学校" ;
+    geo:lat "34.649639"^^xsd:float ;
+    geo:lon "135.140694"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590231> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-426
+    rdf:type gtl-class:POI;
+    rdfs:label "薬仙寺" ;
+    geo:lat "34.661722"^^xsd:float ;
+    geo:lon "135.172194"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11622400> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-427
+    rdf:type gtl-class:POI;
+    rdfs:label "カトリックたかとり教会" ;
+    geo:lat "34.6492"^^xsd:float ;
+    geo:lon "135.14"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q704485> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-428
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県立文化体育館" ;
+    geo:lat "34.663444"^^xsd:float ;
+    geo:lon "135.143778"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q18339026> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-429
+    rdf:type gtl-class:POI;
+    rdfs:label "新長田駅" ;
+    geo:lat "34.65666667"^^xsd:float ;
+    geo:lon "135.1436111"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q1066558> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-430
+    rdf:type gtl-class:POI;
+    rdfs:label "鐘紡前駅" ;
+    geo:lat "34.6597"^^xsd:float ;
+    geo:lon "135.168"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3096673> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-431
+    rdf:type gtl-class:POI;
+    rdfs:label "西代駅" ;
+    geo:lat "34.6623785"^^xsd:float ;
+    geo:lon "135.144099"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7040529> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-432
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県立長田商業高等学校" ;
+    geo:lat "34.670361"^^xsd:float ;
+    geo:lon "135.143694"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11393127> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-433
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫警察署" ;
+    geo:lat "34.676306"^^xsd:float ;
+    geo:lon "135.165139"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11393659> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-434
+    rdf:type gtl-class:POI;
+    rdfs:label "新長田駅前ビル" ;
+    geo:lat "34.656306"^^xsd:float ;
+    geo:lon "135.144417"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11504253> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-435
+    rdf:type gtl-class:POI;
+    rdfs:label "社会保険神戸中央病院" ;
+    geo:lat "34.736917"^^xsd:float ;
+    geo:lon "135.155389"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11588231> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-436
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸中央教会" ;
+    geo:lat "34.67675"^^xsd:float ;
+    geo:lon "135.167694"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589793> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-437
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立名倉小学校" ;
+    geo:lat "34.679889"^^xsd:float ;
+    geo:lon "135.148056"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589966> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-438
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立池田小学校" ;
+    geo:lat "34.668"^^xsd:float ;
+    geo:lon "135.144944"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590050> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-439
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立真野小学校" ;
+    geo:lat "34.657139"^^xsd:float ;
+    geo:lon "135.154028"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590065> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-440
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸常盤大学短期大学部" ;
+    geo:lat "34.66546111"^^xsd:float ;
+    geo:lon "135.14135"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590131> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-441
+    rdf:type gtl-class:POI;
+    rdfs:label "新開地駅" ;
+    geo:lat "34.67598056"^^xsd:float ;
+    geo:lon "135.1692889"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7497640> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-442
+    rdf:type gtl-class:POI;
+    rdfs:label "NHK神戸放送局" ;
+    geo:lat "34.695278"^^xsd:float ;
+    geo:lon "135.188333"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q10854688> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-443
+    rdf:type gtl-class:POI;
+    rdfs:label "日本基督教団神戸栄光教会" ;
+    geo:lat "34.69166667"^^xsd:float ;
+    geo:lon "135.1847222"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11086328> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-444
+    rdf:type gtl-class:POI;
+    rdfs:label "日本基督教団神戸平安教会" ;
+    geo:lat "34.69166667"^^xsd:float ;
+    geo:lon "135.1847222"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11507803> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-445
+    rdf:type gtl-class:POI;
+    rdfs:label "K?be District Public Prosecutors Office" ;
+    geo:lat "34.683194"^^xsd:float ;
+    geo:lon "135.177278"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589843> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-446
+    rdf:type gtl-class:POI;
+    rdfs:label "生田警察署" ;
+    geo:lat "34.69486111"^^xsd:float ;
+    geo:lon "135.1888889"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11574820> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-447
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸クリスタルタワー" ;
+    geo:lat "34.68055556"^^xsd:float ;
+    geo:lon "135.18"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589737> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-448
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸ポートタワーホテル" ;
+    geo:lat "34.684944"^^xsd:float ;
+    geo:lon "135.185444"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589773> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-449
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸中華同文学校" ;
+    geo:lat "34.691722"^^xsd:float ;
+    geo:lon "135.179389"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589797> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-450
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸大学医学部附属病院" ;
+    geo:lat "34.685278"^^xsd:float ;
+    geo:lon "135.171111"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589850> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-451
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市場駅" ;
+    geo:lat "34.66525"^^xsd:float ;
+    geo:lon "135.1771944"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589923> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-452
+    rdf:type gtl-class:POI;
+    rdfs:label "神港学園神港高等学校" ;
+    geo:lat "34.694528"^^xsd:float ;
+    geo:lon "135.183083"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590504> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-453
+    rdf:type gtl-class:POI;
+    rdfs:label "生田神社" ;
+    geo:lat "34.69509722"^^xsd:float ;
+    geo:lon "135.1906139"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q710086> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-454
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市" ;
+    geo:lat "34.6913"^^xsd:float ;
+    geo:lon "135.183"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q48320> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-455
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立下山手小学校" ;
+    geo:lat "34.688111"^^xsd:float ;
+    geo:lon "135.178889"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q17219308> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-456
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立諏訪山小学校" ;
+    geo:lat "34.692833"^^xsd:float ;
+    geo:lon "135.1835"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q17219317> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-457
+    rdf:type gtl-class:POI;
+    rdfs:label "大倉山駅" ;
+    geo:lat "34.6847"^^xsd:float ;
+    geo:lon "135.174"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5358351> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-458
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県" ;
+    geo:lat "34.69081667"^^xsd:float ;
+    geo:lon "135.1830778"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q130290> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-459
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸山手大学" ;
+    geo:lat "34.69388889"^^xsd:float ;
+    geo:lon "135.1783333"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6424350> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-460
+    rdf:type gtl-class:POI;
+    rdfs:label "相楽園" ;
+    geo:lat "34.6925"^^xsd:float ;
+    geo:lon "135.182"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7667612> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-461
+    rdf:type gtl-class:POI;
+    rdfs:label "みなと異人館" ;
+    geo:lat "34.67666667"^^xsd:float ;
+    geo:lon "135.2038889"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11279154> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-462
+    rdf:type gtl-class:POI;
+    rdfs:label "カーネギーメロン大学日本校" ;
+    geo:lat "34.678611"^^xsd:float ;
+    geo:lon "135.180833"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11295680> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-463
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫港駅" ;
+    geo:lat "34.66611111"^^xsd:float ;
+    geo:lon "135.1801389"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392858> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-464
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県庁" ;
+    geo:lat "34.691306"^^xsd:float ;
+    geo:lon "135.183139"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392890> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-465
+    rdf:type gtl-class:POI;
+    rdfs:label "旧神戸住友ビル" ;
+    geo:lat "34.687333"^^xsd:float ;
+    geo:lon "135.189389"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11511109> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-466
+    rdf:type gtl-class:POI;
+    rdfs:label "湊川駅 (国鉄" ;
+    geo:lat "34.67802778"^^xsd:float ;
+    geo:lon "135.1808056"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11563155> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-467
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸国際展示場" ;
+    geo:lat "34.664139"^^xsd:float ;
+    geo:lon "135.212"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589839> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-468
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立こうべ小学校" ;
+    geo:lat "34.693139"^^xsd:float ;
+    geo:lon "135.182861"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589936> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-469
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立楠高等学校" ;
+    geo:lat "34.680222"^^xsd:float ;
+    geo:lon "135.164556"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590043> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-470
+    rdf:type gtl-class:POI;
+    rdfs:label "湊川神社" ;
+    geo:lat "34.6813582"^^xsd:float ;
+    geo:lon "135.1754379"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q713188> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-471
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸ポートタワー" ;
+    geo:lat "34.6825"^^xsd:float ;
+    geo:lon "135.1866667"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q798766> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-472
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県民会館" ;
+    geo:lat "34.691833"^^xsd:float ;
+    geo:lon "135.185139"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q18339025> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-473
+    rdf:type gtl-class:POI;
+    rdfs:label "日本基督教団神戸教会" ;
+    geo:lat "34.68930556"^^xsd:float ;
+    geo:lon "135.1809722"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q10311926> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-474
+    rdf:type gtl-class:POI;
+    rdfs:label "ポートピア大橋" ;
+    geo:lat "34.6785"^^xsd:float ;
+    geo:lon "135.203944"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11339455> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-475
+    rdf:type gtl-class:POI;
+    rdfs:label "ホテルオークラ神戸" ;
+    geo:lat "34.683806"^^xsd:float ;
+    geo:lon "135.187861"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11337855> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-476
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫医療大学" ;
+    geo:lat "34.66694444"^^xsd:float ;
+    geo:lon "135.2044444"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392832> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-477
+    rdf:type gtl-class:POI;
+    rdfs:label "多聞福音教会" ;
+    geo:lat "34.69166667"^^xsd:float ;
+    geo:lon "135.1847222"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11431012> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-478
+    rdf:type gtl-class:POI;
+    rdfs:label "広厳寺" ;
+    geo:lat "34.685083"^^xsd:float ;
+    geo:lon "135.172722"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11484306> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-479
+    rdf:type gtl-class:POI;
+    rdfs:label "日本基督教団主恩教会" ;
+    geo:lat "34.69166667"^^xsd:float ;
+    geo:lon "135.1847222"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11507783> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-480
+    rdf:type gtl-class:POI;
+    rdfs:label "本願寺神戸別院" ;
+    geo:lat "34.686042"^^xsd:float ;
+    geo:lon "135.18015"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11521062> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-481
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸中央郵便局" ;
+    geo:lat "34.682917"^^xsd:float ;
+    geo:lon "135.181528"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589795> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-482
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市水の科学博物館" ;
+    geo:lat "34.69388889"^^xsd:float ;
+    geo:lon "135.1758333"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589929> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-483
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立夢野の丘小学校" ;
+    geo:lat "34.681417"^^xsd:float ;
+    geo:lon "135.160472"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589979> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-484
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸文化ホール" ;
+    geo:lat "34.68388889"^^xsd:float ;
+    geo:lon "135.1730556"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590142> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-485
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸水上警察署" ;
+    geo:lat "34.67688889"^^xsd:float ;
+    geo:lon "135.20575"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590169> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-486
+    rdf:type gtl-class:POI;
+    rdfs:label "旧居留地・大丸前駅" ;
+    geo:lat "34.6891"^^xsd:float ;
+    geo:lon "135.19"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6453137> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-487
+    rdf:type gtl-class:POI;
+    rdfs:label "湊川駅" ;
+    geo:lat "34.6787908"^^xsd:float ;
+    geo:lon "135.1666188"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6863276> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-488
+    rdf:type gtl-class:POI;
+    rdfs:label "ウインズ神戸" ;
+    geo:lat "34.68875"^^xsd:float ;
+    geo:lon "135.1865"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11288414> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-489
+    rdf:type gtl-class:POI;
+    rdfs:label "旧ハッサム住宅" ;
+    geo:lat "34.69305556"^^xsd:float ;
+    geo:lon "135.1816667"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11510890> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-490
+    rdf:type gtl-class:POI;
+    rdfs:label "海岸ビル" ;
+    geo:lat "34.686556"^^xsd:float ;
+    geo:lon "135.190639"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11558879> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-491
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立中央体育館" ;
+    geo:lat "34.682792"^^xsd:float ;
+    geo:lon "135.174436"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589940> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-492
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立友生養護学校" ;
+    geo:lat "34.686472"^^xsd:float ;
+    geo:lon "135.160278"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589964> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-493
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立神戸生田中学校" ;
+    geo:lat "34.690278"^^xsd:float ;
+    geo:lon "135.185361"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590071> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-494
+    rdf:type gtl-class:POI;
+    rdfs:label "佐比江町" ;
+    geo:lat "34.673889"^^xsd:float ;
+    geo:lon "135.176111"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q17209058> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-495
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立山の手小学校" ;
+    geo:lat "34.690639"^^xsd:float ;
+    geo:lon "135.175722"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q17219345> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-496
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県庁舎" ;
+    geo:lat "34.691306"^^xsd:float ;
+    geo:lon "135.183139"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q18339024> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-497
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸ルミナリエ" ;
+    geo:lat "34.68808333"^^xsd:float ;
+    geo:lon "135.1899444"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q1636567> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-498
+    rdf:type gtl-class:POI;
+    rdfs:label "ホテルシェレナ" ;
+    geo:lat "34.683139"^^xsd:float ;
+    geo:lon "135.180611"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11337872> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-499
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫柔整専門学校" ;
+    geo:lat "34.691361"^^xsd:float ;
+    geo:lon "135.18625"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392855> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-500
+    rdf:type gtl-class:POI;
+    rdfs:label "医療法人川崎病院" ;
+    geo:lat "34.680278"^^xsd:float ;
+    geo:lon "135.163083"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11404661> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-501
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸学院大学附属高等学校" ;
+    geo:lat "34.679889"^^xsd:float ;
+    geo:lon "135.160194"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589874> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-502
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸夙川学院大学" ;
+    geo:lat "34.66555556"^^xsd:float ;
+    geo:lon "135.2044444"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6424332> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-503
+    rdf:type gtl-class:POI;
+    rdfs:label "海文堂書店" ;
+    geo:lat "34.687528"^^xsd:float ;
+    geo:lon "135.1855"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q17227066> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-504
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立生田中学校" ;
+    geo:lat "34.690639"^^xsd:float ;
+    geo:lon "135.175722"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q17228451> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-505
+    rdf:type gtl-class:POI;
+    rdfs:label "Q5029641" ;
+    geo:lat "34.68486111"^^xsd:float ;
+    geo:lon "135.2739167"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5029641> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-506
+    rdf:type gtl-class:POI;
+    rdfs:label "そごう神戸店" ;
+    geo:lat "34.693028"^^xsd:float ;
+    geo:lon "135.19525"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11270319> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-507
+    rdf:type gtl-class:POI;
+    rdfs:label "再度山" ;
+    geo:lat "34.718583"^^xsd:float ;
+    geo:lon "135.177694"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11394928> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-508
+    rdf:type gtl-class:POI;
+    rdfs:label "北野天満神社" ;
+    geo:lat "34.701972"^^xsd:float ;
+    geo:lon "135.189556"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11404274> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-509
+    rdf:type gtl-class:POI;
+    rdfs:label "摩耶大橋" ;
+    geo:lat "34.694111"^^xsd:float ;
+    geo:lon "135.215861"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11498626> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-510
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸港港島トンネル" ;
+    geo:lat "34.683611"^^xsd:float ;
+    geo:lon "135.211389"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590180> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-511
+    rdf:type gtl-class:POI;
+    rdfs:label "三宮駅" ;
+    geo:lat "34.69444444"^^xsd:float ;
+    geo:lon "135.1952778"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q377926> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-512
+    rdf:type gtl-class:POI;
+    rdfs:label "碇山" ;
+    geo:lat "34.703056"^^xsd:float ;
+    geo:lon "135.180278"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11587719> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-513
+    rdf:type gtl-class:POI;
+    rdfs:label "熊本イスラミックセンター" ;
+    geo:lat "34.6961"^^xsd:float ;
+    geo:lon "135.188"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q18207012> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-514
+    rdf:type gtl-class:POI;
+    rdfs:label "布引五本松ダム" ;
+    geo:lat "34.71111111"^^xsd:float ;
+    geo:lon "135.1902778"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q367282> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-515
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸情報大学院大学" ;
+    geo:lat "34.69897222"^^xsd:float ;
+    geo:lon "135.1932222"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q4162544> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-516
+    rdf:type gtl-class:POI;
+    rdfs:label "六甲アイランド" ;
+    geo:lat "34.68333333"^^xsd:float ;
+    geo:lon "135.2666667"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q579015> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-517
+    rdf:type gtl-class:POI;
+    rdfs:label "オリエンタルホテル" ;
+    geo:lat "34.69073056"^^xsd:float ;
+    geo:lon "135.1993472"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11292556> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-518
+    rdf:type gtl-class:POI;
+    rdfs:label "リバーモール" ;
+    geo:lat "34.69075"^^xsd:float ;
+    geo:lon "135.269028"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11348334> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-519
+    rdf:type gtl-class:POI;
+    rdfs:label "三宮ターミナルホテル" ;
+    geo:lat "34.69425"^^xsd:float ;
+    geo:lon "135.194861"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11355144> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-520
+    rdf:type gtl-class:POI;
+    rdfs:label "ポートピアホテル" ;
+    geo:lat "34.6651"^^xsd:float ;
+    geo:lon "135.214"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3198122> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-521
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸スカイブリッジ" ;
+    geo:lat "34.6475"^^xsd:float ;
+    geo:lon "135.230278"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589750> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-522
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸レガッタアンドアスレチッククラブ" ;
+    geo:lat "34.69111111"^^xsd:float ;
+    geo:lon "135.1988889"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589782> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-523
+    rdf:type gtl-class:POI;
+    rdfs:label "ポートアイランド" ;
+    geo:lat "34.66666667"^^xsd:float ;
+    geo:lon "135.2166667"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q1207766> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-524
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸モスク" ;
+    geo:lat "34.696111"^^xsd:float ;
+    geo:lon "135.187778"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q1334137> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-525
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸国際大学" ;
+    geo:lat "34.68055556"^^xsd:float ;
+    geo:lon "135.2702778"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6424312> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-526
+    rdf:type gtl-class:POI;
+    rdfs:label "京橋パーキングエリア" ;
+    geo:lat "34.685278"^^xsd:float ;
+    geo:lon "135.195472"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q10883192> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-527
+    rdf:type gtl-class:POI;
+    rdfs:label "コナミ神戸ビル" ;
+    geo:lat "34.667583"^^xsd:float ;
+    geo:lon "135.2175"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11302294> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-528
+    rdf:type gtl-class:POI;
+    rdfs:label "マリンパーク駅" ;
+    geo:lat "34.68425"^^xsd:float ;
+    geo:lon "135.2701111"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11341119> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-529
+    rdf:type gtl-class:POI;
+    rdfs:label "旧サッスーン邸" ;
+    geo:lat "34.701917"^^xsd:float ;
+    geo:lon "135.191889"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11510887> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-530
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸動植物環境専門学校" ;
+    geo:lat "34.690528"^^xsd:float ;
+    geo:lon "135.270444"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589812> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-531
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸商工貿易センタービル" ;
+    geo:lat "34.68819427"^^xsd:float ;
+    geo:lon "135.1997223"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589826> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-532
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸山手女子中学校・高等学校" ;
+    geo:lat "34.695944"^^xsd:float ;
+    geo:lon "135.178083"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589884> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-533
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸空港海上アクセスターミナル" ;
+    geo:lat "34.639722"^^xsd:float ;
+    geo:lon "135.228833"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590194> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-534
+    rdf:type gtl-class:POI;
+    rdfs:label "アイランド北口駅" ;
+    geo:lat "34.69333333"^^xsd:float ;
+    geo:lon "135.2686667"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11282452> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-535
+    rdf:type gtl-class:POI;
+    rdfs:label "専門学校アートカレッジ神戸" ;
+    geo:lat "34.690528"^^xsd:float ;
+    geo:lon "135.270861"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11458470> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-536
+    rdf:type gtl-class:POI;
+    rdfs:label "小野浜造船所" ;
+    geo:lat "34.6917"^^xsd:float ;
+    geo:lon "135.209"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11464151> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-537
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸国際会館" ;
+    geo:lat "34.69222222"^^xsd:float ;
+    geo:lon "135.1958333"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589836> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-538
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸大橋" ;
+    geo:lat "34.678444"^^xsd:float ;
+    geo:lon "135.211778"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589863> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-539
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立向洋中学校" ;
+    geo:lat "34.689722"^^xsd:float ;
+    geo:lon "135.274"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589967> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-540
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立外国人墓地" ;
+    geo:lat "34.72544144"^^xsd:float ;
+    geo:lon "135.1733673"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589976> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-541
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸港駅" ;
+    geo:lat "34.68836111"^^xsd:float ;
+    geo:lon "135.2017778"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590181> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-542
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸関電ビルディング" ;
+    geo:lat "34.68638889"^^xsd:float ;
+    geo:lon "135.1963889"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590236> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-543
+    rdf:type gtl-class:POI;
+    rdfs:label "北野町" ;
+    geo:lat "34.69833333"^^xsd:float ;
+    geo:lon "135.1902778"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5363751> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-544
+    rdf:type gtl-class:POI;
+    rdfs:label "P&G本社ビル" ;
+    geo:lat "34.6908"^^xsd:float ;
+    geo:lon "135.27"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3406456> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-545
+    rdf:type gtl-class:POI;
+    rdfs:label "アイランドセンター駅" ;
+    geo:lat "34.68916667"^^xsd:float ;
+    geo:lon "135.2693056"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11282449> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-546
+    rdf:type gtl-class:POI;
+    rdfs:label "シティタワー神戸三宮" ;
+    geo:lat "34.696639"^^xsd:float ;
+    geo:lon "135.198056"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11307300> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-547
+    rdf:type gtl-class:POI;
+    rdfs:label "ホテルパールシティ神戸" ;
+    geo:lat "34.667694"^^xsd:float ;
+    geo:lon "135.216139"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11337894> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-548
+    rdf:type gtl-class:POI;
+    rdfs:label "六甲アイランドカースクール" ;
+    geo:lat "34.683611"^^xsd:float ;
+    geo:lon "135.263778"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392440> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-549
+    rdf:type gtl-class:POI;
+    rdfs:label "再度公園" ;
+    geo:lat "34.72166667"^^xsd:float ;
+    geo:lon "135.175"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11394927> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-550
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立小部東小学校" ;
+    geo:lat "34.727444"^^xsd:float ;
+    geo:lon "135.157528"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589995> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-551
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸電子専門学校" ;
+    geo:lat "34.699944"^^xsd:float ;
+    geo:lon "135.192611"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590239> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-552
+    rdf:type gtl-class:POI;
+    rdfs:label "三ノ宮駅" ;
+    geo:lat "34.69483889"^^xsd:float ;
+    geo:lon "135.1949417"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q14616729> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-553
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県立神戸高等学校" ;
+    geo:lat "34.717"^^xsd:float ;
+    geo:lon "135.214694"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11393085> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-554
+    rdf:type gtl-class:POI;
+    rdfs:label "摩耶自然観察園" ;
+    geo:lat "34.735"^^xsd:float ;
+    geo:lon "135.205833"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11498634> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-555
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立なぎさ小学校" ;
+    geo:lat "34.697889"^^xsd:float ;
+    geo:lon "135.210583"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589935> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-556
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立広陵中学校" ;
+    geo:lat "34.749667"^^xsd:float ;
+    geo:lon "135.169389"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590002> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-557
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立桜の宮中学校" ;
+    geo:lat "34.738278"^^xsd:float ;
+    geo:lon "135.160028"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590041> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-558
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立筑紫が丘小学校" ;
+    geo:lat "34.744278"^^xsd:float ;
+    geo:lon "135.162472"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590078> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-559
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸逓信病院" ;
+    geo:lat "34.707778"^^xsd:float ;
+    geo:lon "135.206611"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590223> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-560
+    rdf:type gtl-class:POI;
+    rdfs:label "防災未来館" ;
+    geo:lat "34.69833333"^^xsd:float ;
+    geo:lon "135.2147222"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11657045> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-561
+    rdf:type gtl-class:POI;
+    rdfs:label "新川駅" ;
+    geo:lat "34.6981"^^xsd:float ;
+    geo:lon "135.2"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11502118> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-562
+    rdf:type gtl-class:POI;
+    rdfs:label "新神戸オリエンタルシティ" ;
+    geo:lat "34.7047"^^xsd:float ;
+    geo:lon "135.195"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3482148> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-563
+    rdf:type gtl-class:POI;
+    rdfs:label "灘駅" ;
+    geo:lat "34.7062"^^xsd:float ;
+    geo:lon "135.2165"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q592339> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-564
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県立神戸特別支援学校" ;
+    geo:lat "34.739083"^^xsd:float ;
+    geo:lon "135.163778"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11393079> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-565
+    rdf:type gtl-class:POI;
+    rdfs:label "星の駅" ;
+    geo:lat "34.73367222"^^xsd:float ;
+    geo:lon "135.2059139"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11512758> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-566
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市王子スタジアム" ;
+    geo:lat "34.71089167"^^xsd:float ;
+    geo:lon "135.2172278"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589933> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-567
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立上筒井小学校" ;
+    geo:lat "34.710611"^^xsd:float ;
+    geo:lon "135.211333"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589938> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-568
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立広陵小学校" ;
+    geo:lat "34.748472"^^xsd:float ;
+    geo:lon "135.165083"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590003> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-569
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立春日野小学校" ;
+    geo:lat "34.705333"^^xsd:float ;
+    geo:lon "135.206278"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590017> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-570
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立葺合中学校" ;
+    geo:lat "34.706833"^^xsd:float ;
+    geo:lon "135.20325"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590085> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-571
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立葺合高等学校" ;
+    geo:lat "34.71095"^^xsd:float ;
+    geo:lon "135.210286"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590086> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-572
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立西灘小学校" ;
+    geo:lat "34.707694"^^xsd:float ;
+    geo:lon "135.227694"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590089> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-573
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立西郷小学校" ;
+    geo:lat "34.706944"^^xsd:float ;
+    geo:lon "135.232778"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590094> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-574
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸海星女子学院中学校・高等学校" ;
+    geo:lat "34.713111"^^xsd:float ;
+    geo:lon "135.211972"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590175> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-575
+    rdf:type gtl-class:POI;
+    rdfs:label "六甲道駅" ;
+    geo:lat "34.715"^^xsd:float ;
+    geo:lon "135.2384"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q1042660> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-576
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市文書館" ;
+    geo:lat "34.70810556"^^xsd:float ;
+    geo:lon "135.2023139"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6424300> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-577
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸すまいまちづくり公社摩耶ケーブル線" ;
+    geo:lat "34.72697222"^^xsd:float ;
+    geo:lon "135.2123611"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6796675> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-578
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県洋菓子技術専門校" ;
+    geo:lat "34.709444"^^xsd:float ;
+    geo:lon "135.234556"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392897> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-579
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸労災病院" ;
+    geo:lat "34.710556"^^xsd:float ;
+    geo:lon "135.206944"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589810> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-580
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立原田中学校" ;
+    geo:lat "34.707778"^^xsd:float ;
+    geo:lon "135.229194"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589961> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-581
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立渚中学校" ;
+    geo:lat "34.700639"^^xsd:float ;
+    geo:lon "135.217333"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590052> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-582
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立王子動物園" ;
+    geo:lat "34.71"^^xsd:float ;
+    geo:lon "135.214444"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590062> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-583
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立長峰中学校" ;
+    geo:lat "34.724694"^^xsd:float ;
+    geo:lon "135.222444"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590101> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-584
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸酒心館" ;
+    geo:lat "34.70975"^^xsd:float ;
+    geo:lon "135.2485"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590232> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-585
+    rdf:type gtl-class:POI;
+    rdfs:label "穂高湖" ;
+    geo:lat "34.74388889"^^xsd:float ;
+    geo:lon "135.2086111"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11597108> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-586
+    rdf:type gtl-class:POI;
+    rdfs:label "長峰山 (兵庫県" ;
+    geo:lat "34.73916667"^^xsd:float ;
+    geo:lon "135.2180556"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6922339> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-587
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸海星女子学院小学校" ;
+    geo:lat "34.713111"^^xsd:float ;
+    geo:lon "135.211972"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q17219215> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-588
+    rdf:type gtl-class:POI;
+    rdfs:label "オテル・ド・摩耶" ;
+    geo:lat "34.7375"^^xsd:float ;
+    geo:lon "135.2061111"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11292051> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-589
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県災害医療センター" ;
+    geo:lat "34.696417"^^xsd:float ;
+    geo:lon "135.211778"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392898> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-590
+    rdf:type gtl-class:POI;
+    rdfs:label "摩耶埠頭駅" ;
+    geo:lat "34.69672222"^^xsd:float ;
+    geo:lon "135.2230833"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11498625> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-591
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立中央小学校" ;
+    geo:lat "34.701833"^^xsd:float ;
+    geo:lon "135.199667"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589941> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-592
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸製鋼所神戸製鉄所" ;
+    geo:lat "34.705639"^^xsd:float ;
+    geo:lon "135.248361"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590210> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-593
+    rdf:type gtl-class:POI;
+    rdfs:label "西山記念会館" ;
+    geo:lat "34.699139"^^xsd:float ;
+    geo:lon "135.20925"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11627905> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-594
+    rdf:type gtl-class:POI;
+    rdfs:label "灘区" ;
+    geo:lat "34.7125"^^xsd:float ;
+    geo:lon "135.2397222"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q1154555> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-595
+    rdf:type gtl-class:POI;
+    rdfs:label "摩耶山" ;
+    geo:lat "34.71666667"^^xsd:float ;
+    geo:lon "135.2"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6922072> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-596
+    rdf:type gtl-class:POI;
+    rdfs:label "布引ハーブ園" ;
+    geo:lat "34.71527778"^^xsd:float ;
+    geo:lon "135.1922222"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7069905> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-597
+    rdf:type gtl-class:POI;
+    rdfs:label "WHO健康開発総合研究センター" ;
+    geo:lat "34.699"^^xsd:float ;
+    geo:lon "135.217"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7950344> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-598
+    rdf:type gtl-class:POI;
+    rdfs:label "BBプラザ美術館" ;
+    geo:lat "34.70325"^^xsd:float ;
+    geo:lon "135.217778"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11190936> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-599
+    rdf:type gtl-class:POI;
+    rdfs:label "六甲幼稚園" ;
+    geo:lat "34.720278"^^xsd:float ;
+    geo:lon "135.233167"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392469> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-600
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県立神戸甲北高等学校" ;
+    geo:lat "34.739"^^xsd:float ;
+    geo:lon "135.162306"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11393080> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-601
+    rdf:type gtl-class:POI;
+    rdfs:label "摩耶ケーブル駅" ;
+    geo:lat "34.71984722"^^xsd:float ;
+    geo:lon "135.21615"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11498622> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-602
+    rdf:type gtl-class:POI;
+    rdfs:label "沢の鶴資料館" ;
+    geo:lat "34.703278"^^xsd:float ;
+    geo:lon "135.233139"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11553106> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-603
+    rdf:type gtl-class:POI;
+    rdfs:label "灘警察署" ;
+    geo:lat "34.714194"^^xsd:float ;
+    geo:lon "135.227722"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11566815> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-604
+    rdf:type gtl-class:POI;
+    rdfs:label "灘郵便局" ;
+    geo:lat "34.708694"^^xsd:float ;
+    geo:lon "135.236028"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11566817> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-605
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立上野中学校" ;
+    geo:lat "34.719278"^^xsd:float ;
+    geo:lon "135.222861"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589939> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-606
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立六甲小学校" ;
+    geo:lat "34.717778"^^xsd:float ;
+    geo:lon "135.233333"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589951> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-607
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立灘小学校" ;
+    geo:lat "34.713333"^^xsd:float ;
+    geo:lon "135.232778"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590055> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-608
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立烏帽子中学校" ;
+    geo:lat "34.710694"^^xsd:float ;
+    geo:lon "135.237556"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590057> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-609
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸弘陵学園高等学校" ;
+    geo:lat "34.735111"^^xsd:float ;
+    geo:lon "135.165028"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590136> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-610
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸芸術センター" ;
+    geo:lat "34.70425"^^xsd:float ;
+    geo:lon "135.198361"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590206> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-611
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸赤十字病院" ;
+    geo:lat "34.696417"^^xsd:float ;
+    geo:lon "135.211778"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590224> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-612
+    rdf:type gtl-class:POI;
+    rdfs:label "神鋼病院" ;
+    geo:lat "34.704"^^xsd:float ;
+    geo:lon "135.211111"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11591001> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-613
+    rdf:type gtl-class:POI;
+    rdfs:label "神鋼神戸発電所" ;
+    geo:lat "34.703222"^^xsd:float ;
+    geo:lon "135.240917"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11591002> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-614
+    rdf:type gtl-class:POI;
+    rdfs:label "葺合警察署" ;
+    geo:lat "34.697889"^^xsd:float ;
+    geo:lon "135.204278"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11621210> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-615
+    rdf:type gtl-class:POI;
+    rdfs:label "葺合郵便局" ;
+    geo:lat "34.699528"^^xsd:float ;
+    geo:lon "135.208167"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11621212> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-616
+    rdf:type gtl-class:POI;
+    rdfs:label "虹の駅" ;
+    geo:lat "34.727325"^^xsd:float ;
+    geo:lon "135.212153"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11625429> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-617
+    rdf:type gtl-class:POI;
+    rdfs:label "摩耶ロープウェー" ;
+    geo:lat "34.73341667"^^xsd:float ;
+    geo:lon "135.2060556"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6796735> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-618
+    rdf:type gtl-class:POI;
+    rdfs:label "Q5646951" ;
+    geo:lat "34.76733333"^^xsd:float ;
+    geo:lon "135.1866944"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5646951> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-619
+    rdf:type gtl-class:POI;
+    rdfs:label "Q5926909" ;
+    geo:lat "34.71666667"^^xsd:float ;
+    geo:lon "135.2833333"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5926909> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-620
+    rdf:type gtl-class:POI;
+    rdfs:label "六甲山荘" ;
+    geo:lat "34.760917"^^xsd:float ;
+    geo:lon "135.234472"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392470> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-621
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県立六甲山自然保護センター" ;
+    geo:lat "34.75694444"^^xsd:float ;
+    geo:lon "135.2293056"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392946> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-622
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県立神戸北高等学校" ;
+    geo:lat "34.789417"^^xsd:float ;
+    geo:lon "135.216472"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11393075> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-623
+    rdf:type gtl-class:POI;
+    rdfs:label "南魚崎駅" ;
+    geo:lat "34.70680556"^^xsd:float ;
+    geo:lon "135.2676944"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11408798> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-624
+    rdf:type gtl-class:POI;
+    rdfs:label "旧乾邸" ;
+    geo:lat "34.729692"^^xsd:float ;
+    geo:lon "135.257692"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11510910> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-625
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立住吉小学校" ;
+    geo:lat "34.71725"^^xsd:float ;
+    geo:lon "135.264389"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589948> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-626
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立山田中学校" ;
+    geo:lat "34.762639"^^xsd:float ;
+    geo:lon "135.1565"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589996> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-627
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立御影中学校" ;
+    geo:lat "34.716111"^^xsd:float ;
+    geo:lon "135.253611"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590004> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-628
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立本山第一小学校" ;
+    geo:lat "34.728861"^^xsd:float ;
+    geo:lon "135.27875"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590031> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-629
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立遊喜幼稚園" ;
+    geo:lat "34.713"^^xsd:float ;
+    geo:lon "135.263444"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590096> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-630
+    rdf:type gtl-class:POI;
+    rdfs:label "北区" ;
+    geo:lat "34.79305556"^^xsd:float ;
+    geo:lon "135.1661111"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q1078814> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-631
+    rdf:type gtl-class:POI;
+    rdfs:label "御影タワーレジデンス" ;
+    geo:lat "34.716389"^^xsd:float ;
+    geo:lon "135.255278"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3313158> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-632
+    rdf:type gtl-class:POI;
+    rdfs:label "白鶴美術館" ;
+    geo:lat "34.73083333"^^xsd:float ;
+    geo:lon "135.2583333"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q612608> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-633
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸大学" ;
+    geo:lat "34.72805556"^^xsd:float ;
+    geo:lon "135.2347222"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q1192597> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-634
+    rdf:type gtl-class:POI;
+    rdfs:label "唐櫃台駅" ;
+    geo:lat "34.79"^^xsd:float ;
+    geo:lon "135.2117"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6368797> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-635
+    rdf:type gtl-class:POI;
+    rdfs:label "サンシャインワーフ神戸" ;
+    geo:lat "34.714889"^^xsd:float ;
+    geo:lon "135.286"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11305599> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-636
+    rdf:type gtl-class:POI;
+    rdfs:label "六甲オリエンタルホテル" ;
+    geo:lat "34.758111"^^xsd:float ;
+    geo:lon "135.243611"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392442> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-637
+    rdf:type gtl-class:POI;
+    rdfs:label "六甲山ホテル" ;
+    geo:lat "34.75583333"^^xsd:float ;
+    geo:lon "135.2266667"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392461> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-638
+    rdf:type gtl-class:POI;
+    rdfs:label "済生会兵庫県病院" ;
+    geo:lat "34.823083"^^xsd:float ;
+    geo:lon "135.214806"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11561503> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-639
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立八多中学校" ;
+    geo:lat "34.822194"^^xsd:float ;
+    geo:lon "135.195667"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589949> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-640
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立大池小学校" ;
+    geo:lat "34.772333"^^xsd:float ;
+    geo:lon "135.198278"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589983> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-641
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立御影小学校" ;
+    geo:lat "34.715"^^xsd:float ;
+    geo:lon "135.251667"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590007> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-642
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立花山小学校" ;
+    geo:lat "34.765278"^^xsd:float ;
+    geo:lon "135.185306"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590083> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-643
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立魚崎小学校" ;
+    geo:lat "34.715028"^^xsd:float ;
+    geo:lon "135.271222"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590120> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-644
+    rdf:type gtl-class:POI;
+    rdfs:label "甲南女子大学" ;
+    geo:lat "34.73454167"^^xsd:float ;
+    geo:lon "135.2875806"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3826800> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-645
+    rdf:type gtl-class:POI;
+    rdfs:label "六甲駅" ;
+    geo:lat "34.71983889"^^xsd:float ;
+    geo:lon "135.2343889"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q3970702> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-646
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸ゴルフ倶楽部" ;
+    geo:lat "34.75833333"^^xsd:float ;
+    geo:lon "135.2380556"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6424310> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-647
+    rdf:type gtl-class:POI;
+    rdfs:label "岡場駅" ;
+    geo:lat "34.8219"^^xsd:float ;
+    geo:lon "135.2226"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7081708> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-648
+    rdf:type gtl-class:POI;
+    rdfs:label "六甲高山植物園" ;
+    geo:lat "34.7625"^^xsd:float ;
+    geo:lon "135.2416667"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7360060> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-649
+    rdf:type gtl-class:POI;
+    rdfs:label "六甲八幡神社" ;
+    geo:lat "34.7193"^^xsd:float ;
+    geo:lon "135.235"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392454> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-650
+    rdf:type gtl-class:POI;
+    rdfs:label "六甲大橋" ;
+    geo:lat "34.699083"^^xsd:float ;
+    geo:lon "135.26775"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392457> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-651
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県立御影高等学校" ;
+    geo:lat "34.716972"^^xsd:float ;
+    geo:lon "135.250611"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11393009> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-652
+    rdf:type gtl-class:POI;
+    rdfs:label "有間神社" ;
+    geo:lat "34.814194"^^xsd:float ;
+    geo:lon "135.218861"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11516720> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-653
+    rdf:type gtl-class:POI;
+    rdfs:label "東灘郵便局" ;
+    geo:lat "34.719194"^^xsd:float ;
+    geo:lon "135.265111"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11528043> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-654
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立大池中学校" ;
+    geo:lat "34.772028"^^xsd:float ;
+    geo:lon "135.1965"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589981> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-655
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立御影北小学校" ;
+    geo:lat "34.724361"^^xsd:float ;
+    geo:lon "135.248917"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590006> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-656
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立有野小学校" ;
+    geo:lat "34.820611"^^xsd:float ;
+    geo:lon "135.217944"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590024> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-657
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立本山中学校" ;
+    geo:lat "34.725083"^^xsd:float ;
+    geo:lon "135.271028"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590030> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-658
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立本庄中学校" ;
+    geo:lat "34.7205"^^xsd:float ;
+    geo:lon "135.287444"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590032> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-659
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立魚崎中学校" ;
+    geo:lat "34.713333"^^xsd:float ;
+    geo:lon "135.2795"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590119> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-660
+    rdf:type gtl-class:POI;
+    rdfs:label "親和中学校・親和女子高等学校" ;
+    geo:lat "34.726167"^^xsd:float ;
+    geo:lon "135.241889"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11630386> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-661
+    rdf:type gtl-class:POI;
+    rdfs:label "記念碑台" ;
+    geo:lat "34.756833"^^xsd:float ;
+    geo:lon "135.230389"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11631108> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-662
+    rdf:type gtl-class:POI;
+    rdfs:label "香雪美術館" ;
+    geo:lat "34.724167"^^xsd:float ;
+    geo:lon "135.256111"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11667775> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-663
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸薬科大学" ;
+    geo:lat "34.73305556"^^xsd:float ;
+    geo:lon "135.2833333"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6424326> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-664
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立神戸商業高等学校" ;
+    geo:lat "34.723472"^^xsd:float ;
+    geo:lon "135.264444"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q17219301> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-665
+    rdf:type gtl-class:POI;
+    rdfs:label "六甲中学校・高等学校" ;
+    geo:lat "34.728111"^^xsd:float ;
+    geo:lon "135.226917"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392453> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-666
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸大学附属中等教育学校" ;
+    geo:lat "34.732056"^^xsd:float ;
+    geo:lon "135.254472"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589854> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-667
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸大学附属住吉中学校" ;
+    geo:lat "34.73125"^^xsd:float ;
+    geo:lon "135.253167"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589855> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-668
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸大学附属住吉小学校" ;
+    geo:lat "34.731472"^^xsd:float ;
+    geo:lon "135.253778"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589856> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-669
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立六甲山小学校" ;
+    geo:lat "34.7575"^^xsd:float ;
+    geo:lon "135.232222"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589952> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-670
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立唐櫃中学校" ;
+    geo:lat "34.784944"^^xsd:float ;
+    geo:lon "135.211694"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589971> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-671
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立唐櫃小学校" ;
+    geo:lat "34.789833"^^xsd:float ;
+    geo:lon "135.214"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589970> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-672
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立御影幼稚園" ;
+    geo:lat "34.715583"^^xsd:float ;
+    geo:lon "135.251278"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590009> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-673
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立成徳小学校" ;
+    geo:lat "34.715"^^xsd:float ;
+    geo:lon "135.241944"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590011> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-674
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立有野中学校" ;
+    geo:lat "34.82125"^^xsd:float ;
+    geo:lon "135.213944"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590020> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-675
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立本山第二小学校" ;
+    geo:lat "34.724944"^^xsd:float ;
+    geo:lon "135.269806"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590033> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-676
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立谷上小学校" ;
+    geo:lat "34.763333"^^xsd:float ;
+    geo:lon "135.169611"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590093> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-677
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立高羽小学校" ;
+    geo:lat "34.723194"^^xsd:float ;
+    geo:lon "135.238806"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590118> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-678
+    rdf:type gtl-class:POI;
+    rdfs:label "豊雲記念館" ;
+    geo:lat "34.727111"^^xsd:float ;
+    geo:lon "135.252944"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11634295> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-679
+    rdf:type gtl-class:POI;
+    rdfs:label "風の教会" ;
+    geo:lat "34.75638889"^^xsd:float ;
+    geo:lon "135.2455556"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11665348> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-680
+    rdf:type gtl-class:POI;
+    rdfs:label "東灘区" ;
+    geo:lat "34.72027778"^^xsd:float ;
+    geo:lon "135.2655556"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q277434> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-681
+    rdf:type gtl-class:POI;
+    rdfs:label "御影駅" ;
+    geo:lat "34.72472222"^^xsd:float ;
+    geo:lon "135.2525"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q612734> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-682
+    rdf:type gtl-class:POI;
+    rdfs:label "灘中学校・高等学校" ;
+    geo:lat "34.71919444"^^xsd:float ;
+    geo:lon "135.2684167"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6957385> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-683
+    rdf:type gtl-class:POI;
+    rdfs:label "神鉄六甲駅" ;
+    geo:lat "34.7852"^^xsd:float ;
+    geo:lon "135.2061"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7497795> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-684
+    rdf:type gtl-class:POI;
+    rdfs:label "東灘警察署" ;
+    geo:lat "34.717694"^^xsd:float ;
+    geo:lon "135.255778"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11528042> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-685
+    rdf:type gtl-class:POI;
+    rdfs:label "甲南女子中学校・高等学校" ;
+    geo:lat "34.734722"^^xsd:float ;
+    geo:lon "135.291417"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11577691> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-686
+    rdf:type gtl-class:POI;
+    rdfs:label "甲南小学校" ;
+    geo:lat "34.722272"^^xsd:float ;
+    geo:lon "135.264"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11577694> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-687
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立本山南中学校" ;
+    geo:lat "34.722972"^^xsd:float ;
+    geo:lon "135.270472"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590029> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-688
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立藤原台小学校" ;
+    geo:lat "34.813194"^^xsd:float ;
+    geo:lon "135.207667"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590087> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-689
+    rdf:type gtl-class:POI;
+    rdfs:label "芦屋カンツリー倶楽部" ;
+    geo:lat "34.758139"^^xsd:float ;
+    geo:lon "135.276"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11614815> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-690
+    rdf:type gtl-class:POI;
+    rdfs:label "阪神基地隊" ;
+    geo:lat "34.704889"^^xsd:float ;
+    geo:lon "135.2865"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11656934> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-691
+    rdf:type gtl-class:POI;
+    rdfs:label "花山駅" ;
+    geo:lat "34.7698"^^xsd:float ;
+    geo:lon "135.1872"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5646954> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-692
+    rdf:type gtl-class:POI;
+    rdfs:label "頌栄短期大学" ;
+    geo:lat "34.72741667"^^xsd:float ;
+    geo:lon "135.2491389"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7500036> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-693
+    rdf:type gtl-class:POI;
+    rdfs:label "住吉駅 (阪神" ;
+    geo:lat "34.7131"^^xsd:float ;
+    geo:lon "135.262"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7637169> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-694
+    rdf:type gtl-class:POI;
+    rdfs:label "魚崎駅" ;
+    geo:lat "34.7126"^^xsd:float ;
+    geo:lon "135.269"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7897889> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-695
+    rdf:type gtl-class:POI;
+    rdfs:label "Q6355328" ;
+    geo:lat "34.85472222"^^xsd:float ;
+    geo:lon "135.2561111"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q6355328> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-696
+    rdf:type gtl-class:POI;
+    rdfs:label "有野郵便局" ;
+    geo:lat "34.834222"^^xsd:float ;
+    geo:lon "135.223639"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11516709> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-697
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立北神戸中学校" ;
+    geo:lat "34.862944"^^xsd:float ;
+    geo:lon "135.222778"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589959> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-698
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立大沢中学校" ;
+    geo:lat "34.855222"^^xsd:float ;
+    geo:lon "135.164722"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589982> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-699
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立有野東小学校" ;
+    geo:lat "34.814"^^xsd:float ;
+    geo:lon "135.229778"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590023> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-700
+    rdf:type gtl-class:POI;
+    rdfs:label "銀の湯" ;
+    geo:lat "34.795472"^^xsd:float ;
+    geo:lon "135.249056"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11649924> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-701
+    rdf:type gtl-class:POI;
+    rdfs:label "新道場駅" ;
+    geo:lat "34.864833"^^xsd:float ;
+    geo:lon "135.228806"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q17217822> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-702
+    rdf:type gtl-class:POI;
+    rdfs:label "六甲有馬ロープウェー" ;
+    geo:lat "34.76611111"^^xsd:float ;
+    geo:lon "135.2469444"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7360054> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-703
+    rdf:type gtl-class:POI;
+    rdfs:label "六甲山" ;
+    geo:lat "34.77777778"^^xsd:float ;
+    geo:lon "135.2638889"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q462120> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-704
+    rdf:type gtl-class:POI;
+    rdfs:label "六甲ガーデンテラス" ;
+    geo:lat "34.763611"^^xsd:float ;
+    geo:lon "135.246111"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11392445> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-705
+    rdf:type gtl-class:POI;
+    rdfs:label "兵庫県立東灘高等学校" ;
+    geo:lat "34.709972"^^xsd:float ;
+    geo:lon "135.301028"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11393033> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-706
+    rdf:type gtl-class:POI;
+    rdfs:label "冨永家住宅" ;
+    geo:lat "34.720861"^^xsd:float ;
+    geo:lon "135.300722"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11395127> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-707
+    rdf:type gtl-class:POI;
+    rdfs:label "新有馬駅" ;
+    geo:lat "34.79930556"^^xsd:float ;
+    geo:lon "135.2385278"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11502508> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-708
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立有野北中学校" ;
+    geo:lat "34.829861"^^xsd:float ;
+    geo:lon "135.223278"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590021> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-709
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立有野台小学校" ;
+    geo:lat "34.812056"^^xsd:float ;
+    geo:lon "135.225639"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590022> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-710
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立有馬中学校" ;
+    geo:lat "34.809083"^^xsd:float ;
+    geo:lon "135.226194"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590025> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-711
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立鹿の子台小学校" ;
+    geo:lat "34.861"^^xsd:float ;
+    geo:lon "135.218306"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590124> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-712
+    rdf:type gtl-class:POI;
+    rdfs:label "道場駅" ;
+    geo:lat "34.8672"^^xsd:float ;
+    geo:lon "135.2556"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q856528> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-713
+    rdf:type gtl-class:POI;
+    rdfs:label "東神戸大橋" ;
+    geo:lat "34.70916667"^^xsd:float ;
+    geo:lon "135.2922222"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5753964> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-714
+    rdf:type gtl-class:POI;
+    rdfs:label "有馬グランドホテル" ;
+    geo:lat "34.798167"^^xsd:float ;
+    geo:lon "135.243917"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11516749> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-715
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立長尾小学校" ;
+    geo:lat "34.865667"^^xsd:float ;
+    geo:lon "135.194528"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590099> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-716
+    rdf:type gtl-class:POI;
+    rdfs:label "千刈ダム" ;
+    geo:lat "34.8761"^^xsd:float ;
+    geo:lon "135.27"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q7450551> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-717
+    rdf:type gtl-class:POI;
+    rdfs:label "北神戸ゴルフ場" ;
+    geo:lat "34.854444"^^xsd:float ;
+    geo:lon "135.199722"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11403889> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-718
+    rdf:type gtl-class:POI;
+    rdfs:label "北神戸田園スポーツ公園" ;
+    geo:lat "34.84666667"^^xsd:float ;
+    geo:lon "135.2225"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11403890> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-719
+    rdf:type gtl-class:POI;
+    rdfs:label "古澤家住宅" ;
+    geo:lat "34.721028"^^xsd:float ;
+    geo:lon "135.300861"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11411439> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-720
+    rdf:type gtl-class:POI;
+    rdfs:label "有馬わんわんランド" ;
+    geo:lat "34.80125"^^xsd:float ;
+    geo:lon "135.252694"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11516746> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-721
+    rdf:type gtl-class:POI;
+    rdfs:label "有馬駅" ;
+    geo:lat "34.803472"^^xsd:float ;
+    geo:lon "135.249611"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q17192051> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-722
+    rdf:type gtl-class:POI;
+    rdfs:label "有馬温泉" ;
+    geo:lat "34.79805556"^^xsd:float ;
+    geo:lon "135.2475"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q4790673> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-723
+    rdf:type gtl-class:POI;
+    rdfs:label "有馬警察署" ;
+    geo:lat "34.833472"^^xsd:float ;
+    geo:lon "135.224528"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11516833> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-724
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸アドベンチスト病院" ;
+    geo:lat "34.808722"^^xsd:float ;
+    geo:lon "135.224472"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589732> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-725
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立フルーツ・フラワーパーク" ;
+    geo:lat "34.848889"^^xsd:float ;
+    geo:lon "135.191111"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11589937> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-726
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立有馬小学校" ;
+    geo:lat "34.800833"^^xsd:float ;
+    geo:lon "135.248278"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590026> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-727
+    rdf:type gtl-class:POI;
+    rdfs:label "神戸市立西山小学校" ;
+    geo:lat "34.838389"^^xsd:float ;
+    geo:lon "135.2185"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11590088> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-728
+    rdf:type gtl-class:POI;
+    rdfs:label "西お多福山" ;
+    geo:lat "34.770972"^^xsd:float ;
+    geo:lon "135.26025"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q11627041> ;
+    gtl-prop:source "Wikidata" .
+gtl:poi-729
+    rdf:type gtl-class:POI;
+    rdfs:label "道場南口駅" ;
+    geo:lat "34.8559"^^xsd:float ;
+    geo:lon "135.2233"^^xsd:float ;
+    rdfs:seeAlso <http://www.wikidata.org/entity/Q5321257> ;
+    gtl-prop:source "Wikidata" .
