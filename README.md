@@ -38,7 +38,7 @@ CSV形式のデータの各レコードに対し，POI情報の緯度経度と�
 
 ##プロパティ
     
-    	<http://lodosaka.jp/iswc2016gtl-exp/prop#user>　ユーザID
+    <http://lodosaka.jp/iswc2016gtl-exp/prop#user>　ユーザID
     <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> 　訪問したスポットの名称
     <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> 　訪問したスポットの緯度
     <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> 　訪問したスポットの経度
@@ -50,6 +50,7 @@ CSV形式のデータの各レコードに対し，POI情報の緯度経度と�
     
 
 ##データ例
+    
 	<http://lodosaka.jp/iswc2016gtl-exp/user1#0>
 	    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user1" ;
 	    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "市民広場駅" ;
@@ -60,6 +61,7 @@ CSV形式のデータの各レコードに対し，POI情報の緯度経度と�
 	    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-17T11:18:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-17T11:24:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://lodosaka.jp/iswc2016gtl-exp/test#1> .
+    
 
 #データの可視化サンプル
 ##参加者が訪問したスポットの可視化[参加者毎の訪問日数]
@@ -71,6 +73,7 @@ CSV形式のデータの各レコードに対し，POI情報の緯度経度と�
 
 #サンプルクエリ
 ##user1の移動軌跡を時間順に取得する
+    
     select distinct * where {
       ?s <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user1";
       <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> ?label;
@@ -81,9 +84,11 @@ CSV形式のデータの各レコードに対し，POI情報の緯度経度と�
       <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> ?lat;
       <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> ?long.
     }ORDER BY ?st
+    
 <a href="http://lod.hozo.jp/repositories/GPS2LOD2#query/d/%20%20%20%20select%20distinct%20*%20where%20%7B%0A%20%20%20%20%20%20?s%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop%23user%3E%20%22user1%22;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#poi%3E%20?label;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#date%3E%20?d;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#start%3E%20?st;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#end%3E%20?ed;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#next%3E%20?g;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#lat%3E%20?lat;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#lon%3E%20?long.%0A%20%20%20%20%7DORDER%20BY%20?st" target="_blank">[クエリを実行]</a>
 
 ##期間中に1回以上訪問したユーザの人数でスポットをランキングする
+    
     select  distinct ?label ?lat ?long (count(distinct ?u)AS ?c) where {
       ?s <http://lodosaka.jp/iswc2016gtl-exp/prop#user> ?u;
       <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> ?label;
@@ -91,22 +96,27 @@ CSV形式のデータの各レコードに対し，POI情報の緯度経度と�
       <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> ?long.
     }GROUP BY ?label ?lat ?long
     ORDER BY DESC (?c)
+    
 <a href="http://lod.hozo.jp/repositories/GPS2LOD2#query/d/%20%20%20%20select%20%20distinct%20?label%20?lat%20?long%20(count(distinct%20?u)AS%20?c)%20where%20%7B%0A%20%20%20%20%20%20?s%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop%23user%3E%20?u;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#poi%3E%20?label;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#lat%3E%20?lat;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#lon%3E%20?long.%0A%20%20%20%20%7DGROUP%20BY%20?label%20?lat%20?long%0A%20%20%20%20ORDER%20BY%20DESC%20(?c)" target="_blank">[クエリを実行]</a>
 
 ##期間中に「元町駅 (兵庫県)」を1回以上訪問したユーザを取得する
+    
     select  distinct ?u where {
       ?s <http://lodosaka.jp/iswc2016gtl-exp/prop#user> ?u;
       <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "元町駅 (兵庫県)".
     }
+    
 <a href="http://lod.hozo.jp/repositories/GPS2LOD2#query/d/%20%20%20%20select%20%20distinct%20?u%20where%20%7B%0A%20%20%20%20%20%20?s%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop%23user%3E%20?u;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#poi%3E%20%22%E5%85%83%E7%94%BA%E9%A7%85%20(%E5%85%B5%E5%BA%AB%E7%9C%8C)%22.%0A%20%20%20%20%7D%0A" target="_blank">[クエリを実行]</a>
 
 
 
 ##期間中に「元町駅 (兵庫県)」と「メリケンパーク」の両方を1回以上訪問したユーザを取得する
+    
     select  distinct ?u where {
       ?s <http://lodosaka.jp/iswc2016gtl-exp/prop#user> ?u;
          <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "元町駅 (兵庫県)".
       ?s2 <http://lodosaka.jp/iswc2016gtl-exp/prop#user> ?u;
       	  <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "メリケンパーク".
     }
+    
 <a href="http://lod.hozo.jp/repositories/GPS2LOD2#query/d/%20%20%20%20select%20%20distinct%20?u%20where%20%7B%0A%20%20%20%20%20%20?s%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop%23user%3E%20?u;%0A%20%20%20%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#poi%3E%20%22%E5%85%83%E7%94%BA%E9%A7%85%20(%E5%85%B5%E5%BA%AB%E7%9C%8C)%22.%0A%20%20%20%20%20%20?s2%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#user%3E%20?u;%0A%20%20%20%20%20%20%09%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#poi%3E%20%22%E3%83%A1%E3%83%AA%E3%82%B1%E3%83%B3%E3%83%91%E3%83%BC%E3%82%AF%22.%0A%20%20%20%20%7D%0A" target="_blank">[クエリを実行]</a>
