@@ -1,13 +1,9 @@
-# Overvew
-This is the repository to publish data collected through [GPS trajectory linked data project](<http://iswc2016.semanticweb.org/pages/attending/applications.html) in ISWC2016, Kobe.
+#概要
+ISWC2016の連携企画の一つとして行われた  
+*「GPS trajectory linked data project」*
+<http://iswc2016.semanticweb.org/pages/attending/applications.html>  
+で収集したデータを公開しています．
 
-The overview is discussed in the following paper;
-- GPS Trajectory Linked Open Data based on Open POI Information <br>
-  -Through an Experiment in ISWC2016- <br>   
-   Kouji Kozaki, Teruaki Yokoyama and Yoshiaki Fukami<br>
-   [Download paper (preprint)](https://iswc2017.ai.wu.ac.at/wp-content/uploads/papers/PostersDemos/paper624.pdf)
-
-<!--
 このプロジェクトでは，ISWC2016の参加者に「GPSロガー」を貸与して，会議開催期間中に，どのような場所を移動したかのデータを収集しました．  
 収集したデータの情報は下記のとおりです．
 * 収集期間：2016/10/17-2016/10/21
@@ -20,24 +16,23 @@ POI情報は，
  - DBpedia Japanese(http://ja.dbpedia.org/)
  - Wikidata(https://wikidata.org/)
  を用いて作成しました．
-## Kinds of data
 
+## データの公開場所
+各データは，それぞれ下記のフォルダから取得できます．
 * CSV　CSV形式のデータ
 * GPX　GPX形式のデータ
 * RDF　RDF形式のデータ（CSV形式のデータを元に変換して作成）
 * POI.csv　RDF形式のデータ作成に利用したPOI情報
--->
 
-## License
+## ライセンス
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br>
-This work is licensed under <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">a Creative Commons Attribution 4.0 International License</a>.<br>
-The license holder is *「GPS trajectory linked data project」* ．
+本データ は <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズ 表示 4.0 国際 ライセンス</a>の下に提供されています。<br>
+著作者には *「GPS trajectory linked data project」* と表示してください．
 
-## SPARQL Endpoint
+## SPARQLエンドポイント
 <http://lod.hozo.jp/repositories/GPS2LOD>
 
-# RDF data model
-<!--
+# RDFデータのモデル
 ## 基本的な考え方
 本データモデルは，「POI情報」および「各ユーザの移動軌跡」のそれぞれを表す2種類のデータモデルから構成さます．
 「訪問情報」には```<http://lodosaka.jp/iswc2016gtl-exp/data/ユーザID-id>```という一意のURIが与えられており，「訪問情報」のつながりを辿ることで，そのユーザの「移動軌跡」が分かります．
@@ -45,8 +40,8 @@ The license holder is *「GPS trajectory linked data project」* ．
 ## データ作成方法
 CSV形式のデータの各レコードに対し，POI情報の緯度経度と比較し，一定の距離内にあるとき「そのスポットに入った」と判定して，下記のプロパティを持つ「訪問情報」を作成しています．  
 連続するレコードが「同じスポット」と判定された場合は，１つの「訪問情報」としてまとめています．
--->
-## Prefix
+
+## Prefix（接頭語）の定義
 
 ```
 gtl: <http://lodosaka.jp/iswc2016gtl-exp/data/> .
@@ -58,31 +53,31 @@ xsd: <http://www.w3.org/2001/XMLSchema#> .
 geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 ```
 
-## Properties
-### (a) POI class
-| property name | range | explanation |
+## プロパティ
+### (a) POIクラスのプロパティ
+| プロパティ名 | 値域 | 説明 |
 ----|----|----
-| rdfs:label | Literal | Name of the POI |
-| geo:lat | 	xsd:float |	Latitude of the POI |
-| geo:lon | 	xsd:float	| Longitude of the POI |
-| gtl-prop:source	| Literal	| Literal	Information of source (open data) of the POI |
-| rdfs:seeAlso	| IRI	| Links to the related resource of the POI <br> （Links to DBpedia Japanese and/or Wikidata) |  
+| rdfs:label | 文字列 | POIの名称 |
+| geo:lat | 	xsd:float |	POIの緯度 |
+| geo:lon | 	xsd:float	| POIの経度 |
+| gtl-prop:source	| 文字列	| POI情報の取得元のオープンデータ <br> 複数の値を持つことが許される |
+| rdfs:seeAlso	| IRI	| POIの関連情報への外部リンク <br> （DBpedia Japanese，Wikidataへリンク）複数の値を持つことが許される |  
 
 
-### (b) StayPOI class
-| property name | range | explanation |
+### (b) StayPOIクラスのプロパティ
+| プロパティ名 | 値域 | 説明 |
 ----|----|----
-| gtl-prop:user	| Literal	| User name (ID) |
-| rdfs:label | Literal | Name of the POI which the user stay |
-| gtl-prop:poi | IRI | The POI information (reference to the POI resource) |
-| gtl-prop:date | yyyy-mm-dd | The date which the user enter the POI |
-| gtl:time | xsd:int | The time (hour) which the user enter the POI（0-23） |
-| gtl-prop:start | xsd:dateTime | The date and time which the user enter the POI |
-| gtl-prop:end | xsd:dateTime | The date and time which the user leave the POI |
-| gtl-prop:next | IRI | The next stay information by the user |
+| gtl-prop:user	| 文字列	| 滞在したユーザの匿名化されたID |
+| rdfs:label | 文字列 | 滞在したPOIの名称 |
+| gtl-prop:poi | IRI | 滞在したPOI（POIリソースを参照） |
+| gtl-prop:date | yyyy-mm-dd | POIに入った年月日 |
+| gtl:time | xsd:int | POIに入った時間（0-23） |
+| gtl-prop:start | xsd:dateTime | POIに入った日時・時刻 |
+| gtl-prop:end | xsd:dateTime | POIを出た日時・時刻 |
+| gtl-prop:next | IRI | 次の滞在情報 |
 
-## Exampled data
-### (a) POI information
+## データ例
+### (a) POI情報のRDFデータ例：神戸国際会議場
 
 ```
 gtl:poi-43
@@ -96,7 +91,7 @@ rdfs:seeAlso  <http://www.wikidata.org/entity/Q11589835> ;
 gtl-prop:source  "観光施設情報" .
 ```
 
-### (b) GPS trajectory
+### (b)移動軌跡のRDFデータ例：神戸国際会議場への滞在
 
 ```
 gtl:user1-7
@@ -111,16 +106,18 @@ gtl-prop:end  "2016-10-17T12:22:28Z"^^xsd:dateTime ;
 gtl-prop:next  gtl:user1-8 .
 ```
 
-# Examples of visualizations of POIs where participants visited
-## The number of days which a user visited each POI　　
+# データの可視化サンプル
+## 参加者が訪問したスポットの可視化
+[参加者毎の訪問日数]　　
 <http://lodosaka.jp/iswc2016gtl-exp/dp/apps2a/>
 
-## The number of users who visited each POI　　
+## 参加者が訪問したスポットの可視化
+[訪問した人数]　　
 <http://lodosaka.jp/iswc2016gtl-exp/dp/apps2b/>
 
 
-# Sample queries
-## (a) Obtain all trajectory information of user1
+# サンプルクエリ
+## (a) user1の移動軌跡の情報を時間順にすべて取得するクエリ
 
 ```
 PREFIX gtl-prop: <http://lodosaka.jp/iswc2016gtl-exp/prop#>
@@ -140,7 +137,7 @@ SELECT DISTINCT * where {
 }ORDER BY ?st.
 ```
 
-## (b) ranking the number of uses who visited each POI
+## (b)1回以上訪問したユーザ数でPOIをランキングするクエリ
 
 ```
 PREFIX gtl-prop: <http://lodosaka.jp/iswc2016gtl-exp/prop#>
@@ -158,7 +155,7 @@ SELECT DISTINCT ?label ?lat ?long
 ORDER BY DESC (?c)
 ```
 
-## (c) Obtain users who visited both of "生田神社" and "UCCコーヒー博物館"
+## (c) 複数の地点の共に訪問したユーザを取得するクエリ
 
 ```
 PREFIX gtl-prop: <http://lodosaka.jp/iswc2016gtl-exp/prop#>
@@ -171,7 +168,7 @@ SELECT DISTINCT ?u where {
      rdfs:label  "UCCコーヒー博物館".  }
  ```
 
-## (d) Obtain POIs where user1 visited after 18 pm.
+## (d) user1が会議期間中の18時以降に訪問したPOIを取得するクエリ
 
 ```
 PREFIX gtl-prop: <http://lodosaka.jp/iswc2016gtl-exp/prop#>
