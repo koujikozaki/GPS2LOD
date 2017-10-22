@@ -165,7 +165,7 @@ SELECT DISTINCT ?u where {
      rdfs:label  "生田神社".  
 ?s2  gtl-prop:user ?u;
      rdfs:label  "UCCコーヒー博物館".  }
-     ```
+ ```
 
 ## (d) user1が会議期間中の18時以降に訪問したPOIを取得するクエリ
 
