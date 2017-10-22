@@ -3,7 +3,7 @@ This is the repository to publish data collected through [GPS trajectory linked 
 
 The overview is discussed in the following paper;
 - GPS Trajectory Linked Open Data based on Open POI Information <br>
-  -Through an Experiment in ISWC2016- <br>   
+  -Through an Experiment in ISWC2016- <br>
    Kouji Kozaki, Teruaki Yokoyama and Yoshiaki Fukami<br>
    [Download paper (preprint)](https://iswc2017.ai.wu.ac.at/wp-content/uploads/papers/PostersDemos/paper624.pdf)
 
