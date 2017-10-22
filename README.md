@@ -101,6 +101,7 @@ CSV形式のデータの各レコードに対し，POI情報の緯度経度と�
       ?s <http://lodosaka.jp/iswc2016gtl-exp/prop#user> ?u;
       <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "生田神社".
     }
+    
 <a href="http://lod.hozo.jp/repositories/GPS2LOD2#query/d/%20%20%20%20select%20%20distinct%20?u%20where%20%7B%0A%20%20%20%20%20%20?s%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop%23user%3E%20?u;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#poi%3E%20%22%E7%94%9F%E7%94%B0%E7%A5%9E%E7%A4%BE%22.%0A%20%20%20%20%7D%0A" target="_blank">[クエリを実行]</a>
 
 
@@ -113,4 +114,5 @@ CSV形式のデータの各レコードに対し，POI情報の緯度経度と�
       ?s2 <http://lodosaka.jp/iswc2016gtl-exp/prop#user> ?u;
       	  <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "UCCコーヒー博物館".
     }
+    
 <a href="http://lod.hozo.jp/repositories/GPS2LOD2#query/d/select%20%20distinct%20?u%20where%20%7B%0A?s%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop%23user%3E%20?u;%0A%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#poi%3E%20%22%E7%94%9F%E7%94%B0%E7%A5%9E%E7%A4%BE%22.%0A?s2%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#user%3E%20?u;%0A%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#poi%3E%20%22UCC%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC%E5%8D%9A%E7%89%A9%E9%A4%A8%22.%0A%7D" target="_blank">[クエリを実行]</a>
