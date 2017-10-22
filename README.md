@@ -11,7 +11,11 @@ ISWC2016の連携企画の一つとして行われた
 * 収集内容：約1分ごとの緯度経度および時間
 
 収集したデータは，GXP形式，CSV形式，および，POI(Point Of Interest)情報を基にRDFに変換したデータを公開しています．  
-POI情報は，神戸市のオープンデータ(http://www.city.kobe.lg.jp/information/opendata/catalogue.html)およびDBpedia Japanese(http://ja.dbpedia.org/)を用いて作成しました．
+POI情報は，
+ - 神戸市のオープンデータ(http://www.city.kobe.lg.jp/information/opendata/catalogue.html)
+ - DBpedia Japanese(http://ja.dbpedia.org/)
+ - Wikidata(https://wikidata.org/)
+ を用いて作成しました．
 
 ## データの公開場所
 各データは，それぞれ下記のフォルダから取得できます．
@@ -29,14 +33,48 @@ POI情報は，神戸市のオープンデータ(http://www.city.kobe.lg.jp/info
 
 # RDFデータのモデル
 ## 基本的な考え方
-各ユーザが訪問した（通過した）スポットの「訪問情報」を以下のプロパティで表しています．  
-「訪問情報」には```<http://lodosaka.jp/iswc2016gtl-exp/data/ユーザID#id>```という一意のURIが与えられており，「訪問情報」のつながりを辿ることで，そのユーザの「移動軌跡」が分かります．
+本データモデルは，「POI情報」および「各ユーザの移動軌跡」のそれぞれを表す2種類のデータモデルから構成さます．
+「訪問情報」には```<http://lodosaka.jp/iswc2016gtl-exp/data/ユーザID-id>```という一意のURIが与えられており，「訪問情報」のつながりを辿ることで，そのユーザの「移動軌跡」が分かります．
 
 ## データ作成方法
 CSV形式のデータの各レコードに対し，POI情報の緯度経度と比較し，一定の距離内にあるとき「そのスポットに入った」と判定して，下記のプロパティを持つ「訪問情報」を作成しています．  
 連続するレコードが「同じスポット」と判定された場合は，１つの「訪問情報」としてまとめています．
 
+## Prefix（接頭語）の定義
+
+```
+gtl: <http://lodosaka.jp/iswc2016gtl-exp/data/> .
+gtl-prop: <http://lodosaka.jp/iswc2016gtl-exp/prop#> .
+gtl-class: <http://lodosaka.jp/iswc2016gtl-exp/class#> .
+rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+xsd: <http://www.w3.org/2001/XMLSchema#> .
+geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+```
+
 ## プロパティ
+### (a) POIクラスのプロパティ
+| プロパティ名 | 値域 | 説明 |
+----|----|----
+| rdfs:label | 文字列 | POIの名称 |
+| geo:lat | 	xsd:float |	POIの緯度 |
+| geo:lon | 	xsd:float	| POIの経度 |
+| gtl-prop:source	| 文字列	| POI情報の取得元のオープンデータ <br> 複数の値を持つことが許される |
+| rdfs:seeAlso	| IRI	| POIの関連情報への外部リンク <br> （DBpedia Japanese，Wikidataへリンク）複数の値を持つことが許される |  
+
+
+### (b) StayPOIクラスのプロパティ
+| プロパティ名 | 値域 | 説明 |
+----|----|----
+| gtl-prop:user	| 文字列	| 滞在したユーザの匿名化されたID |
+| rdfs:label | 文字列 | 滞在したPOIの名称 |
+| gtl-prop:poi | IRI | 滞在したPOI（POIリソースを参照） |
+| gtl-prop:date | yyyy-mm-dd | POIに入った年月日 |
+| gtl:time | xsd:int | POIに入った時間（0-23） |
+| gtl-prop:start | xsd:dateTime | POIに入った日時・時刻 |
+| gtl-prop:end | xsd:dateTime | POIを出た日時・時刻 |
+| gtl-prop:next | IRI | 次の滞在情報 |
+
 ```    
     <http://lodosaka.jp/iswc2016gtl-exp/prop#user>　ユーザID
     <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> 　訪問したスポットの名称
