@@ -37,6 +37,7 @@ CSV形式のデータの各レコードに対し，POI情報の緯度経度と�
 連続するレコードが「同じスポット」と判定された場合は，１つの「訪問情報」としてまとめています．
 
 ##プロパティ
+
 	<http://lodosaka.jp/iswc2016gtl-exp/prop#user>　ユーザID
     <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> 　訪問したスポットの名称
     <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> 　訪問したスポットの緯度
