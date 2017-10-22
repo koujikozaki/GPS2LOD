@@ -90,25 +90,25 @@ gtl:poi-43
   rdfs:label  "神戸国際会議場" ;
   geo:lat  "34.666234"^^xsd:float ;
   geo:lon  "135.21301"^^xsd:float ;
-rdfs:seeAlso  <http://www.wikidata.org/entity/Q11589835> ;
+  rdfs:seeAlso  <http://www.wikidata.org/entity/Q11589835> ;
   gtl-prop:source  "ロケ地" ;
   gtl-prop:source  "Wikidata" ;
-gtl-prop:source  "観光施設情報" .
+  gtl-prop:source  "観光施設情報" .
 ```
 
 ### (b) GPS trajectory
 
 ```
 gtl:user1-7
-rdf:type  gtl-class:StayPOI ;
-gtl-prop:user  "user1" ;
-rdfs:label  "神戸国際会議場" ;
-gtl-prop:poi  gtl:poi-43 ;
-gtl-prop:date  "2016-10-17" ;
-gtl-prop:time  "12"^^xsd:int  ;
-gtl-prop:start  "2016-10-17T12:14:18Z"^^xsd:dateTime ;
-gtl-prop:end  "2016-10-17T12:22:28Z"^^xsd:dateTime ;
-gtl-prop:next  gtl:user1-8 .
+  rdf:type  gtl-class:StayPOI ;
+  gtl-prop:user  "user1" ;
+  rdfs:label  "神戸国際会議場" ;
+  gtl-prop:poi  gtl:poi-43 ;
+  gtl-prop:date  "2016-10-17" ;
+  gtl-prop:time  "12"^^xsd:int  ;
+  gtl-prop:start  "2016-10-17T12:14:18Z"^^xsd:dateTime ;
+  gtl-prop:end  "2016-10-17T12:22:28Z"^^xsd:dateTime ;
+  gtl-prop:next  gtl:user1-8 .
 ```
 
 # Examples of visualizations of POIs where participants visited
