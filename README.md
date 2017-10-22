@@ -75,97 +75,108 @@ geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 | gtl-prop:end | xsd:dateTime | POIを出た日時・時刻 |
 | gtl-prop:next | IRI | 次の滞在情報 |
 
-```    
-    <http://lodosaka.jp/iswc2016gtl-exp/prop#user>　ユーザID
-    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> 　訪問したスポットの名称
-    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> 　訪問したスポットの緯度
-    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> 　訪問したスポットの経度
-    <http://lodosaka.jp/iswc2016gtl-exp/prop#date>　訪問日
-    <http://lodosaka.jp/iswc2016gtl-exp/prop#time>　訪問した時間（0-23）
-    <http://lodosaka.jp/iswc2016gtl-exp/prop#start>　そのスポットに到達した日時
-    <http://lodosaka.jp/iswc2016gtl-exp/prop#end>　　そのスポットから出た日時
-    <http://lodosaka.jp/iswc2016gtl-exp/prop#next>　次に訪れたスポットの訪問情報        
-```
-
 ## データ例
+### (a) POI情報のRDFデータ例：神戸国際会議場
 
 ```
-	<http://lodosaka.jp/iswc2016gtl-exp/user1#0>
-	    <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user1" ;
-	    <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "市民広場駅" ;
-	    <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> "34.6649"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-	    <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> "135.212"^^<http://www.w3.org/2001/XMLSchemadouble> ;
-	    <http://lodosaka.jp/iswc2016gtl-exp/prop#date> "2016-10-17" ;
-	    <http://lodosaka.jp/iswc2016gtl-exp/prop#time> "11"^^<http://www.w3.org/2001/XMLSchema#int>  ;
-	    <http://lodosaka.jp/iswc2016gtl-exp/prop#start> "2016-10-17T11:18:05Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	    <http://lodosaka.jp/iswc2016gtl-exp/prop#end> "2016-10-17T11:24:25Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	    <http://lodosaka.jp/iswc2016gtl-exp/prop#next> <http://lodosaka.jp/iswc2016gtl-exp/test#1> .
+gtl:poi-43
+  rdf:type  gtl-class:POI;
+  rdfs:label  "神戸国際会議場" ;
+  geo:lat  "34.666234"^^xsd:float ;
+  geo:lon  "135.21301"^^xsd:float ;
+rdfs:seeAlso  <http://www.wikidata.org/entity/Q11589835> ;
+  gtl-prop:source  "ロケ地" ;
+  gtl-prop:source  "Wikidata" ;
+gtl-prop:source  "観光施設情報" .
+```
+
+### (b)移動軌跡のRDFデータ例：神戸国際会議場への滞在
+
+```
+gtl:user1-7
+rdf:type  gtl-class:StayPOI ;
+gtl-prop:user  "user1" ;
+rdfs:label  "神戸国際会議場" ;
+gtl-prop:poi  gtl:poi-43 ;
+gtl-prop:date  "2016-10-17" ;
+gtl-prop:time  "12"^^xsd:int  ;
+gtl-prop:start  "2016-10-17T12:14:18Z"^^xsd:dateTime ;
+gtl-prop:end  "2016-10-17T12:22:28Z"^^xsd:dateTime ;
+gtl-prop:next  gtl:user1-8 .
 ```
 
 # データの可視化サンプル
 ## 参加者が訪問したスポットの可視化
 [参加者毎の訪問日数]　　
-<http://lodosaka.jp/iswc2016gtl-exp/apps2a/>
+<http://lodosaka.jp/iswc2016gtl-exp/dp/apps2a/>
 
 ## 参加者が訪問したスポットの可視化
 [訪問した人数]　　
-<http://lodosaka.jp/iswc2016gtl-exp/apps2b/>
+<http://lodosaka.jp/iswc2016gtl-exp/dp/apps2b/>
 
 
 # サンプルクエリ
-## user1の移動軌跡を時間順に取得する
-```
-    select distinct * where {
-      ?s <http://lodosaka.jp/iswc2016gtl-exp/prop#user> "user1";
-      <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> ?label;
-      <http://lodosaka.jp/iswc2016gtl-exp/prop#date> ?d;
-      <http://lodosaka.jp/iswc2016gtl-exp/prop#start> ?st;
-      <http://lodosaka.jp/iswc2016gtl-exp/prop#end> ?ed;
-      <http://lodosaka.jp/iswc2016gtl-exp/prop#next> ?g;
-      <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> ?lat;
-      <http://lodosaka.jp/iswc2016gtl-exp/prop#lon> ?long.
-    }ORDER BY ?st
-```
-
-<a href="http://lod.hozo.jp/repositories/GPS2LOD2#query/d/%20%20%20%20select%20distinct%20*%20where%20%7B%0A%20%20%20%20%20%20?s%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop%23user%3E%20%22user1%22;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#poi%3E%20?label;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#date%3E%20?d;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#start%3E%20?st;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#end%3E%20?ed;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#next%3E%20?g;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#lat%3E%20?lat;%0A%20%20%20%20%20%20%3Chttp://lod
-osaka.jp/iswc2016gtl-exp/prop#lon%3E%20?long.%0A%20%20%20%20%7DORDER%20BY%20?st" target="_blank">[クエリを実行]</a>
-
-## 期間中に1回以上訪問したユーザの人数でスポットをランキングする
+## (a) user1の移動軌跡の情報を時間順にすべて取得するクエリ
 
 ```
-    select  distinct ?label ?lat ?long (count(distinct ?u)AS ?c) where {
-      ?s <http://lodosaka.jp/iswc2016gtl-exp/prop#user> ?u;
-      <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> ?label;
-      <http://lodosaka.jp/iswc2016gtl-exp/prop#lat> ?lat;
-      <h ttp://lodosaka.jp/iswc2016gtl-exp/prop#lon> ?long.
-    }GROUP BY ?label ?lat ?long
-    ORDER BY DESC (?c)
+PREFIX gtl-prop: <http://lodosaka.jp/iswc2016gtl-exp/prop#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX geo: < http://www.w3.org/2003/01/geo/wgs84_pos#>
+
+SELECT DISTINCT * where {
+?s　 gtl-prop:user  "user1";
+  　 rdfs:label   ?label;
+  　 gtl-prop:poi   ?poi;
+  　 gtl-prop:date  ?d;
+  　 gtl-prop:start ?st;
+  　 gtl-prop:end   ?ed;
+  　 gtl-prop:next  ?g.
+?poi geo:lat   ?lat;
+  　 geo:lon   ?long.
+}ORDER BY ?st.
 ```
 
-<a href="http://lod.hozo.jp/repositories/GPS2LOD2#query/d/%20%20%20%20select%20%20distinct%20?label%20?lat%20?long%20(count(distinct%20?u)AS%20?c)%20where%20%7B%0A%20%20%20%20%20%20?s%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop%23user%3E%20?u;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#poi%3E%20?label;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#lat%3E%20?lat;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#lon%3E%20?long.%0A%20%20%20%20%7DGROUP%20BY%20?label%20?lat%20?long%0A%20%20%20%20ORDER%20BY%20DESC%20(?c)" target="_blank">[クエリを実行]</a>
-
-## 期間中に「元町駅 (兵庫県)」を1回以上訪問したユーザを取得する
+## (b)1回以上訪問したユーザ数でPOIをランキングするクエリ
 
 ```
-    select  distinct ?u where {
-      ?s <http://lodosaka.jp/iswc2016gtl-exp/prop#user> ?u;
-      <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "元町駅 (兵庫県)".
-    }
+PREFIX gtl-prop: <http://lodosaka.jp/iswc2016gtl-exp/prop#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX geo: < http://www.w3.org/2003/01/geo/wgs84_pos#>
+
+SELECT DISTINCT ?label ?lat ?long
+     (count(distinct ?u)AS ?c) where {
+?s   gtl-prop:user ?u;
+     rdfs:label    ?label;
+     gtl-prop:poi  ?poi.  	
+?poi geo:lat  ?lat;
+     geo:lon  ?long.
+}GROUP BY ?label ?lat ?long
+ORDER BY DESC (?c)
 ```
 
-<a href="http://lod.hozo.jp/repositories/GPS2LOD2#query/d/%20%20%20%20select%20%20distinct%20?u%20where%20%7B%0A%20%20%20%20%20%20?s%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop%23user%3E%20?u;%0A%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#poi%3E%20%22%E5%85%83%E7%94%BA%E9%A7%85%20(%E5%85%B5%E5%BA%AB%E7%9C%8C)%22.%0A%20%20%20%20%7D%0A" target="_blank">[クエリを実行]</a>
-
-
-
-##期間中に「元町駅 (兵庫県)」と「メリケンパーク」の両方を1回以上訪問したユーザを取得する
+## (c) 複数の地点の共に訪問したユーザを取得するクエリ
 
 ```
-    select  distinct ?u where {
-      ?s <http://lodosaka.jp/iswc2016gtl-exp/prop#user> ?u;
-         <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "元町駅 (兵庫県)".
-      ?s2 <http://lodosaka.jp/iswc2016gtl-exp/prop#user> ?u;
-      	  <http://lodosaka.jp/iswc2016gtl-exp/prop#poi> "メリケンパーク".
-    }
-```
+PREFIX gtl-prop: <http://lodosaka.jp/iswc2016gtl-exp/prop#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-<a href="http://lod.hozo.jp/repositories/GPS2LOD2#query/d/%20%20%20%20select%20%20distinct%20?u%20where%20%7B%0A%20%20%20%20%20%20?s%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop%23user%3E%20?u;%0A%20%20%20%20%20%20%20%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#poi%3E%20%22%E5%85%83%E7%94%BA%E9%A7%85%20(%E5%85%B5%E5%BA%AB%E7%9C%8C)%22.%0A%20%20%20%20%20%20?s2%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#user%3E%20?u;%0A%20%20%20%20%20%20%09%20%20%3Chttp://lodosaka.jp/iswc2016gtl-exp/prop#poi%3E%20%22%E3%83%A1%E3%83%AA%E3%82%B1%E3%83%B3%E3%83%91%E3%83%BC%E3%82%AF%22.%0A%20%20%20%20%7D%0A" target="_blank">[クエリを実行]</a>
+SELECT DISTINCT ?u where {
+?s1  gtl-prop:user ?u;
+     rdfs:label  "生田神社".  
+?s2  gtl-prop:user ?u;
+     rdfs:label  "UCCコーヒー博物館".  }
+     ```
+
+## (d) user1が会議期間中の18時以降に訪問したPOIを取得するクエリ
+
+```
+PREFIX gtl-prop: <http://lodosaka.jp/iswc2016gtl-exp/prop#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT ?poi ?label where {
+?s   gtl-prop:user "user1";
+gtl-prop:poi ?poi;
+    gtl-prop:time ?t.
+FILTER(?t >= 18)
+    ?poi rdfs:label ?label.  }
+```
